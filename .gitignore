@@ -6,3 +6,4 @@ __pycache__/
 .DS_Store
 *.egg-info/
 .env
+/week1/lit_review_extraction_brief.md
