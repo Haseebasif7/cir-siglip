@@ -1,0 +1,9 @@
+Loaded 251008 embeddings, resolved 53506 set_id_index references.
+Phase 12c (shared trunk): Substitute mode: AUC=0.7607 (n=20000) | FITB acc=0.5333 (n=10000)
+Phase 12c (shared trunk): Complement mode: AUC=0.9061 (n=20000) | FITB acc=0.6319 (n=10000)
+Phase 12c (shared trunk): Blend (0.5): AUC=0.8493 (n=20000) | FITB acc=0.6040 (n=10000)
+Phase 17 (dedicated capacity): Substitute mode: AUC=0.7281 (n=20000) | FITB acc=0.5086 (n=10000)
+Phase 17 (dedicated capacity): Complement mode: AUC=0.9402 (n=20000) | FITB acc=0.6917 (n=10000)
+Phase 17 (dedicated capacity): Blend (0.5): AUC=0.8951 (n=20000) | FITB acc=0.6402 (n=10000)
+
+Appended to /Users/haseeb/Desktop/mitacs_project/week5/phase17_dedicated_capacity_generalization/results_table.md

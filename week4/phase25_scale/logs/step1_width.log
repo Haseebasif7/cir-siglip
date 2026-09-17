@@ -1,0 +1,8 @@
+Launching 6 width x lr configs in parallel on Modal...
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase25_scale/data/width_sweep_results.json
+width=1024 lr=0.0005: best_recall10=0.1656 @epoch1 (6 epochs run, 668s, 918656 params)
+width=512 lr=0.0005: best_recall10=0.1609 @epoch1 (6 epochs run, 634s, 459392 params)
+width=512 lr=0.001: best_recall10=0.1605 @epoch1 (6 epochs run, 622s, 459392 params)
+width=1024 lr=0.002: best_recall10=0.1605 @epoch1 (6 epochs run, 665s, 918656 params)
+width=1024 lr=0.001: best_recall10=0.1603 @epoch1 (6 epochs run, 688s, 918656 params)
+width=512 lr=0.002: best_recall10=0.1587 @epoch2 (7 epochs run, 699s, 459392 params)

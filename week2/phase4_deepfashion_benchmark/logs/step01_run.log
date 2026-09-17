@@ -1,0 +1,12 @@
+Total rows: 52712
+train: 25882 rows, 3997 unique item_ids
+query: 14218 rows, 3985 unique item_ids
+gallery: 12612 rows, 3985 unique item_ids
+query+gallery unique item_ids: 3985
+train/query+gallery item_id overlap (expect 0): 0
+query item_ids with no gallery counterpart (expect 0): 0
+
+Extracting 26830 query+gallery images from img.zip...
+Extracted 26830 images (0 missing from zip).
+Saved /Users/haseeb/Desktop/mitacs_project/week2/phase4_deepfashion_benchmark/data/query_gallery.csv
+Saved /Users/haseeb/Desktop/mitacs_project/week2/phase4_deepfashion_benchmark/dataset_counts.md

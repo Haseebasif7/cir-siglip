@@ -1,0 +1,64 @@
+{
+  "model_color_invariant": [
+    {
+      "epoch": 0,
+      "train_loss": 4.358463298304821,
+      "train_compat_loss": 4.314216901924363,
+      "train_invariance_loss": 0.04424639589210586,
+      "val_loss": 4.909415190325582,
+      "val_compat_loss": 4.869915996513931,
+      "val_invariance_loss": 0.0394991897698033,
+      "mean_pairwise_cosine": 0.7070865035057068
+    },
+    {
+      "epoch": 1,
+      "train_loss": 4.26771327841263,
+      "train_compat_loss": 4.216908661437081,
+      "train_invariance_loss": 0.05080461509572286,
+      "val_loss": 4.9640632885430245,
+      "val_compat_loss": 4.922809049531157,
+      "val_invariance_loss": 0.04125423851638592,
+      "mean_pairwise_cosine": 0.7048136591911316
+    },
+    {
+      "epoch": 2,
+      "train_loss": 4.228537265290132,
+      "train_compat_loss": 4.174078625390061,
+      "train_invariance_loss": 0.05445863966960493,
+      "val_loss": 5.120984598216165,
+      "val_compat_loss": 5.076226220812116,
+      "val_invariance_loss": 0.044758379657573885,
+      "mean_pairwise_cosine": 0.6837382316589355
+    },
+    {
+      "epoch": 3,
+      "train_loss": 4.201133182172527,
+      "train_compat_loss": 4.144055666755144,
+      "train_invariance_loss": 0.05707751574364577,
+      "val_loss": 5.122693229308856,
+      "val_compat_loss": 5.077536972872729,
+      "val_invariance_loss": 0.04515625297509391,
+      "mean_pairwise_cosine": 0.6836004257202148
+    },
+    {
+      "epoch": 4,
+      "train_loss": 4.180328781152943,
+      "train_compat_loss": 4.121092901590385,
+      "train_invariance_loss": 0.05923587951917112,
+      "val_loss": 5.158590876527608,
+      "val_compat_loss": 5.112877237620612,
+      "val_invariance_loss": 0.045713638912501006,
+      "mean_pairwise_cosine": 0.6802932024002075
+    },
+    {
+      "epoch": 5,
+      "train_loss": 4.164093433350094,
+      "train_compat_loss": 4.1032229220224075,
+      "train_invariance_loss": 0.060870513582714426,
+      "val_loss": 5.247927069781449,
+      "val_compat_loss": 5.2004371699441245,
+      "val_invariance_loss": 0.047489900305279956,
+      "mean_pairwise_cosine": 0.6693082451820374
+    }
+  ]
+}

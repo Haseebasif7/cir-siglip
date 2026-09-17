@@ -1,0 +1,293 @@
+Full training run (num_negatives=20) on device=mps
+epoch 0 step 100: loss=-3.2796 D_pos=1.8566 D_neg=1.7108 lr=4.98e-05
+epoch 0 step 200: loss=-3.3507 D_pos=1.8625 D_neg=1.7185 lr=4.95e-05
+epoch 0 step 300: loss=-3.4168 D_pos=1.9128 D_neg=1.7946 lr=4.93e-05
+epoch 0 step 400: loss=-3.3901 D_pos=1.9238 D_neg=1.7849 lr=4.91e-05
+epoch 0 step 500: loss=-3.3833 D_pos=1.9022 D_neg=1.7586 lr=4.89e-05
+== epoch 0 done: train_loss=-3.1697 val_loss=-3.3932 val_D_pos=1.9054 val_D_neg=1.7569 ==
+  -> new best val_loss -3.3932, checkpoint saved
+epoch 1 step 600: loss=-3.4080 D_pos=1.9034 D_neg=1.7695 lr=4.86e-05
+epoch 1 step 700: loss=-3.4172 D_pos=1.9045 D_neg=1.7740 lr=4.84e-05
+epoch 1 step 800: loss=-3.4083 D_pos=1.8962 D_neg=1.7650 lr=4.82e-05
+epoch 1 step 900: loss=-3.4193 D_pos=1.8922 D_neg=1.7616 lr=4.80e-05
+epoch 1 step 1000: loss=-3.4269 D_pos=1.8670 D_neg=1.7513 lr=4.77e-05
+epoch 1 step 1100: loss=-3.4245 D_pos=1.8896 D_neg=1.7704 lr=4.75e-05
+== epoch 1 done: train_loss=-3.4112 val_loss=-3.4102 val_D_pos=1.9085 val_D_neg=1.7667 ==
+  -> new best val_loss -3.4102, checkpoint saved
+epoch 2 step 1200: loss=-3.4176 D_pos=1.8948 D_neg=1.7640 lr=4.73e-05
+epoch 2 step 1300: loss=-3.4156 D_pos=1.9147 D_neg=1.7840 lr=4.71e-05
+epoch 2 step 1400: loss=-3.4157 D_pos=1.8995 D_neg=1.7619 lr=4.68e-05
+epoch 2 step 1500: loss=-3.4362 D_pos=1.8845 D_neg=1.7568 lr=4.66e-05
+epoch 2 step 1600: loss=-3.4346 D_pos=1.8835 D_neg=1.7691 lr=4.64e-05
+== epoch 2 done: train_loss=-3.4211 val_loss=-3.4174 val_D_pos=1.9088 val_D_neg=1.7700 ==
+  -> new best val_loss -3.4174, checkpoint saved
+epoch 3 step 1700: loss=-3.4179 D_pos=1.9105 D_neg=1.7694 lr=4.62e-05
+epoch 3 step 1800: loss=-3.4332 D_pos=1.9123 D_neg=1.7879 lr=4.59e-05
+epoch 3 step 1900: loss=-3.4509 D_pos=1.8864 D_neg=1.7636 lr=4.57e-05
+epoch 3 step 2000: loss=-3.4165 D_pos=1.8958 D_neg=1.7699 lr=4.55e-05
+epoch 3 step 2100: loss=-3.4604 D_pos=1.9063 D_neg=1.7959 lr=4.53e-05
+epoch 3 step 2200: loss=-3.4275 D_pos=1.9089 D_neg=1.7722 lr=4.50e-05
+== epoch 3 done: train_loss=-3.4274 val_loss=-3.4235 val_D_pos=1.9072 val_D_neg=1.7711 ==
+  -> new best val_loss -3.4235, checkpoint saved
+epoch 4 step 2300: loss=-3.4340 D_pos=1.9103 D_neg=1.7832 lr=4.48e-05
+epoch 4 step 2400: loss=-3.4120 D_pos=1.9198 D_neg=1.7789 lr=4.46e-05
+epoch 4 step 2500: loss=-3.4056 D_pos=1.9162 D_neg=1.7850 lr=4.44e-05
+epoch 4 step 2600: loss=-3.4125 D_pos=1.8892 D_neg=1.7579 lr=4.41e-05
+epoch 4 step 2700: loss=-3.4401 D_pos=1.9161 D_neg=1.7891 lr=4.39e-05
+== epoch 4 done: train_loss=-3.4314 val_loss=-3.4239 val_D_pos=1.9051 val_D_neg=1.7713 ==
+  -> new best val_loss -3.4239, checkpoint saved
+epoch 5 step 2800: loss=-3.4255 D_pos=1.8977 D_neg=1.7796 lr=4.37e-05
+epoch 5 step 2900: loss=-3.4382 D_pos=1.8953 D_neg=1.7752 lr=4.35e-05
+epoch 5 step 3000: loss=-3.4315 D_pos=1.9085 D_neg=1.7893 lr=4.32e-05
+epoch 5 step 3100: loss=-3.4376 D_pos=1.9190 D_neg=1.8072 lr=4.30e-05
+epoch 5 step 3200: loss=-3.4453 D_pos=1.8981 D_neg=1.7782 lr=4.28e-05
+epoch 5 step 3300: loss=-3.4313 D_pos=1.8987 D_neg=1.7791 lr=4.26e-05
+== epoch 5 done: train_loss=-3.4330 val_loss=-3.4276 val_D_pos=1.9045 val_D_neg=1.7716 ==
+  -> new best val_loss -3.4276, checkpoint saved
+epoch 6 step 3400: loss=-3.4273 D_pos=1.8794 D_neg=1.7440 lr=4.23e-05
+epoch 6 step 3500: loss=-3.4461 D_pos=1.9025 D_neg=1.7798 lr=4.21e-05
+epoch 6 step 3600: loss=-3.4323 D_pos=1.8954 D_neg=1.7848 lr=4.19e-05
+epoch 6 step 3700: loss=-3.4258 D_pos=1.9243 D_neg=1.7845 lr=4.17e-05
+epoch 6 step 3800: loss=-3.4428 D_pos=1.8908 D_neg=1.7807 lr=4.14e-05
+== epoch 6 done: train_loss=-3.4363 val_loss=-3.4295 val_D_pos=1.9037 val_D_neg=1.7723 ==
+  -> new best val_loss -3.4295, checkpoint saved
+epoch 7 step 3900: loss=-3.4477 D_pos=1.9100 D_neg=1.7889 lr=4.12e-05
+epoch 7 step 4000: loss=-3.4327 D_pos=1.8918 D_neg=1.7719 lr=4.10e-05
+epoch 7 step 4100: loss=-3.4473 D_pos=1.8982 D_neg=1.7780 lr=4.08e-05
+epoch 7 step 4200: loss=-3.4444 D_pos=1.8786 D_neg=1.7475 lr=4.05e-05
+epoch 7 step 4300: loss=-3.4690 D_pos=1.8784 D_neg=1.7832 lr=4.03e-05
+epoch 7 step 4400: loss=-3.4233 D_pos=1.9259 D_neg=1.7883 lr=4.01e-05
+== epoch 7 done: train_loss=-3.4374 val_loss=-3.4317 val_D_pos=1.9021 val_D_neg=1.7718 ==
+  -> new best val_loss -3.4317, checkpoint saved
+epoch 8 step 4500: loss=-3.4485 D_pos=1.9063 D_neg=1.7821 lr=3.99e-05
+epoch 8 step 4600: loss=-3.4390 D_pos=1.8803 D_neg=1.7628 lr=3.96e-05
+epoch 8 step 4700: loss=-3.4441 D_pos=1.8891 D_neg=1.7746 lr=3.94e-05
+epoch 8 step 4800: loss=-3.4268 D_pos=1.9003 D_neg=1.7597 lr=3.92e-05
+epoch 8 step 4900: loss=-3.4496 D_pos=1.8867 D_neg=1.7736 lr=3.90e-05
+epoch 8 step 5000: loss=-3.4564 D_pos=1.8959 D_neg=1.7826 lr=3.87e-05
+== epoch 8 done: train_loss=-3.4393 val_loss=-3.4314 val_D_pos=1.9007 val_D_neg=1.7712 ==
+epoch 9 step 5100: loss=-3.4592 D_pos=1.8975 D_neg=1.7890 lr=3.85e-05
+epoch 9 step 5200: loss=-3.4294 D_pos=1.8849 D_neg=1.7603 lr=3.83e-05
+epoch 9 step 5300: loss=-3.4614 D_pos=1.8915 D_neg=1.7856 lr=3.81e-05
+epoch 9 step 5400: loss=-3.4240 D_pos=1.9029 D_neg=1.7738 lr=3.78e-05
+epoch 9 step 5500: loss=-3.4483 D_pos=1.8694 D_neg=1.7532 lr=3.76e-05
+== epoch 9 done: train_loss=-3.4406 val_loss=-3.4331 val_D_pos=1.8993 val_D_neg=1.7704 ==
+  -> new best val_loss -3.4331, checkpoint saved
+epoch 10 step 5600: loss=-3.4451 D_pos=1.8902 D_neg=1.7581 lr=3.74e-05
+epoch 10 step 5700: loss=-3.4381 D_pos=1.9064 D_neg=1.7844 lr=3.72e-05
+epoch 10 step 5800: loss=-3.4457 D_pos=1.8927 D_neg=1.7736 lr=3.69e-05
+epoch 10 step 5900: loss=-3.4261 D_pos=1.8942 D_neg=1.7726 lr=3.67e-05
+epoch 10 step 6000: loss=-3.4205 D_pos=1.8809 D_neg=1.7604 lr=3.65e-05
+epoch 10 step 6100: loss=-3.4258 D_pos=1.8766 D_neg=1.7510 lr=3.63e-05
+== epoch 10 done: train_loss=-3.4408 val_loss=-3.4341 val_D_pos=1.8987 val_D_neg=1.7712 ==
+  -> new best val_loss -3.4341, checkpoint saved
+epoch 11 step 6200: loss=-3.4522 D_pos=1.8904 D_neg=1.7756 lr=3.60e-05
+epoch 11 step 6300: loss=-3.4351 D_pos=1.9010 D_neg=1.7833 lr=3.58e-05
+epoch 11 step 6400: loss=-3.4713 D_pos=1.8957 D_neg=1.7994 lr=3.56e-05
+epoch 11 step 6500: loss=-3.4381 D_pos=1.8922 D_neg=1.7732 lr=3.54e-05
+epoch 11 step 6600: loss=-3.4460 D_pos=1.9027 D_neg=1.7866 lr=3.51e-05
+== epoch 11 done: train_loss=-3.4429 val_loss=-3.4343 val_D_pos=1.8974 val_D_neg=1.7703 ==
+  -> new best val_loss -3.4343, checkpoint saved
+epoch 12 step 6700: loss=-3.4461 D_pos=1.8868 D_neg=1.7628 lr=3.49e-05
+epoch 12 step 6800: loss=-3.4424 D_pos=1.8847 D_neg=1.7727 lr=3.47e-05
+epoch 12 step 6900: loss=-3.4685 D_pos=1.8967 D_neg=1.7906 lr=3.45e-05
+epoch 12 step 7000: loss=-3.4465 D_pos=1.8747 D_neg=1.7725 lr=3.42e-05
+epoch 12 step 7100: loss=-3.4635 D_pos=1.8821 D_neg=1.7738 lr=3.40e-05
+epoch 12 step 7200: loss=-3.4291 D_pos=1.8950 D_neg=1.7729 lr=3.38e-05
+== epoch 12 done: train_loss=-3.4438 val_loss=-3.4346 val_D_pos=1.8957 val_D_neg=1.7698 ==
+  -> new best val_loss -3.4346, checkpoint saved
+epoch 13 step 7300: loss=-3.4680 D_pos=1.8753 D_neg=1.7896 lr=3.36e-05
+epoch 13 step 7400: loss=-3.4397 D_pos=1.9030 D_neg=1.7917 lr=3.33e-05
+epoch 13 step 7500: loss=-3.4377 D_pos=1.8924 D_neg=1.7704 lr=3.31e-05
+epoch 13 step 7600: loss=-3.4450 D_pos=1.8776 D_neg=1.7596 lr=3.29e-05
+epoch 13 step 7700: loss=-3.4494 D_pos=1.8787 D_neg=1.7599 lr=3.27e-05
+== epoch 13 done: train_loss=-3.4447 val_loss=-3.4359 val_D_pos=1.8944 val_D_neg=1.7697 ==
+  -> new best val_loss -3.4359, checkpoint saved
+epoch 14 step 7800: loss=-3.4493 D_pos=1.9029 D_neg=1.7841 lr=3.24e-05
+epoch 14 step 7900: loss=-3.4363 D_pos=1.9233 D_neg=1.7953 lr=3.22e-05
+epoch 14 step 8000: loss=-3.4322 D_pos=1.8891 D_neg=1.7642 lr=3.20e-05
+epoch 14 step 8100: loss=-3.4268 D_pos=1.8986 D_neg=1.7676 lr=3.18e-05
+epoch 14 step 8200: loss=-3.4353 D_pos=1.8864 D_neg=1.7761 lr=3.15e-05
+epoch 14 step 8300: loss=-3.4439 D_pos=1.9124 D_neg=1.7768 lr=3.13e-05
+== epoch 14 done: train_loss=-3.4460 val_loss=-3.4371 val_D_pos=1.8945 val_D_neg=1.7692 ==
+  -> new best val_loss -3.4371, checkpoint saved
+epoch 15 step 8400: loss=-3.4467 D_pos=1.8648 D_neg=1.7492 lr=3.11e-05
+epoch 15 step 8500: loss=-3.4480 D_pos=1.8721 D_neg=1.7595 lr=3.09e-05
+epoch 15 step 8600: loss=-3.4602 D_pos=1.8930 D_neg=1.7920 lr=3.06e-05
+epoch 15 step 8700: loss=-3.4558 D_pos=1.9071 D_neg=1.7885 lr=3.04e-05
+epoch 15 step 8800: loss=-3.4371 D_pos=1.8740 D_neg=1.7636 lr=3.02e-05
+== epoch 15 done: train_loss=-3.4470 val_loss=-3.4362 val_D_pos=1.8936 val_D_neg=1.7687 ==
+epoch 16 step 8900: loss=-3.4515 D_pos=1.8919 D_neg=1.7790 lr=3.00e-05
+epoch 16 step 9000: loss=-3.4446 D_pos=1.8742 D_neg=1.7718 lr=2.97e-05
+epoch 16 step 9100: loss=-3.4426 D_pos=1.8781 D_neg=1.7677 lr=2.95e-05
+epoch 16 step 9200: loss=-3.4483 D_pos=1.9027 D_neg=1.7925 lr=2.93e-05
+epoch 16 step 9300: loss=-3.4256 D_pos=1.9288 D_neg=1.7903 lr=2.91e-05
+epoch 16 step 9400: loss=-3.4519 D_pos=1.8736 D_neg=1.7725 lr=2.88e-05
+== epoch 16 done: train_loss=-3.4473 val_loss=-3.4370 val_D_pos=1.8925 val_D_neg=1.7688 ==
+epoch 17 step 9500: loss=-3.4433 D_pos=1.8846 D_neg=1.7610 lr=2.86e-05
+epoch 17 step 9600: loss=-3.4394 D_pos=1.8924 D_neg=1.7758 lr=2.84e-05
+epoch 17 step 9700: loss=-3.4522 D_pos=1.8662 D_neg=1.7514 lr=2.82e-05
+epoch 17 step 9800: loss=-3.4347 D_pos=1.8779 D_neg=1.7616 lr=2.79e-05
+epoch 17 step 9900: loss=-3.4585 D_pos=1.8737 D_neg=1.7692 lr=2.77e-05
+epoch 17 step 10000: loss=-3.4611 D_pos=1.8963 D_neg=1.7816 lr=2.75e-05
+== epoch 17 done: train_loss=-3.4489 val_loss=-3.4384 val_D_pos=1.8924 val_D_neg=1.7689 ==
+  -> new best val_loss -3.4384, checkpoint saved
+epoch 18 step 10100: loss=-3.4302 D_pos=1.9314 D_neg=1.8081 lr=2.73e-05
+epoch 18 step 10200: loss=-3.4708 D_pos=1.8861 D_neg=1.7879 lr=2.70e-05
+epoch 18 step 10300: loss=-3.4436 D_pos=1.8962 D_neg=1.7757 lr=2.68e-05
+epoch 18 step 10400: loss=-3.4546 D_pos=1.8693 D_neg=1.7580 lr=2.66e-05
+epoch 18 step 10500: loss=-3.4476 D_pos=1.9040 D_neg=1.7863 lr=2.64e-05
+== epoch 18 done: train_loss=-3.4493 val_loss=-3.4392 val_D_pos=1.8916 val_D_neg=1.7688 ==
+  -> new best val_loss -3.4392, checkpoint saved
+epoch 19 step 10600: loss=-3.4348 D_pos=1.9145 D_neg=1.8092 lr=2.61e-05
+epoch 19 step 10700: loss=-3.4282 D_pos=1.8757 D_neg=1.7485 lr=2.59e-05
+epoch 19 step 10800: loss=-3.4515 D_pos=1.8715 D_neg=1.7703 lr=2.57e-05
+epoch 19 step 10900: loss=-3.4439 D_pos=1.8657 D_neg=1.7515 lr=2.55e-05
+epoch 19 step 11000: loss=-3.4414 D_pos=1.9008 D_neg=1.7792 lr=2.52e-05
+epoch 19 step 11100: loss=-3.4259 D_pos=1.8707 D_neg=1.7548 lr=2.50e-05
+== epoch 19 done: train_loss=-3.4500 val_loss=-3.4386 val_D_pos=1.8908 val_D_neg=1.7678 ==
+epoch 20 step 11200: loss=-3.4266 D_pos=1.8809 D_neg=1.7576 lr=2.48e-05
+epoch 20 step 11300: loss=-3.4462 D_pos=1.8643 D_neg=1.7472 lr=2.45e-05
+epoch 20 step 11400: loss=-3.4592 D_pos=1.9096 D_neg=1.8059 lr=2.43e-05
+epoch 20 step 11500: loss=-3.4334 D_pos=1.9152 D_neg=1.7962 lr=2.41e-05
+epoch 20 step 11600: loss=-3.4760 D_pos=1.8660 D_neg=1.7653 lr=2.39e-05
+== epoch 20 done: train_loss=-3.4507 val_loss=-3.4396 val_D_pos=1.8907 val_D_neg=1.7685 ==
+  -> new best val_loss -3.4396, checkpoint saved
+epoch 21 step 11700: loss=-3.4645 D_pos=1.8745 D_neg=1.7568 lr=2.36e-05
+epoch 21 step 11800: loss=-3.4470 D_pos=1.8653 D_neg=1.7613 lr=2.34e-05
+epoch 21 step 11900: loss=-3.4629 D_pos=1.8739 D_neg=1.7633 lr=2.32e-05
+epoch 21 step 12000: loss=-3.4600 D_pos=1.8689 D_neg=1.7576 lr=2.30e-05
+epoch 21 step 12100: loss=-3.4404 D_pos=1.9020 D_neg=1.7771 lr=2.27e-05
+epoch 21 step 12200: loss=-3.4528 D_pos=1.8716 D_neg=1.7682 lr=2.25e-05
+== epoch 21 done: train_loss=-3.4504 val_loss=-3.4395 val_D_pos=1.8901 val_D_neg=1.7683 ==
+epoch 22 step 12300: loss=-3.4549 D_pos=1.8977 D_neg=1.7771 lr=2.23e-05
+epoch 22 step 12400: loss=-3.4630 D_pos=1.8402 D_neg=1.7323 lr=2.21e-05
+epoch 22 step 12500: loss=-3.4374 D_pos=1.8889 D_neg=1.7720 lr=2.18e-05
+epoch 22 step 12600: loss=-3.4492 D_pos=1.8877 D_neg=1.7774 lr=2.16e-05
+epoch 22 step 12700: loss=-3.4557 D_pos=1.8692 D_neg=1.7626 lr=2.14e-05
+== epoch 22 done: train_loss=-3.4503 val_loss=-3.4401 val_D_pos=1.8891 val_D_neg=1.7673 ==
+  -> new best val_loss -3.4401, checkpoint saved
+epoch 23 step 12800: loss=-3.4515 D_pos=1.8871 D_neg=1.7717 lr=2.12e-05
+epoch 23 step 12900: loss=-3.4522 D_pos=1.8602 D_neg=1.7527 lr=2.09e-05
+epoch 23 step 13000: loss=-3.4713 D_pos=1.8666 D_neg=1.7711 lr=2.07e-05
+epoch 23 step 13100: loss=-3.4500 D_pos=1.9006 D_neg=1.7903 lr=2.05e-05
+epoch 23 step 13200: loss=-3.4332 D_pos=1.8729 D_neg=1.7495 lr=2.03e-05
+epoch 23 step 13300: loss=-3.4568 D_pos=1.8697 D_neg=1.7649 lr=2.00e-05
+== epoch 23 done: train_loss=-3.4519 val_loss=-3.4413 val_D_pos=1.8898 val_D_neg=1.7687 ==
+  -> new best val_loss -3.4413, checkpoint saved
+epoch 24 step 13400: loss=-3.4406 D_pos=1.8642 D_neg=1.7577 lr=1.98e-05
+epoch 24 step 13500: loss=-3.4377 D_pos=1.9067 D_neg=1.7950 lr=1.96e-05
+epoch 24 step 13600: loss=-3.4795 D_pos=1.8937 D_neg=1.7855 lr=1.94e-05
+epoch 24 step 13700: loss=-3.4536 D_pos=1.8627 D_neg=1.7614 lr=1.91e-05
+epoch 24 step 13800: loss=-3.4537 D_pos=1.9168 D_neg=1.8014 lr=1.89e-05
+epoch 24 step 13900: loss=-3.5044 D_pos=1.8496 D_neg=1.7806 lr=1.87e-05
+== epoch 24 done: train_loss=-3.4520 val_loss=-3.4415 val_D_pos=1.8896 val_D_neg=1.7687 ==
+  -> new best val_loss -3.4415, checkpoint saved
+epoch 25 step 14000: loss=-3.4681 D_pos=1.8625 D_neg=1.7566 lr=1.85e-05
+epoch 25 step 14100: loss=-3.4433 D_pos=1.9087 D_neg=1.7942 lr=1.82e-05
+epoch 25 step 14200: loss=-3.4674 D_pos=1.8490 D_neg=1.7498 lr=1.80e-05
+epoch 25 step 14300: loss=-3.4497 D_pos=1.9125 D_neg=1.8011 lr=1.78e-05
+epoch 25 step 14400: loss=-3.4585 D_pos=1.8768 D_neg=1.7839 lr=1.76e-05
+== epoch 25 done: train_loss=-3.4530 val_loss=-3.4415 val_D_pos=1.8885 val_D_neg=1.7676 ==
+epoch 26 step 14500: loss=-3.4538 D_pos=1.8639 D_neg=1.7682 lr=1.73e-05
+epoch 26 step 14600: loss=-3.4647 D_pos=1.8996 D_neg=1.8003 lr=1.71e-05
+epoch 26 step 14700: loss=-3.4602 D_pos=1.8573 D_neg=1.7493 lr=1.69e-05
+epoch 26 step 14800: loss=-3.4492 D_pos=1.8715 D_neg=1.7698 lr=1.67e-05
+epoch 26 step 14900: loss=-3.4479 D_pos=1.8809 D_neg=1.7685 lr=1.64e-05
+epoch 26 step 15000: loss=-3.4260 D_pos=1.8769 D_neg=1.7666 lr=1.62e-05
+== epoch 26 done: train_loss=-3.4539 val_loss=-3.4427 val_D_pos=1.8888 val_D_neg=1.7682 ==
+  -> new best val_loss -3.4427, checkpoint saved
+epoch 27 step 15100: loss=-3.4789 D_pos=1.8838 D_neg=1.7851 lr=1.60e-05
+epoch 27 step 15200: loss=-3.4508 D_pos=1.8974 D_neg=1.7924 lr=1.58e-05
+epoch 27 step 15300: loss=-3.4567 D_pos=1.8689 D_neg=1.7731 lr=1.55e-05
+epoch 27 step 15400: loss=-3.4673 D_pos=1.8760 D_neg=1.7764 lr=1.53e-05
+epoch 27 step 15500: loss=-3.4403 D_pos=1.8893 D_neg=1.7909 lr=1.51e-05
+== epoch 27 done: train_loss=-3.4538 val_loss=-3.4419 val_D_pos=1.8880 val_D_neg=1.7674 ==
+epoch 28 step 15600: loss=-3.4490 D_pos=1.8694 D_neg=1.7478 lr=1.49e-05
+epoch 28 step 15700: loss=-3.4621 D_pos=1.8962 D_neg=1.7848 lr=1.46e-05
+epoch 28 step 15800: loss=-3.4342 D_pos=1.9242 D_neg=1.7960 lr=1.44e-05
+epoch 28 step 15900: loss=-3.4676 D_pos=1.8839 D_neg=1.7738 lr=1.42e-05
+epoch 28 step 16000: loss=-3.4551 D_pos=1.8795 D_neg=1.7766 lr=1.40e-05
+epoch 28 step 16100: loss=-3.4639 D_pos=1.8657 D_neg=1.7601 lr=1.37e-05
+== epoch 28 done: train_loss=-3.4547 val_loss=-3.4428 val_D_pos=1.8875 val_D_neg=1.7672 ==
+epoch 29 step 16200: loss=-3.4610 D_pos=1.8742 D_neg=1.7650 lr=1.35e-05
+epoch 29 step 16300: loss=-3.4519 D_pos=1.8744 D_neg=1.7766 lr=1.33e-05
+epoch 29 step 16400: loss=-3.4624 D_pos=1.8800 D_neg=1.7856 lr=1.31e-05
+epoch 29 step 16500: loss=-3.4401 D_pos=1.8741 D_neg=1.7644 lr=1.28e-05
+epoch 29 step 16600: loss=-3.4381 D_pos=1.9089 D_neg=1.7872 lr=1.26e-05
+== epoch 29 done: train_loss=-3.4549 val_loss=-3.4429 val_D_pos=1.8878 val_D_neg=1.7676 ==
+  -> new best val_loss -3.4429, checkpoint saved
+epoch 30 step 16700: loss=-3.4549 D_pos=1.8764 D_neg=1.7815 lr=1.24e-05
+epoch 30 step 16800: loss=-3.4643 D_pos=1.8855 D_neg=1.7810 lr=1.22e-05
+epoch 30 step 16900: loss=-3.4164 D_pos=1.8683 D_neg=1.7649 lr=1.19e-05
+epoch 30 step 17000: loss=-3.4659 D_pos=1.8655 D_neg=1.7731 lr=1.17e-05
+epoch 30 step 17100: loss=-3.4589 D_pos=1.8875 D_neg=1.7892 lr=1.15e-05
+epoch 30 step 17200: loss=-3.4617 D_pos=1.8530 D_neg=1.7590 lr=1.13e-05
+== epoch 30 done: train_loss=-3.4546 val_loss=-3.4435 val_D_pos=1.8876 val_D_neg=1.7673 ==
+  -> new best val_loss -3.4435, checkpoint saved
+epoch 31 step 17300: loss=-3.4532 D_pos=1.8675 D_neg=1.7604 lr=1.10e-05
+epoch 31 step 17400: loss=-3.4581 D_pos=1.8814 D_neg=1.7648 lr=1.08e-05
+epoch 31 step 17500: loss=-3.4382 D_pos=1.8928 D_neg=1.7817 lr=1.06e-05
+epoch 31 step 17600: loss=-3.4534 D_pos=1.8886 D_neg=1.7852 lr=1.04e-05
+epoch 31 step 17700: loss=-3.4488 D_pos=1.8697 D_neg=1.7581 lr=1.01e-05
+== epoch 31 done: train_loss=-3.4543 val_loss=-3.4436 val_D_pos=1.8876 val_D_neg=1.7674 ==
+  -> new best val_loss -3.4436, checkpoint saved
+epoch 32 step 17800: loss=-3.4613 D_pos=1.8740 D_neg=1.7737 lr=9.91e-06
+epoch 32 step 17900: loss=-3.4606 D_pos=1.8702 D_neg=1.7674 lr=9.68e-06
+epoch 32 step 18000: loss=-3.4340 D_pos=1.8632 D_neg=1.7528 lr=9.46e-06
+epoch 32 step 18100: loss=-3.4333 D_pos=1.8620 D_neg=1.7507 lr=9.23e-06
+epoch 32 step 18200: loss=-3.4780 D_pos=1.8660 D_neg=1.7672 lr=9.01e-06
+epoch 32 step 18300: loss=-3.4501 D_pos=1.9063 D_neg=1.7957 lr=8.78e-06
+== epoch 32 done: train_loss=-3.4549 val_loss=-3.4436 val_D_pos=1.8876 val_D_neg=1.7676 ==
+epoch 33 step 18400: loss=-3.4563 D_pos=1.8394 D_neg=1.7358 lr=8.56e-06
+epoch 33 step 18500: loss=-3.4657 D_pos=1.8680 D_neg=1.7772 lr=8.33e-06
+epoch 33 step 18600: loss=-3.4446 D_pos=1.8838 D_neg=1.7731 lr=8.11e-06
+epoch 33 step 18700: loss=-3.4615 D_pos=1.8554 D_neg=1.7651 lr=7.88e-06
+epoch 33 step 18800: loss=-3.4576 D_pos=1.8521 D_neg=1.7623 lr=7.66e-06
+epoch 33 step 18900: loss=-3.4419 D_pos=1.8910 D_neg=1.7757 lr=7.43e-06
+== epoch 33 done: train_loss=-3.4558 val_loss=-3.4438 val_D_pos=1.8874 val_D_neg=1.7680 ==
+  -> new best val_loss -3.4438, checkpoint saved
+epoch 34 step 19000: loss=-3.4609 D_pos=1.8829 D_neg=1.7772 lr=7.21e-06
+epoch 34 step 19100: loss=-3.4548 D_pos=1.8690 D_neg=1.7646 lr=6.98e-06
+epoch 34 step 19200: loss=-3.4612 D_pos=1.8970 D_neg=1.7792 lr=6.76e-06
+epoch 34 step 19300: loss=-3.4483 D_pos=1.8694 D_neg=1.7479 lr=6.53e-06
+epoch 34 step 19400: loss=-3.4668 D_pos=1.8708 D_neg=1.7831 lr=6.31e-06
+== epoch 34 done: train_loss=-3.4558 val_loss=-3.4441 val_D_pos=1.8879 val_D_neg=1.7679 ==
+  -> new best val_loss -3.4441, checkpoint saved
+epoch 35 step 19500: loss=-3.4277 D_pos=1.8917 D_neg=1.7770 lr=6.08e-06
+epoch 35 step 19600: loss=-3.4368 D_pos=1.8658 D_neg=1.7529 lr=5.86e-06
+epoch 35 step 19700: loss=-3.4457 D_pos=1.8962 D_neg=1.7674 lr=5.63e-06
+epoch 35 step 19800: loss=-3.4301 D_pos=1.8803 D_neg=1.7594 lr=5.41e-06
+epoch 35 step 19900: loss=-3.4681 D_pos=1.8729 D_neg=1.7739 lr=5.18e-06
+epoch 35 step 20000: loss=-3.4595 D_pos=1.8597 D_neg=1.7470 lr=4.95e-06
+== epoch 35 done: train_loss=-3.4557 val_loss=-3.4442 val_D_pos=1.8876 val_D_neg=1.7678 ==
+epoch 36 step 20100: loss=-3.4575 D_pos=1.8965 D_neg=1.7884 lr=4.73e-06
+epoch 36 step 20200: loss=-3.4693 D_pos=1.8506 D_neg=1.7424 lr=4.50e-06
+epoch 36 step 20300: loss=-3.4453 D_pos=1.8724 D_neg=1.7736 lr=4.28e-06
+epoch 36 step 20400: loss=-3.4859 D_pos=1.8400 D_neg=1.7422 lr=4.05e-06
+epoch 36 step 20500: loss=-3.4680 D_pos=1.8549 D_neg=1.7581 lr=3.83e-06
+== epoch 36 done: train_loss=-3.4568 val_loss=-3.4446 val_D_pos=1.8878 val_D_neg=1.7681 ==
+  -> new best val_loss -3.4446, checkpoint saved
+epoch 37 step 20600: loss=-3.4452 D_pos=1.8714 D_neg=1.7621 lr=3.60e-06
+epoch 37 step 20700: loss=-3.4419 D_pos=1.8674 D_neg=1.7511 lr=3.38e-06
+epoch 37 step 20800: loss=-3.4580 D_pos=1.8644 D_neg=1.7653 lr=3.15e-06
+epoch 37 step 20900: loss=-3.4480 D_pos=1.8653 D_neg=1.7561 lr=2.93e-06
+epoch 37 step 21000: loss=-3.4601 D_pos=1.8537 D_neg=1.7593 lr=2.70e-06
+epoch 37 step 21100: loss=-3.4505 D_pos=1.8977 D_neg=1.7891 lr=2.48e-06
+== epoch 37 done: train_loss=-3.4563 val_loss=-3.4448 val_D_pos=1.8877 val_D_neg=1.7680 ==
+  -> new best val_loss -3.4448, checkpoint saved
+epoch 38 step 21200: loss=-3.4756 D_pos=1.8665 D_neg=1.7613 lr=2.25e-06
+epoch 38 step 21300: loss=-3.4640 D_pos=1.8675 D_neg=1.7595 lr=2.03e-06
+epoch 38 step 21400: loss=-3.4404 D_pos=1.8636 D_neg=1.7662 lr=1.80e-06
+epoch 38 step 21500: loss=-3.4479 D_pos=1.8788 D_neg=1.7638 lr=1.58e-06
+epoch 38 step 21600: loss=-3.4590 D_pos=1.8843 D_neg=1.7764 lr=1.35e-06
+== epoch 38 done: train_loss=-3.4567 val_loss=-3.4448 val_D_pos=1.8876 val_D_neg=1.7680 ==
+epoch 39 step 21700: loss=-3.4470 D_pos=1.8770 D_neg=1.7743 lr=1.13e-06
+epoch 39 step 21800: loss=-3.4452 D_pos=1.8964 D_neg=1.7869 lr=9.01e-07
+epoch 39 step 21900: loss=-3.4703 D_pos=1.8865 D_neg=1.7829 lr=6.76e-07
+epoch 39 step 22000: loss=-3.4433 D_pos=1.9098 D_neg=1.7892 lr=4.50e-07
+epoch 39 step 22100: loss=-3.4501 D_pos=1.8907 D_neg=1.7756 lr=2.25e-07
+epoch 39 step 22200: loss=-3.4659 D_pos=1.8808 D_neg=1.7813 lr=0.00e+00
+== epoch 39 done: train_loss=-3.4571 val_loss=-3.4448 val_D_pos=1.8877 val_D_neg=1.7680 ==
+Full training finished in 29633.6s (493.9 min)
+[{'epoch': 0, 'train_loss': -3.169719550785401, 'val_loss': -3.393218256392569, 'val_D_pos': 1.905354760423209, 'val_D_neg': 1.756919005463989}, {'epoch': 1, 'train_loss': -3.4112255736220654, 'val_loss': -3.410234014942961, 'val_D_pos': 1.908452771721209, 'val_D_neg': 1.7666590315049642}, {'epoch': 2, 'train_loss': -3.4211495698784753, 'val_loss': -3.417388272735308, 'val_D_pos': 1.908751583160282, 'val_D_neg': 1.7699972687745997}, {'epoch': 3, 'train_loss': -3.4273793302851616, 'val_loss': -3.42353315173455, 'val_D_pos': 1.907225916279281, 'val_D_neg': 1.771114971723009}, {'epoch': 4, 'train_loss': -3.431392113939464, 'val_loss': -3.423932543340719, 'val_D_pos': 1.9050680582745458, 'val_D_neg': 1.771309697672537}, {'epoch': 5, 'train_loss': -3.4330248644026065, 'val_loss': -3.4275744636103793, 'val_D_pos': 1.904468530121277, 'val_D_neg': 1.771571151871211}, {'epoch': 6, 'train_loss': -3.436294418015926, 'val_loss': -3.429543229768861, 'val_D_pos': 1.9037296274712066, 'val_D_neg': 1.7723120867315703}, {'epoch': 7, 'train_loss': -3.4373675709148106, 'val_loss': -3.431702843252218, 'val_D_pos': 1.9021477197185626, 'val_D_neg': 1.7718018850768513}, {'epoch': 8, 'train_loss': -3.439333266062702, 'val_loss': -3.431397761938707, 'val_D_pos': 1.9006597949133357, 'val_D_neg': 1.7712162244221512}, {'epoch': 9, 'train_loss': -3.4406082831698357, 'val_loss': -3.433140844668982, 'val_D_pos': 1.8992765985733873, 'val_D_neg': 1.7704308236006105}, {'epoch': 10, 'train_loss': -3.4408435911583384, 'val_loss': -3.4341339480202153, 'val_D_pos': 1.8987260574486646, 'val_D_neg': 1.7712196085789482}, {'epoch': 11, 'train_loss': -3.4428555279326956, 'val_loss': -3.4343291588549345, 'val_D_pos': 1.8974233655223869, 'val_D_neg': 1.7702804129430143}, {'epoch': 12, 'train_loss': -3.4438459135645587, 'val_loss': -3.434627317032724, 'val_D_pos': 1.8957037493914555, 'val_D_neg': 1.7698265429492452}, {'epoch': 13, 'train_loss': -3.4446612883814804, 'val_loss': -3.435926720781146, 'val_D_pos': 1.894433748410464, 'val_D_neg': 1.769738497663547}, {'epoch': 14, 'train_loss': -3.44597340787915, 'val_loss': -3.4371362542206385, 'val_D_pos': 1.8944813120383885, 'val_D_neg': 1.7692282003520414}, {'epoch': 15, 'train_loss': -3.4470333161113933, 'val_loss': -3.4361825034303486, 'val_D_pos': 1.8936251120278673, 'val_D_neg': 1.7687016131016629}, {'epoch': 16, 'train_loss': -3.4473411007750805, 'val_loss': -3.4369848854136915, 'val_D_pos': 1.8925366235322925, 'val_D_neg': 1.7687884423260882}, {'epoch': 17, 'train_loss': -3.4489083470200463, 'val_loss': -3.4384387664075167, 'val_D_pos': 1.8924246126164994, 'val_D_neg': 1.768927301004904}, {'epoch': 18, 'train_loss': -3.4493163065087025, 'val_loss': -3.439205178674662, 'val_D_pos': 1.8916404829155538, 'val_D_neg': 1.768793909002166}, {'epoch': 19, 'train_loss': -3.45004716965792, 'val_loss': -3.4386061272531188, 'val_D_pos': 1.8907713260876495, 'val_D_neg': 1.7677505083452418}, {'epoch': 20, 'train_loss': -3.4507038100160283, 'val_loss': -3.4396219343509316, 'val_D_pos': 1.8906832445038002, 'val_D_neg': 1.7684743110055352}, {'epoch': 21, 'train_loss': -3.450374797522593, 'val_loss': -3.439515730120101, 'val_D_pos': 1.8900555949189568, 'val_D_neg': 1.7682622064303304}, {'epoch': 22, 'train_loss': -3.4503331887636253, 'val_loss': -3.4401180744171143, 'val_D_pos': 1.889137708646415, 'val_D_neg': 1.7672898418697638}, {'epoch': 23, 'train_loss': -3.451910879114549, 'val_loss': -3.4412742290856704, 'val_D_pos': 1.8898058043406254, 'val_D_neg': 1.7687196317568141}, {'epoch': 24, 'train_loss': -3.4519529599937604, 'val_loss': -3.4414505823603214, 'val_D_pos': 1.88959256950883, 'val_D_neg': 1.768700465618533}, {'epoch': 25, 'train_loss': -3.4529713417986314, 'val_loss': -3.4415095887094176, 'val_D_pos': 1.8884712783561186, 'val_D_neg': 1.767561681076603}, {'epoch': 26, 'train_loss': -3.4538524498184806, 'val_loss': -3.44273205523221, 'val_D_pos': 1.8888438086042987, 'val_D_neg': 1.7681632265682867}, {'epoch': 27, 'train_loss': -3.4537791511137708, 'val_loss': -3.441881053852585, 'val_D_pos': 1.8879952101774935, 'val_D_neg': 1.7674329932720498}, {'epoch': 28, 'train_loss': -3.454744085991125, 'val_loss': -3.442752851630157, 'val_D_pos': 1.8875485623618526, 'val_D_neg': 1.7672282860104764}, {'epoch': 29, 'train_loss': -3.4548889514353633, 'val_loss': -3.4428732485141396, 'val_D_pos': 1.8878054582168282, 'val_D_neg': 1.76759750082058}, {'epoch': 30, 'train_loss': -3.454606293345527, 'val_loss': -3.443456955675809, 'val_D_pos': 1.8876024171030554, 'val_D_neg': 1.7673271766588468}, {'epoch': 31, 'train_loss': -3.4543406285827967, 'val_loss': -3.4435910773727127, 'val_D_pos': 1.8875628759346483, 'val_D_neg': 1.7674269402317657}, {'epoch': 32, 'train_loss': -3.4549291155321136, 'val_loss': -3.443589448928833, 'val_D_pos': 1.8875536253593816, 'val_D_neg': 1.7675564421938275}, {'epoch': 33, 'train_loss': -3.4558424739528903, 'val_loss': -3.4438448896947897, 'val_D_pos': 1.887434566241203, 'val_D_neg': 1.7679824347449644}, {'epoch': 34, 'train_loss': -3.4558082394462697, 'val_loss': -3.4440791966780178, 'val_D_pos': 1.8878764739646665, 'val_D_neg': 1.7679243264426974}, {'epoch': 35, 'train_loss': -3.4556957440410585, 'val_loss': -3.4441657111329853, 'val_D_pos': 1.8875692610236459, 'val_D_neg': 1.767844670071448}, {'epoch': 36, 'train_loss': -3.456785169436777, 'val_loss': -3.4446183330607862, 'val_D_pos': 1.8878093146537458, 'val_D_neg': 1.7680659667243184}, {'epoch': 37, 'train_loss': -3.4562586863263904, 'val_loss': -3.444782688932599, 'val_D_pos': 1.8876552170599408, 'val_D_neg': 1.768011417105185}, {'epoch': 38, 'train_loss': -3.4566731697363817, 'val_loss': -3.4447802462667787, 'val_D_pos': 1.8876103933010275, 'val_D_neg': 1.7679917789093633}, {'epoch': 39, 'train_loss': -3.4570520348686107, 'val_loss': -3.4448474083306655, 'val_D_pos': 1.887704518219491, 'val_D_neg': 1.7679864881478202}]

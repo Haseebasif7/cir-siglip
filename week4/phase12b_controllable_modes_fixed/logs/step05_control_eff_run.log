@@ -1,0 +1,27 @@
+# Phase 12b, Step 4.2: Control-Effectiveness Diagnostic, Before/After Comparison
+
+Same procedure as phase 12's `control_effectiveness.md` (sample size 1000, seed=42, top-10), on the retrained `controllable_modes_fixed.pt` checkpoint.
+
+## Axis 1: visual similarity to the query (raw SigLIP cosine, top-10 average)
+
+- Substitute mode: phase 12 = 0.7193, **phase 12b = 0.7233** (delta +0.0040)
+- Complement mode: phase 12 = 0.7120, **phase 12b = 0.7228** (delta +0.0108)
+- **Direction CONFIRMED** (substitute > complement); gap = 0.0005 (phase 12's gap was 0.0073).
+
+## Axis 2: match rate against real outfit co-occurrence (hit@10 on the true target)
+
+- Substitute mode: phase 12 = 0.1280, **phase 12b = 0.1250** (delta -0.0030)
+- Complement mode: phase 12 = 0.1280, **phase 12b = 0.1180** (delta -0.0100)
+- **Direction NOT CONFIRMED** (complement <= substitute); phase 12 was an exact tie (128/1000 each) -- this tie is now broken.
+
+## Follow-up checks (these are what actually exposed the problem in phase 12)
+
+- Mean top-10 overlap between the two modes (n=500 queries): phase 12 = 0.7636, **phase 12b = 0.5102** (delta -0.2534)
+- Mean per-item cosine(z_sub, z_comp) across 5,000 items: phase 12 = 0.8288, **phase 12b = 0.5844** (delta -0.2444)
+
+## Verdict
+
+**Partial improvement.** Some diagnostics moved in the right direction, others did not fully separate. See `../phase12b_notes.md` for the full go/no-go verdict and what this means for whether to pursue the fuller architecture.
+
+
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase12b_controllable_modes_fixed/control_effectiveness.md

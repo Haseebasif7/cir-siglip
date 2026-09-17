@@ -1,0 +1,41 @@
+device=mps
+n_params=998273
+epoch 0: train_loss=0.0890 train_acc=0.5043 val_loss=0.0736 val_acc=0.5001 val_recall10=0.0100 elapsed=50s best_acc=0.5001@0
+epoch 1: train_loss=0.0754 train_acc=0.5011 val_loss=0.0722 val_acc=0.5000 val_recall10=0.0102 elapsed=105s best_acc=0.5001@0
+epoch 2: train_loss=0.0722 train_acc=0.5075 val_loss=0.0661 val_acc=0.5429 val_recall10=0.0152 elapsed=150s best_acc=0.5429@2
+epoch 3: train_loss=0.0579 train_acc=0.6577 val_loss=0.0474 val_acc=0.7357 val_recall10=0.0322 elapsed=203s best_acc=0.7357@3
+epoch 4: train_loss=0.0445 train_acc=0.7761 val_loss=0.0421 val_acc=0.7589 val_recall10=0.0453 elapsed=250s best_acc=0.7589@4
+epoch 5: train_loss=0.0349 train_acc=0.8374 val_loss=0.0301 val_acc=0.8395 val_recall10=0.0482 elapsed=295s best_acc=0.8395@5
+epoch 6: train_loss=0.0276 train_acc=0.8788 val_loss=0.0268 val_acc=0.8634 val_recall10=0.0533 elapsed=349s best_acc=0.8634@6
+epoch 7: train_loss=0.0239 train_acc=0.8975 val_loss=0.0214 val_acc=0.9066 val_recall10=0.0577 elapsed=400s best_acc=0.9066@7
+epoch 8: train_loss=0.0213 train_acc=0.9101 val_loss=0.0203 val_acc=0.9019 val_recall10=0.0573 elapsed=442s best_acc=0.9066@7
+epoch 9: train_loss=0.0195 train_acc=0.9184 val_loss=0.0209 val_acc=0.8943 val_recall10=0.0591 elapsed=482s best_acc=0.9066@7
+epoch 10: train_loss=0.0183 train_acc=0.9242 val_loss=0.0200 val_acc=0.9064 val_recall10=0.0621 elapsed=523s best_acc=0.9066@7
+epoch 11: train_loss=0.0171 train_acc=0.9297 val_loss=0.0185 val_acc=0.9158 val_recall10=0.0592 elapsed=563s best_acc=0.9158@11
+epoch 12: train_loss=0.0163 train_acc=0.9330 val_loss=0.0175 val_acc=0.9223 val_recall10=0.0589 elapsed=600s best_acc=0.9223@12
+epoch 13: train_loss=0.0156 train_acc=0.9365 val_loss=0.0190 val_acc=0.9117 val_recall10=0.0617 elapsed=645s best_acc=0.9223@12
+epoch 14: train_loss=0.0152 train_acc=0.9388 val_loss=0.0198 val_acc=0.9066 val_recall10=0.0589 elapsed=691s best_acc=0.9223@12
+epoch 15: train_loss=0.0144 train_acc=0.9419 val_loss=0.0170 val_acc=0.9310 val_recall10=0.0591 elapsed=737s best_acc=0.9310@15
+epoch 16: train_loss=0.0142 train_acc=0.9430 val_loss=0.0176 val_acc=0.9254 val_recall10=0.0565 elapsed=780s best_acc=0.9310@15
+epoch 17: train_loss=0.0138 train_acc=0.9446 val_loss=0.0201 val_acc=0.9099 val_recall10=0.0572 elapsed=833s best_acc=0.9310@15
+epoch 18: train_loss=0.0133 train_acc=0.9467 val_loss=0.0183 val_acc=0.9259 val_recall10=0.0593 elapsed=886s best_acc=0.9310@15
+epoch 19: train_loss=0.0128 train_acc=0.9497 val_loss=0.0185 val_acc=0.9296 val_recall10=0.0563 elapsed=938s best_acc=0.9310@15
+epoch 20: train_loss=0.0125 train_acc=0.9506 val_loss=0.0246 val_acc=0.8979 val_recall10=0.0555 elapsed=990s best_acc=0.9310@15
+epoch 21: train_loss=0.0122 train_acc=0.9518 val_loss=0.0200 val_acc=0.9228 val_recall10=0.0554 elapsed=1050s best_acc=0.9310@15
+epoch 22: train_loss=0.0116 train_acc=0.9547 val_loss=0.0192 val_acc=0.9205 val_recall10=0.0574 elapsed=1107s best_acc=0.9310@15
+epoch 23: train_loss=0.0115 train_acc=0.9564 val_loss=0.0184 val_acc=0.9327 val_recall10=0.0585 elapsed=1156s best_acc=0.9327@23
+epoch 24: train_loss=0.0110 train_acc=0.9575 val_loss=0.0213 val_acc=0.9219 val_recall10=0.0585 elapsed=1207s best_acc=0.9327@23
+epoch 25: train_loss=0.0108 train_acc=0.9586 val_loss=0.0215 val_acc=0.9149 val_recall10=0.0545 elapsed=1261s best_acc=0.9327@23
+epoch 26: train_loss=0.0105 train_acc=0.9605 val_loss=0.0239 val_acc=0.9103 val_recall10=0.0559 elapsed=1317s best_acc=0.9327@23
+epoch 27: train_loss=0.0100 train_acc=0.9626 val_loss=0.0249 val_acc=0.9146 val_recall10=0.0540 elapsed=1373s best_acc=0.9327@23
+epoch 28: train_loss=0.0099 train_acc=0.9632 val_loss=0.0215 val_acc=0.9301 val_recall10=0.0548 elapsed=1426s best_acc=0.9327@23
+epoch 29: train_loss=0.0095 train_acc=0.9653 val_loss=0.0219 val_acc=0.9246 val_recall10=0.0537 elapsed=1483s best_acc=0.9327@23
+2026-09-09 00:13:51.388 python3[3872:185246] Error creating directory 
+ The volume ‚ÄúMacintosh HD‚Äù is out of space. You can‚Äôt save the file ‚Äúmpsgraph-3872-2026-09-09_00_13_51-4281016948‚Äù because the volume ‚ÄúMacintosh HD‚Äù is out of space.
+epoch 30: train_loss=0.0095 train_acc=0.9662 val_loss=0.0295 val_acc=0.9044 val_recall10=0.0544 elapsed=1539s best_acc=0.9327@23
+epoch 31: train_loss=0.0093 train_acc=0.9665 val_loss=0.0276 val_acc=0.9156 val_recall10=0.0546 elapsed=1602s best_acc=0.9327@23
+early stop at epoch 31 (patience=8)
+
+Saved checkpoint to /Users/haseeb/Desktop/mitacs_project/week7/phase35_full_recipe_siglip/models/stage1_cp_pretrain.pt
+Saved result to /Users/haseeb/Desktop/mitacs_project/week7/phase35_full_recipe_siglip/data/stage1_result.json
+s/epoch (mean): 50.1

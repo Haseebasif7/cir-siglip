@@ -1,0 +1,10 @@
+Loaded 24719 embeddings, 68664 relevance train edges, 34130 tail train edges (reused from phase 16c). Device: mps
+Smoke calibration: initial_rel=4.7811 initial_tail=4.8217 weight_tail=0.9916
+  smoke epoch 0: train_rel=3.5570 train_tail=3.7948 val_rel=2.4229 val_tail=2.4769 collapse_rel=0.4469 collapse_tail=0.4544
+  smoke epoch 1: train_rel=2.5065 train_tail=2.5336 val_rel=2.1819 val_tail=2.2531 collapse_rel=0.3576 collapse_tail=0.3442
+  smoke epoch 2: train_rel=2.1240 train_tail=1.9885 val_rel=2.0914 val_tail=2.1865 collapse_rel=0.2171 collapse_tail=0.2290
+
+Final mean pairwise cosine -- relevance head: 0.2171, tail head: 0.2290
+Collapse detected: False (threshold: 0.9)
+Uniformity regularizer recommendation: leave OFF for full run
+Report written: /Users/haseeb/Desktop/mitacs_project/week5/phase16d_dedicated_capacity/logs/smoke_test_report.md

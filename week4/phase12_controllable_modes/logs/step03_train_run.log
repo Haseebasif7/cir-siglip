@@ -1,0 +1,40 @@
+Loaded 251008 embeddings, 1373702 train edges, 129850 val edges. Device: mps
+    ...batch 2000/10732, complement=4.3852 substitute=0.0148
+    ...batch 4000/10732, complement=4.3395 substitute=0.0137
+    ...batch 6000/10732, complement=4.3139 substitute=0.0131
+    ...batch 8000/10732, complement=4.2955 substitute=0.0128
+    ...batch 10000/10732, complement=4.2820 substitute=0.0125
+  epoch 0: train_comp=4.2770 train_sub=0.0124 val_comp=5.3387 val_sub=0.0150 collapse_comp=0.6483 collapse_sub=0.5571
+    ...batch 2000/10732, complement=4.1888 substitute=0.0112
+    ...batch 4000/10732, complement=4.1860 substitute=0.0111
+    ...batch 6000/10732, complement=4.1837 substitute=0.0111
+    ...batch 8000/10732, complement=4.1801 substitute=0.0111
+    ...batch 10000/10732, complement=4.1775 substitute=0.0111
+  epoch 1: train_comp=4.1761 train_sub=0.0111 val_comp=5.5523 val_sub=0.0137 collapse_comp=0.6285 collapse_sub=0.5522
+    ...batch 2000/10732, complement=4.1288 substitute=0.0108
+    ...batch 4000/10732, complement=4.1307 substitute=0.0108
+    ...batch 6000/10732, complement=4.1319 substitute=0.0108
+    ...batch 8000/10732, complement=4.1309 substitute=0.0108
+    ...batch 10000/10732, complement=4.1299 substitute=0.0108
+  epoch 2: train_comp=4.1295 train_sub=0.0108 val_comp=5.7232 val_sub=0.0141 collapse_comp=0.6110 collapse_sub=0.5607
+    ...batch 2000/10732, complement=4.0948 substitute=0.0107
+    ...batch 4000/10732, complement=4.0975 substitute=0.0107
+    ...batch 6000/10732, complement=4.0974 substitute=0.0107
+    ...batch 8000/10732, complement=4.0981 substitute=0.0107
+    ...batch 10000/10732, complement=4.0978 substitute=0.0107
+  epoch 3: train_comp=4.0974 train_sub=0.0107 val_comp=5.7891 val_sub=0.0134 collapse_comp=0.6096 collapse_sub=0.5623
+    ...batch 2000/10732, complement=4.0701 substitute=0.0107
+    ...batch 4000/10732, complement=4.0740 substitute=0.0107
+    ...batch 6000/10732, complement=4.0753 substitute=0.0107
+    ...batch 8000/10732, complement=4.0745 substitute=0.0107
+    ...batch 10000/10732, complement=4.0741 substitute=0.0107
+  epoch 4: train_comp=4.0736 train_sub=0.0107 val_comp=5.8988 val_sub=0.0129 collapse_comp=0.6011 collapse_sub=0.5502
+    ...batch 2000/10732, complement=4.0478 substitute=0.0107
+    ...batch 4000/10732, complement=4.0515 substitute=0.0107
+    ...batch 6000/10732, complement=4.0532 substitute=0.0107
+    ...batch 8000/10732, complement=4.0531 substitute=0.0107
+    ...batch 10000/10732, complement=4.0536 substitute=0.0107
+  epoch 5: train_comp=4.0537 train_sub=0.0108 val_comp=5.9968 val_sub=0.0134 collapse_comp=0.5874 collapse_sub=0.5600
+  early stopping at epoch 5 (best_val_comp=5.3387)
+Saved best checkpoint to /Users/haseeb/Desktop/mitacs_project/week4/phase12_controllable_modes/models/controllable_modes.pt (best_val_comp=5.3387)
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase12_controllable_modes/models/training_curves.json

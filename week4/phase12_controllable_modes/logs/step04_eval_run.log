@@ -1,0 +1,5 @@
+Substitute mode alone (alpha=1.0): {10: 0.13291331154610694, 30: 0.246723493143762, 50: 0.3214514335770358} (n=29681, 0 skipped)
+Complement mode alone (alpha=0.0): {10: 0.13348606852868838, 30: 0.25069910043462146, 50: 0.32498905023415653} (n=29681, 0 skipped)
+Interpolated blend (alpha=0.5): {10: 0.13658569455207034, 30: 0.2524173713823658, 50: 0.3288972743505947} (n=29681, 0 skipped)
+
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase12_controllable_modes/results_table.md

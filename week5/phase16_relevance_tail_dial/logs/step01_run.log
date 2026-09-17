@@ -1,0 +1,4 @@
+Saved training data + weights: /Users/haseeb/Desktop/mitacs_project/week5/phase16_relevance_tail_dial/data/training_data_with_weights.npz
+Saved positive sets: /Users/haseeb/Desktop/mitacs_project/week5/phase16_relevance_tail_dial/data/positive_sets.json
+Cap-bound fraction: 7.03%  |  near-max fraction: 7.03%  |  degenerate=False
+Report written: /Users/haseeb/Desktop/mitacs_project/week5/phase16_relevance_tail_dial/ips_weighting_check.md

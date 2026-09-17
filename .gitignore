@@ -1,9 +1,72 @@
+# ---------------------------------------------------------------------------
+# Environment and caches
+# ---------------------------------------------------------------------------
 venv/
-data/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-.DS_Store
 *.egg-info/
+.DS_Store
 .env
-/week1/lit_review_extraction_brief.md
+
+# ---------------------------------------------------------------------------
+# Derived data and raw datasets (24 GB on disk; all of it is regenerable)
+#
+# Every phase folder keeps its intermediate artifacts in data/ or embeddings/.
+# These are outputs of the scripts in the same folder, not source, and the raw
+# datasets are public downloads. See README.md for how to rebuild them.
+# ---------------------------------------------------------------------------
+data/
+embeddings/
+*.npz
+*.tar
+*.zip
+*.gz
+*.jpg
+*.jpeg
+*.h5
+*.mat
+
+# Model checkpoints are excluded by default; the final systems the paper
+# reports are re-included below so results can be reproduced without training.
+*.pt
+*.pth
+!week7/phase27_text_and_category/models/*.pt
+!week7/phase28_text_ensemble/models/*.pt
+!week7/phase32_partial_ensemble_outfittransformer/models/*.pt
+!week7/phase34_csanet_random_negatives/models/*.pt
+
+# Evaluation inputs and per-query results for the final systems are small and
+# are what the reported numbers are computed from, so they are kept.
+!week8/phase36_paper_prerequisites/data/
+!week8/phase36_paper_prerequisites/data/**
+
+# ---------------------------------------------------------------------------
+# Task briefs: step-by-step instructions written to drive each phase's run.
+# They are working instructions, not documentation of what happened; the
+# as-built record for every phase is its phaseN_notes.md inside the phase
+# folder, which is tracked.
+# ---------------------------------------------------------------------------
+week*/*.md
+!week1/dataset_summary_week1.md
+week4/phase19_feature_weighting/phase21_zero_shared_dial.md
+week7/phase27_text_and_category/phase29_cross_attention.md
+week7/phase30_multi_aspect/phase34_csanet_random_negatives.md
+
+# ---------------------------------------------------------------------------
+# Not published yet / internal
+# ---------------------------------------------------------------------------
+paper/
+progress_report/
+modal/
+CLAUDE.md
+PROJECT_MEMORY.md
+week4_report.doc
+week6_report_update_brief.md
+Weekly Implementation Plan_MitacsGRI_Haseeb.pdf
+
+# Word-processor report deliverables written for supervision (same class as
+# progress_report/, which is excluded above).
+*.doc
+*.docx
+*.pages

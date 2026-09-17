@@ -1,0 +1,28 @@
+compat lines 20000 (skipped 0; pos 10000); FITB 10000 (skipped 0)
+GUARD raw image-only SigLIP: AUC=0.7172 FITB=0.4843 expected (0.7172, 0.4843) ok=True
+GUARD phase 9 Model A      : AUC=0.9469 FITB=0.7031 expected (0.9469, 0.7031) ok=True
+LOO tasks 107012; FITB questions whose 4 answers share one category: 9987/10000
+raw_siglip_image_only: secondary AUC=0.7172 FITB=0.4843 | primary AUC=0.6870 FITB=0.4843
+raw_siglip_image_text: secondary AUC=0.6547 FITB=0.4324 | primary AUC=0.6420 FITB=0.4324
+phase9_model_a: secondary AUC=0.9469 FITB=0.7031 | primary AUC=0.9352 FITB=0.7031
+
+=== ours_solo ===
+  secondary: AUC=0.9558 FITB=0.7295 ties=8
+  primary  : AUC=0.9567 FITB=0.7295 ties=8  (1s)
+
+=== ours_ens ===
+  secondary: AUC=0.9647 FITB=0.7552 ties=9
+  primary  : AUC=0.9655 FITB=0.7548 ties=9  (4s)
+
+=== ot_solo ===
+  secondary: AUC=0.9327 FITB=0.7165 ties=7
+  primary  : AUC=0.9313 FITB=0.7316 ties=7  (10s)
+
+=== ot_ens ===
+  secondary: AUC=0.9406 FITB=0.7224 ties=9
+  primary  : AUC=0.9349 FITB=0.7464 ties=7  (29s)
+
+=== csa_ens ===
+  primary  : AUC=0.9349 FITB=0.7051 ties=7  (11s)
+
+wall 111s; saved official_benchmark.md and data/official_benchmark.json

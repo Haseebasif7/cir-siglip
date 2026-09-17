@@ -1,0 +1,49 @@
+Loaded 24719 embeddings, 68664 train edges, 7629 val edges. Device: mps. Uniformity regularizer enabled: False
+Calibration (20 batches): initial_rel=4.7818, initial_tail=4.8431, weight_tail=0.9873
+Grad norm into shared net -- relevance: 0.908699, tail (unweighted): 1.019912 (ratio 0.89x), tail (weighted x0.99): 1.031596 (ratio 0.88x)
+Appended loss-balancing check to /Users/haseeb/Desktop/mitacs_project/week5/phase16_relevance_tail_dial/ips_weighting_check.md
+  epoch 0: train_rel=2.0645 train_tail=1.5919 val_rel=1.6192 val_tail=1.1528 collapse_rel=0.2298 collapse_tail=0.1819
+  epoch 1: train_rel=1.5574 train_tail=1.0807 val_rel=1.3971 val_tail=0.9989 collapse_rel=0.1789 collapse_tail=0.1562
+  epoch 2: train_rel=1.3761 train_tail=0.8925 val_rel=1.2865 val_tail=0.8995 collapse_rel=0.1277 collapse_tail=0.0996
+  epoch 3: train_rel=1.2682 train_tail=0.7961 val_rel=1.2459 val_tail=0.8570 collapse_rel=0.0913 collapse_tail=0.0658
+  epoch 4: train_rel=1.1993 train_tail=0.7184 val_rel=1.1960 val_tail=0.8252 collapse_rel=0.0964 collapse_tail=0.0624
+  epoch 5: train_rel=1.1461 train_tail=0.6796 val_rel=1.1719 val_tail=0.7973 collapse_rel=0.0959 collapse_tail=0.1105
+  epoch 6: train_rel=1.1161 train_tail=0.6384 val_rel=1.1548 val_tail=0.7731 collapse_rel=0.0643 collapse_tail=0.0563
+  epoch 7: train_rel=1.0775 train_tail=0.6094 val_rel=1.1189 val_tail=0.7424 collapse_rel=0.0709 collapse_tail=0.0754
+  epoch 8: train_rel=1.0568 train_tail=0.5913 val_rel=1.1176 val_tail=0.7503 collapse_rel=0.0770 collapse_tail=0.0758
+  epoch 9: train_rel=1.0293 train_tail=0.5701 val_rel=1.1029 val_tail=0.7370 collapse_rel=0.0404 collapse_tail=0.0408
+  epoch 10: train_rel=1.0134 train_tail=0.5557 val_rel=1.0834 val_tail=0.7176 collapse_rel=0.0538 collapse_tail=0.0527
+  epoch 11: train_rel=0.9906 train_tail=0.5394 val_rel=1.0751 val_tail=0.7063 collapse_rel=0.0510 collapse_tail=0.0563
+  epoch 12: train_rel=0.9784 train_tail=0.5228 val_rel=1.0769 val_tail=0.7184 collapse_rel=0.0509 collapse_tail=0.0537
+  epoch 13: train_rel=0.9665 train_tail=0.5151 val_rel=1.0727 val_tail=0.7136 collapse_rel=0.0663 collapse_tail=0.0494
+  epoch 14: train_rel=0.9607 train_tail=0.5037 val_rel=1.0500 val_tail=0.6936 collapse_rel=0.0496 collapse_tail=0.0256
+  epoch 15: train_rel=0.9388 train_tail=0.4912 val_rel=1.0535 val_tail=0.6931 collapse_rel=0.0446 collapse_tail=0.0437
+  epoch 16: train_rel=0.9319 train_tail=0.4835 val_rel=1.0358 val_tail=0.6793 collapse_rel=0.0388 collapse_tail=0.0508
+  epoch 17: train_rel=0.9244 train_tail=0.4834 val_rel=1.0329 val_tail=0.6740 collapse_rel=0.0559 collapse_tail=0.0664
+  epoch 18: train_rel=0.9212 train_tail=0.4770 val_rel=1.0282 val_tail=0.6776 collapse_rel=0.0468 collapse_tail=0.0482
+  epoch 19: train_rel=0.9078 train_tail=0.4675 val_rel=1.0315 val_tail=0.6742 collapse_rel=0.0439 collapse_tail=0.0506
+  epoch 20: train_rel=0.8983 train_tail=0.4561 val_rel=1.0318 val_tail=0.6814 collapse_rel=0.0384 collapse_tail=0.0415
+  epoch 21: train_rel=0.8920 train_tail=0.4547 val_rel=1.0216 val_tail=0.6703 collapse_rel=0.0608 collapse_tail=0.0706
+  epoch 22: train_rel=0.8826 train_tail=0.4477 val_rel=1.0152 val_tail=0.6608 collapse_rel=0.0506 collapse_tail=0.0467
+  epoch 23: train_rel=0.8765 train_tail=0.4449 val_rel=1.0168 val_tail=0.6645 collapse_rel=0.0538 collapse_tail=0.0455
+  epoch 24: train_rel=0.8671 train_tail=0.4371 val_rel=1.0181 val_tail=0.6688 collapse_rel=0.0533 collapse_tail=0.0653
+  epoch 25: train_rel=0.8668 train_tail=0.4354 val_rel=1.0135 val_tail=0.6593 collapse_rel=0.0302 collapse_tail=0.0422
+  epoch 26: train_rel=0.8626 train_tail=0.4340 val_rel=1.0038 val_tail=0.6528 collapse_rel=0.0379 collapse_tail=0.0423
+  epoch 27: train_rel=0.8551 train_tail=0.4276 val_rel=0.9992 val_tail=0.6545 collapse_rel=0.0255 collapse_tail=0.0296
+  epoch 28: train_rel=0.8572 train_tail=0.4293 val_rel=1.0072 val_tail=0.6555 collapse_rel=0.0428 collapse_tail=0.0479
+  epoch 29: train_rel=0.8503 train_tail=0.4214 val_rel=0.9960 val_tail=0.6487 collapse_rel=0.0407 collapse_tail=0.0514
+  epoch 30: train_rel=0.8440 train_tail=0.4132 val_rel=0.9932 val_tail=0.6471 collapse_rel=0.0420 collapse_tail=0.0550
+  epoch 31: train_rel=0.8377 train_tail=0.4177 val_rel=0.9898 val_tail=0.6487 collapse_rel=0.0314 collapse_tail=0.0340
+  epoch 32: train_rel=0.8327 train_tail=0.4117 val_rel=0.9910 val_tail=0.6373 collapse_rel=0.0335 collapse_tail=0.0394
+  epoch 33: train_rel=0.8312 train_tail=0.4141 val_rel=0.9834 val_tail=0.6297 collapse_rel=0.0376 collapse_tail=0.0455
+  epoch 34: train_rel=0.8297 train_tail=0.4081 val_rel=0.9852 val_tail=0.6374 collapse_rel=0.0379 collapse_tail=0.0471
+  epoch 35: train_rel=0.8210 train_tail=0.4060 val_rel=0.9831 val_tail=0.6497 collapse_rel=0.0298 collapse_tail=0.0335
+  epoch 36: train_rel=0.8212 train_tail=0.3996 val_rel=0.9735 val_tail=0.6345 collapse_rel=0.0267 collapse_tail=0.0391
+  epoch 37: train_rel=0.8223 train_tail=0.4037 val_rel=0.9800 val_tail=0.6386 collapse_rel=0.0425 collapse_tail=0.0457
+  epoch 38: train_rel=0.8117 train_tail=0.3982 val_rel=0.9746 val_tail=0.6267 collapse_rel=0.0316 collapse_tail=0.0427
+  epoch 39: train_rel=0.8141 train_tail=0.3944 val_rel=0.9742 val_tail=0.6270 collapse_rel=0.0366 collapse_tail=0.0465
+  epoch 40: train_rel=0.8031 train_tail=0.3877 val_rel=0.9787 val_tail=0.6224 collapse_rel=0.0327 collapse_tail=0.0396
+  epoch 41: train_rel=0.8094 train_tail=0.3925 val_rel=0.9737 val_tail=0.6265 collapse_rel=0.0432 collapse_tail=0.0510
+  early stopping at epoch 41 (best_val_rel=0.9735)
+Saved best checkpoint to /Users/haseeb/Desktop/mitacs_project/week5/phase16_relevance_tail_dial/models/relevance_tail_dial.pt (best_val_rel=0.9735)
+Saved /Users/haseeb/Desktop/mitacs_project/week5/phase16_relevance_tail_dial/models/training_curves.json

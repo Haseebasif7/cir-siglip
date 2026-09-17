@@ -1,0 +1,12 @@
+alpha=0.0: mean_same_category_fraction@5 = 0.4410
+alpha=0.1: mean_same_category_fraction@5 = 0.4408
+alpha=0.2: mean_same_category_fraction@5 = 0.4413
+alpha=0.3: mean_same_category_fraction@5 = 0.4411
+alpha=0.4: mean_same_category_fraction@5 = 0.4419
+alpha=0.5: mean_same_category_fraction@5 = 0.4417
+alpha=0.6: mean_same_category_fraction@5 = 0.4406
+alpha=0.7: mean_same_category_fraction@5 = 0.4413
+alpha=0.8: mean_same_category_fraction@5 = 0.4416
+alpha=0.9: mean_same_category_fraction@5 = 0.4405
+alpha=1.0: mean_same_category_fraction@5 = 0.4410
+Written: /Users/haseeb/Desktop/mitacs_project/week5/phase16c_attribute_tail_signal/logs/category_clustering_diagnostic.md

@@ -1,0 +1,38 @@
+[
+  {
+    "epoch": 0,
+    "train_loss": 4.2799679929341785,
+    "val_loss": 5.256639417404024,
+    "mean_pairwise_cosine": 0.6584022045135498
+  },
+  {
+    "epoch": 1,
+    "train_loss": 4.180028002048643,
+    "val_loss": 5.431539159220428,
+    "mean_pairwise_cosine": 0.6418824195861816
+  },
+  {
+    "epoch": 2,
+    "train_loss": 4.132852780266931,
+    "val_loss": 5.625637071825601,
+    "mean_pairwise_cosine": 0.6210816502571106
+  },
+  {
+    "epoch": 3,
+    "train_loss": 4.10080073549087,
+    "val_loss": 5.700691753302889,
+    "mean_pairwise_cosine": 0.6128472685813904
+  },
+  {
+    "epoch": 4,
+    "train_loss": 4.076855250687965,
+    "val_loss": 5.767177066896936,
+    "mean_pairwise_cosine": 0.6103349328041077
+  },
+  {
+    "epoch": 5,
+    "train_loss": 4.057376556468457,
+    "val_loss": 5.911200710822796,
+    "mean_pairwise_cosine": 0.5948101282119751
+  }
+]

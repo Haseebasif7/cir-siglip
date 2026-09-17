@@ -1,0 +1,6 @@
+✓ Finished downloading files to local!
+Overall best across all stages: stage=step6_refine name=wd0.0_r8_lr0.001_bs256_tau0.15 val_recall10=0.1600
+Final training run config: {'name': 'final_tuned', 'lr': 0.001, 'batch_size': 256, 'weight_decay': 0.0, 'tau': 0.15, 'r_neg': 8, 'seed': 42, 'max_epochs': 60, 'patience': 15, 'min_delta': 0.0005, 'eval_every': 1, 'save_checkpoint': True}
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase23_hyperparameter_tuning/data/final_config_train_result.json
+Final tuned checkpoint best epoch: 4, val_recall10=0.1600
+Downloaded checkpoint to /Users/haseeb/Desktop/mitacs_project/week4/phase23_hyperparameter_tuning/models/final_tuned.pt

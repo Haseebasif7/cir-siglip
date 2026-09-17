@@ -1,0 +1,12 @@
+Base config: lr=0.001 bs=256 tau=0.15. Refinement max_epochs=15, patience=6.
+Launching 9 refinement configs in parallel on Modal...
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase23_hyperparameter_tuning/data/refinement_results.json
+wd=0.0 r_neg=8: best_recall10=0.1600 @epoch4 (11 epochs run, 1065s)
+wd=0.0001 r_neg=4: best_recall10=0.1590 @epoch3 (10 epochs run, 956s)
+wd=1e-05 r_neg=12: best_recall10=0.1590 @epoch3 (10 epochs run, 1034s)
+wd=0.0 r_neg=4: best_recall10=0.1588 @epoch4 (11 epochs run, 1084s)
+wd=1e-05 r_neg=4: best_recall10=0.1577 @epoch2 (9 epochs run, 859s)
+wd=0.0 r_neg=12: best_recall10=0.1574 @epoch6 (13 epochs run, 1287s)
+wd=0.0001 r_neg=12: best_recall10=0.1568 @epoch6 (13 epochs run, 1303s)
+wd=1e-05 r_neg=8: best_recall10=0.1564 @epoch4 (11 epochs run, 1063s)
+wd=0.0001 r_neg=8: best_recall10=0.1555 @epoch6 (13 epochs run, 1411s)

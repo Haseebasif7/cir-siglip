@@ -1,0 +1,51 @@
+Loaded 24719 embeddings, 15044 heterogeneous train edges, 1671 heterogeneous val edges.
+Using device: mps
+
+=== Training model_a_random_negs (R=8 random negs, H=0 hard negs) ===
+  epoch 0: train_loss=2.8414 val_loss=2.0931 mean_pairwise_cosine=0.3399
+  epoch 1: train_loss=2.0754 val_loss=1.8273 mean_pairwise_cosine=0.2745
+  epoch 2: train_loss=1.7660 val_loss=1.7104 mean_pairwise_cosine=0.1977
+  epoch 3: train_loss=1.5477 val_loss=1.6379 mean_pairwise_cosine=0.1053
+  epoch 4: train_loss=1.3933 val_loss=1.5693 mean_pairwise_cosine=0.0979
+  epoch 5: train_loss=1.2750 val_loss=1.5640 mean_pairwise_cosine=0.0915
+  epoch 6: train_loss=1.1830 val_loss=1.5034 mean_pairwise_cosine=0.0732
+  epoch 7: train_loss=1.1082 val_loss=1.4912 mean_pairwise_cosine=0.0689
+  epoch 8: train_loss=1.0434 val_loss=1.4712 mean_pairwise_cosine=0.0589
+  epoch 9: train_loss=1.0095 val_loss=1.4693 mean_pairwise_cosine=0.0763
+  epoch 10: train_loss=0.9753 val_loss=1.4383 mean_pairwise_cosine=0.0463
+  epoch 11: train_loss=0.9204 val_loss=1.4359 mean_pairwise_cosine=0.0310
+  epoch 12: train_loss=0.8996 val_loss=1.4452 mean_pairwise_cosine=0.0375
+  epoch 13: train_loss=0.8714 val_loss=1.4439 mean_pairwise_cosine=0.0318
+  epoch 14: train_loss=0.8443 val_loss=1.4690 mean_pairwise_cosine=0.0407
+  epoch 15: train_loss=0.8187 val_loss=1.4534 mean_pairwise_cosine=0.0332
+  epoch 16: train_loss=0.8067 val_loss=1.4414 mean_pairwise_cosine=0.0439
+  early stopping at epoch 16 (patience=5 exceeded, best_val_loss=1.4359)
+Saved best checkpoint to /Users/haseeb/Desktop/mitacs_project/week3/phase8_cross_category_retraining/models/model_a_random_negs.pt (best_val_loss=1.4359)
+
+=== Training model_b_hard_negs (R=4 random negs, H=4 hard negs) ===
+  epoch 0: train_loss=3.3600 val_loss=2.8580 mean_pairwise_cosine=0.5581
+  epoch 1: train_loss=2.7338 val_loss=2.6037 mean_pairwise_cosine=0.4564
+  epoch 2: train_loss=2.3973 val_loss=2.4576 mean_pairwise_cosine=0.3360
+  epoch 3: train_loss=2.1524 val_loss=2.4082 mean_pairwise_cosine=0.2991
+  epoch 4: train_loss=1.9573 val_loss=2.3031 mean_pairwise_cosine=0.2637
+  epoch 5: train_loss=1.7976 val_loss=2.2777 mean_pairwise_cosine=0.2129
+  epoch 6: train_loss=1.6688 val_loss=2.2723 mean_pairwise_cosine=0.1323
+  epoch 7: train_loss=1.5564 val_loss=2.2446 mean_pairwise_cosine=0.1197
+  epoch 8: train_loss=1.4633 val_loss=2.2651 mean_pairwise_cosine=0.1072
+  epoch 9: train_loss=1.3825 val_loss=2.2274 mean_pairwise_cosine=0.0673
+  epoch 10: train_loss=1.3235 val_loss=2.1730 mean_pairwise_cosine=0.0759
+  epoch 11: train_loss=1.2636 val_loss=2.1566 mean_pairwise_cosine=0.0440
+  epoch 12: train_loss=1.2109 val_loss=2.1517 mean_pairwise_cosine=0.0589
+  epoch 13: train_loss=1.1622 val_loss=2.1398 mean_pairwise_cosine=0.0467
+  epoch 14: train_loss=1.1406 val_loss=2.1233 mean_pairwise_cosine=0.0540
+  epoch 15: train_loss=1.1080 val_loss=2.1293 mean_pairwise_cosine=0.0346
+  epoch 16: train_loss=1.0863 val_loss=2.1062 mean_pairwise_cosine=0.0498
+  epoch 17: train_loss=1.0488 val_loss=2.1322 mean_pairwise_cosine=0.0549
+  epoch 18: train_loss=1.0220 val_loss=2.1300 mean_pairwise_cosine=0.0391
+  epoch 19: train_loss=1.0191 val_loss=2.1369 mean_pairwise_cosine=0.0256
+  epoch 20: train_loss=0.9918 val_loss=2.1332 mean_pairwise_cosine=0.0157
+  epoch 21: train_loss=0.9635 val_loss=2.1455 mean_pairwise_cosine=0.0221
+  early stopping at epoch 21 (patience=5 exceeded, best_val_loss=2.1062)
+Saved best checkpoint to /Users/haseeb/Desktop/mitacs_project/week3/phase8_cross_category_retraining/models/model_b_hard_negs.pt (best_val_loss=2.1062)
+
+Saved /Users/haseeb/Desktop/mitacs_project/week3/phase8_cross_category_retraining/models/training_curves.json

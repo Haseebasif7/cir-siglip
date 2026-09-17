@@ -1,0 +1,42 @@
+0 edge endpoints missing a perturbed twin (expected 0).
+Loaded 251008 original embeddings, 220455 perturbed embeddings, 1373702 train edges, 129850 val edges.
+Using device: mps
+    ...batch 2000/10732, running total=4.4627 compat=4.4242 inv=0.0385
+    ...batch 4000/10732, running total=4.4183 compat=4.3774 inv=0.0409
+    ...batch 6000/10732, running total=4.3931 compat=4.3509 inv=0.0422
+    ...batch 8000/10732, running total=4.3760 compat=4.3328 inv=0.0432
+    ...batch 10000/10732, running total=4.3631 compat=4.3191 inv=0.0440
+  epoch 0: train_loss=4.3585 (compat=4.3142 inv=0.0442) val_loss=4.9094 (compat=4.8699 inv=0.0395) mean_pairwise_cosine=0.7071
+    ...batch 2000/10732, running total=4.2794 compat=4.2298 inv=0.0496
+    ...batch 4000/10732, running total=4.2768 compat=4.2271 inv=0.0498
+    ...batch 6000/10732, running total=4.2747 compat=4.2245 inv=0.0502
+    ...batch 8000/10732, running total=4.2715 compat=4.2210 inv=0.0505
+    ...batch 10000/10732, running total=4.2690 compat=4.2183 inv=0.0507
+  epoch 1: train_loss=4.2677 (compat=4.2169 inv=0.0508) val_loss=4.9641 (compat=4.9228 inv=0.0413) mean_pairwise_cosine=0.7048
+    ...batch 2000/10732, running total=4.2278 compat=4.1741 inv=0.0536
+    ...batch 4000/10732, running total=4.2295 compat=4.1755 inv=0.0540
+    ...batch 6000/10732, running total=4.2307 compat=4.1767 inv=0.0541
+    ...batch 8000/10732, running total=4.2300 compat=4.1758 inv=0.0542
+    ...batch 10000/10732, running total=4.2290 compat=4.1746 inv=0.0544
+  epoch 2: train_loss=4.2285 (compat=4.1741 inv=0.0545) val_loss=5.1210 (compat=5.0762 inv=0.0448) mean_pairwise_cosine=0.6837
+    ...batch 2000/10732, running total=4.1981 compat=4.1414 inv=0.0567
+    ...batch 4000/10732, running total=4.2007 compat=4.1440 inv=0.0566
+    ...batch 6000/10732, running total=4.2013 compat=4.1446 inv=0.0567
+    ...batch 8000/10732, running total=4.2020 compat=4.1452 inv=0.0568
+    ...batch 10000/10732, running total=4.2014 compat=4.1445 inv=0.0570
+  epoch 3: train_loss=4.2011 (compat=4.1441 inv=0.0571) val_loss=5.1227 (compat=5.0775 inv=0.0452) mean_pairwise_cosine=0.6836
+    ...batch 2000/10732, running total=4.1787 compat=4.1197 inv=0.0590
+    ...batch 4000/10732, running total=4.1810 compat=4.1219 inv=0.0591
+    ...batch 6000/10732, running total=4.1816 compat=4.1225 inv=0.0590
+    ...batch 8000/10732, running total=4.1809 compat=4.1218 inv=0.0592
+    ...batch 10000/10732, running total=4.1808 compat=4.1216 inv=0.0592
+  epoch 4: train_loss=4.1803 (compat=4.1211 inv=0.0592) val_loss=5.1586 (compat=5.1129 inv=0.0457) mean_pairwise_cosine=0.6803
+    ...batch 2000/10732, running total=4.1586 compat=4.0978 inv=0.0608
+    ...batch 4000/10732, running total=4.1633 compat=4.1024 inv=0.0609
+    ...batch 6000/10732, running total=4.1645 compat=4.1038 inv=0.0608
+    ...batch 8000/10732, running total=4.1642 compat=4.1033 inv=0.0609
+    ...batch 10000/10732, running total=4.1640 compat=4.1031 inv=0.0609
+  epoch 5: train_loss=4.1641 (compat=4.1032 inv=0.0609) val_loss=5.2479 (compat=5.2004 inv=0.0475) mean_pairwise_cosine=0.6693
+  early stopping at epoch 5 (patience=5 exceeded, best_val_loss=4.9094)
+Saved best checkpoint to /Users/haseeb/Desktop/mitacs_project/week3/phase10_color_invariant_compatibility/models/model_color_invariant.pt (best_val_loss=4.9094)
+Saved /Users/haseeb/Desktop/mitacs_project/week3/phase10_color_invariant_compatibility/models/training_curves.json

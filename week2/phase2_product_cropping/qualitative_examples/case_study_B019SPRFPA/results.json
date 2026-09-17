@@ -1,0 +1,134 @@
+{
+  "fashionclip": {
+    "phase1_original": {
+      "retrieved": [
+        "B000MPMF24",
+        "B000MPMF2O",
+        "B000MPO6NU",
+        "B00I9CNQES",
+        "B01EL8HHFM"
+      ],
+      "hit_flags": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "phase2_uncropped": {
+      "retrieved": [
+        "B019JKQ5DC",
+        "B01E7ZZDV4",
+        "B018UY3L6M",
+        "B00KTQTI62",
+        "B01CPS3WDQ"
+      ],
+      "hit_flags": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "phase2_cropA": {
+      "retrieved": [
+        "B005OVC4G8",
+        "B005OVFT38",
+        "B01CEBC7IK",
+        "B010V81PCC",
+        "B00QBTDIW6"
+      ],
+      "hit_flags": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "phase2_cropB": {
+      "retrieved": [
+        "B00COE5AM8",
+        "B00AE0NWWO",
+        "B017BPMM3O",
+        "B00JMD2L4O",
+        "B00AE0NWX8"
+      ],
+      "hit_flags": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "siglip_base": {
+    "phase1_original": {
+      "retrieved": [
+        "B000MPMF2O",
+        "B000MPO6NU",
+        "B000MPMF24",
+        "B0133B68WQ",
+        "B00NV8VERG"
+      ],
+      "hit_flags": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "phase2_uncropped": {
+      "retrieved": [
+        "B0131WZC5Q",
+        "B00AQ7AKR0",
+        "B015FH7R4O",
+        "B01BZLJRJ2",
+        "B00KTQTRD6"
+      ],
+      "hit_flags": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "phase2_cropA": {
+      "retrieved": [
+        "B018UY3L6M",
+        "B019JKQ5DC",
+        "B0131WZC5Q",
+        "B016LMPKIM",
+        "B00ELUVOQE"
+      ],
+      "hit_flags": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "phase2_cropB": {
+      "retrieved": [
+        "B00QXU2US6",
+        "B00TO6DCP6",
+        "B00CC03DAU",
+        "B008VE6AJW",
+        "B008UDJMXU"
+      ],
+      "hit_flags": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

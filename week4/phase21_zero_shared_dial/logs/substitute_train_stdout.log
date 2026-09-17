@@ -1,0 +1,18 @@
+Loaded 251008 embeddings, 204679 train anchors, 25132 val anchors, NN lookup K=50. Device: mps
+  epoch 0: train_loss=0.0359 val_loss=0.0190 mean_pairwise_cosine=0.7249
+  epoch 1: train_loss=0.0308 val_loss=0.0197 mean_pairwise_cosine=0.7514
+  epoch 2: train_loss=0.0297 val_loss=0.0167 mean_pairwise_cosine=0.7160
+  epoch 3: train_loss=0.0290 val_loss=0.0179 mean_pairwise_cosine=0.7451
+  epoch 4: train_loss=0.0285 val_loss=0.0187 mean_pairwise_cosine=0.7525
+  epoch 5: train_loss=0.0280 val_loss=0.0170 mean_pairwise_cosine=0.7342
+  epoch 6: train_loss=0.0276 val_loss=0.0158 mean_pairwise_cosine=0.7185
+  epoch 7: train_loss=0.0273 val_loss=0.0180 mean_pairwise_cosine=0.7502
+  epoch 8: train_loss=0.0270 val_loss=0.0147 mean_pairwise_cosine=0.7064
+  epoch 9: train_loss=0.0267 val_loss=0.0154 mean_pairwise_cosine=0.7216
+  epoch 10: train_loss=0.0265 val_loss=0.0152 mean_pairwise_cosine=0.7245
+  epoch 11: train_loss=0.0264 val_loss=0.0154 mean_pairwise_cosine=0.7259
+  epoch 12: train_loss=0.0263 val_loss=0.0152 mean_pairwise_cosine=0.7266
+  epoch 13: train_loss=0.0261 val_loss=0.0158 mean_pairwise_cosine=0.7283
+  early stopping at epoch 13 (best_val_loss=0.0147)
+Saved best checkpoint to /Users/haseeb/Desktop/mitacs_project/week4/phase21_zero_shared_dial/models/substitute_head.pt (best_val_loss=0.0147)
+Saved training curves.

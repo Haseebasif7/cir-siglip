@@ -1,0 +1,29 @@
+# Phase 20: Honest Interpretation -- Consolidating the Full Comparison
+
+## What this phase did
+
+Points 4, 6, and 7 of the professor's redirect sequence. No new training -- this phase verified an existing number, assembled the complete comparison table across the whole redirected sequence, and checked the professor's own stated success bar explicitly, per K.
+
+## Step 1: phase 9's number verified, not assumed
+
+Re-ran phase 9's existing `model_a_random_negs.pt` checkpoint directly against the current CIR benchmark. Result matched the cited numbers exactly: `Recall@10=0.1317, Recall@30=0.2464, Recall@50=0.3216`. See `verification_check.md`. No discrepancy, no investigation needed -- the number the whole project has been citing since phase 12 is still exactly right.
+
+## Steps 2-3: the full table and the bar check
+
+`final_comparison_table.md` assembles every configuration tested across this redirected sequence: raw SigLIP, phase 19's feature weighting, phase 14b's OutfitTransformer reproduction (the current main baseline per point 1), phase 13b's CSA-Net reproduction (the attention candidate), phase 9's plain projection (the projection candidate), and OutfitTransformer's own published numbers.
+
+**Phase 9's plain ProjectionHead is the clear winner, at every K, by a wide margin.** It is not a close call: 1.78-2.24x phase 14b's OutfitTransformer reproduction, 1.74-1.82x CSA-Net's reproduction, 1.37-1.46x OutfitTransformer's own published numbers, and 2.24-2.38x raw SigLIP.
+
+`success_bar_check.md` checks the professor's exact point-7 bar (does the best approach consistently beat OutfitTransformer, at every K, not just one) two ways, per her own instruction: against phase 14b's matched-backbone reproduction (no caveat needed) and against OutfitTransformer's own published numbers (properly caveated, different backbone). **Both checks pass at all three K values, cleanly, with no ambiguous or marginal result rounded up.** The margin is largest at K=10 and narrows somewhat toward K=50 in the matched-backbone comparison (2.24x down to 1.78x), but never comes close to reversing, and stays essentially flat (~1.37-1.46x) against the published numbers.
+
+## Step 4: what this actually means for the redirected sequence
+
+**Phase 9's projection mechanism is confirmed as the strongest configuration, stated plainly, not downplayed.** This matters specifically because of what it implies about the redirect itself: the answer to the professor's central question -- does something in this project consistently beat OutfitTransformer -- was already available before this redirect started. Phase 9's model has appeared as a reference row in nearly every comparison table since phase 12, and it has been the top performer in every one of them, but it had never been assembled into one clean, direct table alongside a properly reproduced OutfitTransformer baseline (phase 14b) and checked explicitly against the professor's own stated bar until this phase.
+
+This is not a case of a complex, novel mechanism turning out to beat the literature. It is the opposite, and worth stating exactly as it is: **a simple compatibility-trained projection (a two-layer MLP, no attention, no conditioning, no controllable dial) on a strong modern vision-language backbone (SigLIP) outperforms both the more architecturally complex mechanisms tried in this project (CSA-Net's attention, OutfitTransformer's own transformer set-encoder) and OutfitTransformer's own published numbers, consistently, at every K.** This is a legitimate, citable, real finding on its own terms -- not something to frame as an anticlimax because the winning mechanism happens to be the simplest one tested, and not something to inflate by pretending the redirect discovered something new architecturally. The redirect's real contribution was the verification and consolidation itself: confirming this number still holds, reproducing OutfitTransformer fairly enough to make the comparison meaningful (phase 14b), and checking the bar explicitly rather than assuming a favorable-looking number would hold up at every K.
+
+One honest caveat worth carrying forward, not new to this phase but relevant to how this finding should be framed: phase 9's model was trained directly on Polyvore outfit co-occurrence data, the same distribution the CIR benchmark itself is drawn from -- so this is an in-domain result, not a claim about generalization to a different catalog or a different notion of compatibility. That is exactly the same domain OutfitTransformer and CSA-Net were also evaluated in, so the comparison itself is fair and matched; it is not a caveat that weakens the point-7 verdict, just context for how the finding should be described in any eventual writeup.
+
+## Step 5: what remains -- point 5, not attempted here
+
+Per the brief's explicit instruction, this phase does not test the controllable dial. What point 5 asks, flagged clearly as the one remaining open item in the professor's sequence: **test whether the controllable dial (this project's own phase 12c/17/18b mechanism, or some variant of it) can be applied to or combined with phase 9's plain projection -- now confirmed as the strongest configuration -- and whether doing so demonstrably improves this specific CIR Recall@10/30/50 number**, not whether it adds controllability for its own sake. Phase 9's own model has no dial; the project's dial work (phases 12c onward) was built on top of a different, weaker-performing shared-trunk architecture in earlier phases and the dedicated-capacity architecture in later ones (phase 17), never directly on top of phase 9's specific plain-projection checkpoint. Whether grafting a dial onto the winning mechanism helps, hurts, or is neutral for this exact benchmark is genuinely untested and is the natural next step, to be picked up next per the professor's own point 5 framing.

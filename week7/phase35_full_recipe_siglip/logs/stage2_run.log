@@ -1,0 +1,67 @@
+device=mps
+warm-started proj+set_enc (50 tensors) from /Users/haseeb/Desktop/mitacs_project/week7/phase35_full_recipe_siglip/models/stage1_cp_pretrain.pt
+epoch 0: hf=0.00 train_loss=-0.0528 val_loss=-0.0304 val_D_pos=1.1402 val_D_neg=1.0297 recall10=0.0853 elapsed=42s best_recall10=0.0853@0
+epoch 1: hf=0.01 train_loss=-0.0958 val_loss=-0.0478 val_D_pos=1.1397 val_D_neg=1.0404 recall10=0.0933 elapsed=82s best_recall10=0.0933@1
+epoch 2: hf=0.02 train_loss=-0.1109 val_loss=-0.0577 val_D_pos=1.1477 val_D_neg=1.0552 recall10=0.0984 elapsed=119s best_recall10=0.0984@2
+epoch 3: hf=0.03 train_loss=-0.1188 val_loss=-0.0661 val_D_pos=1.1586 val_D_neg=1.0720 recall10=0.0998 elapsed=157s best_recall10=0.0998@3
+epoch 4: hf=0.04 train_loss=-0.1257 val_loss=-0.0722 val_D_pos=1.1634 val_D_neg=1.0816 recall10=0.1039 elapsed=192s best_recall10=0.1039@4
+epoch 5: hf=0.05 train_loss=-0.1108 val_loss=-0.0838 val_D_pos=1.1912 val_D_neg=1.1186 recall10=0.1048 elapsed=229s best_recall10=0.1048@5
+epoch 6: hf=0.06 train_loss=-0.1163 val_loss=-0.0907 val_D_pos=1.2003 val_D_neg=1.1333 recall10=0.1063 elapsed=265s best_recall10=0.1063@6
+epoch 7: hf=0.07 train_loss=-0.1210 val_loss=-0.0968 val_D_pos=1.2110 val_D_neg=1.1487 recall10=0.1093 elapsed=302s best_recall10=0.1093@7
+epoch 8: hf=0.08 train_loss=-0.1254 val_loss=-0.1016 val_D_pos=1.2203 val_D_neg=1.1616 recall10=0.1118 elapsed=338s best_recall10=0.1118@8
+epoch 9: hf=0.09 train_loss=-0.1296 val_loss=-0.1106 val_D_pos=1.2347 val_D_neg=1.1841 recall10=0.1147 elapsed=375s best_recall10=0.1147@9
+epoch 10: hf=0.10 train_loss=-0.1358 val_loss=-0.1184 val_D_pos=1.2602 val_D_neg=1.2163 recall10=0.1176 elapsed=411s best_recall10=0.1176@10
+epoch 11: hf=0.11 train_loss=-0.1425 val_loss=-0.1350 val_D_pos=1.2991 val_D_neg=1.2704 recall10=0.1179 elapsed=446s best_recall10=0.1176@10
+epoch 12: hf=0.12 train_loss=-0.1504 val_loss=-0.1452 val_D_pos=1.3319 val_D_neg=1.3112 recall10=0.1197 elapsed=482s best_recall10=0.1197@12
+epoch 13: hf=0.13 train_loss=-0.1561 val_loss=-0.1519 val_D_pos=1.3423 val_D_neg=1.3265 recall10=0.1212 elapsed=519s best_recall10=0.1212@13
+epoch 14: hf=0.14 train_loss=-0.1602 val_loss=-0.1561 val_D_pos=1.3509 val_D_neg=1.3379 recall10=0.1227 elapsed=555s best_recall10=0.1227@14
+epoch 15: hf=0.15 train_loss=-0.1599 val_loss=-0.1631 val_D_pos=1.3777 val_D_neg=1.3698 recall10=0.1214 elapsed=592s best_recall10=0.1227@14
+epoch 16: hf=0.16 train_loss=-0.1628 val_loss=-0.1649 val_D_pos=1.3792 val_D_neg=1.3722 recall10=0.1193 elapsed=628s best_recall10=0.1227@14
+epoch 17: hf=0.17 train_loss=-0.1649 val_loss=-0.1661 val_D_pos=1.3785 val_D_neg=1.3718 recall10=0.1236 elapsed=665s best_recall10=0.1236@17
+epoch 18: hf=0.18 train_loss=-0.1663 val_loss=-0.1668 val_D_pos=1.3781 val_D_neg=1.3718 recall10=0.1224 elapsed=701s best_recall10=0.1236@17
+epoch 19: hf=0.19 train_loss=-0.1678 val_loss=-0.1682 val_D_pos=1.3798 val_D_neg=1.3739 recall10=0.1241 elapsed=738s best_recall10=0.1241@19
+epoch 20: hf=0.20 train_loss=-0.1689 val_loss=-0.1691 val_D_pos=1.3766 val_D_neg=1.3715 recall10=0.1199 elapsed=774s best_recall10=0.1241@19
+epoch 21: hf=0.21 train_loss=-0.1699 val_loss=-0.1699 val_D_pos=1.3797 val_D_neg=1.3746 recall10=0.1277 elapsed=809s best_recall10=0.1277@21
+epoch 22: hf=0.22 train_loss=-0.1711 val_loss=-0.1712 val_D_pos=1.3680 val_D_neg=1.3636 recall10=0.1291 elapsed=846s best_recall10=0.1291@22
+epoch 23: hf=0.23 train_loss=-0.1718 val_loss=-0.1718 val_D_pos=1.3730 val_D_neg=1.3687 recall10=0.1322 elapsed=882s best_recall10=0.1322@23
+epoch 24: hf=0.24 train_loss=-0.1728 val_loss=-0.1716 val_D_pos=1.3631 val_D_neg=1.3586 recall10=0.1341 elapsed=918s best_recall10=0.1341@24
+epoch 25: hf=0.25 train_loss=-0.1722 val_loss=-0.1747 val_D_pos=1.3826 val_D_neg=1.3801 recall10=0.1286 elapsed=955s best_recall10=0.1341@24
+epoch 26: hf=0.26 train_loss=-0.1729 val_loss=-0.1743 val_D_pos=1.3782 val_D_neg=1.3753 recall10=0.1307 elapsed=991s best_recall10=0.1341@24
+epoch 27: hf=0.27 train_loss=-0.1738 val_loss=-0.1762 val_D_pos=1.3767 val_D_neg=1.3746 recall10=0.1265 elapsed=1027s best_recall10=0.1341@24
+epoch 28: hf=0.28 train_loss=-0.1744 val_loss=-0.1765 val_D_pos=1.3772 val_D_neg=1.3753 recall10=0.1320 elapsed=1063s best_recall10=0.1341@24
+epoch 29: hf=0.29 train_loss=-0.1751 val_loss=-0.1758 val_D_pos=1.3770 val_D_neg=1.3749 recall10=0.1307 elapsed=1099s best_recall10=0.1341@24
+epoch 30: hf=0.30 train_loss=-0.1758 val_loss=-0.1778 val_D_pos=1.3793 val_D_neg=1.3783 recall10=0.1329 elapsed=1136s best_recall10=0.1341@24
+epoch 31: hf=0.31 train_loss=-0.1765 val_loss=-0.1784 val_D_pos=1.3710 val_D_neg=1.3705 recall10=0.1326 elapsed=1172s best_recall10=0.1341@24
+epoch 32: hf=0.32 train_loss=-0.1771 val_loss=-0.1773 val_D_pos=1.3671 val_D_neg=1.3666 recall10=0.1313 elapsed=1209s best_recall10=0.1341@24
+epoch 33: hf=0.33 train_loss=-0.1774 val_loss=-0.1775 val_D_pos=1.3671 val_D_neg=1.3665 recall10=0.1327 elapsed=1245s best_recall10=0.1341@24
+epoch 34: hf=0.34 train_loss=-0.1778 val_loss=-0.1789 val_D_pos=1.3717 val_D_neg=1.3710 recall10=0.1403 elapsed=1282s best_recall10=0.1403@34
+epoch 35: hf=0.35 train_loss=-0.1775 val_loss=-0.1798 val_D_pos=1.3815 val_D_neg=1.3819 recall10=0.1224 elapsed=1319s best_recall10=0.1403@34
+epoch 36: hf=0.36 train_loss=-0.1778 val_loss=-0.1811 val_D_pos=1.3778 val_D_neg=1.3784 recall10=0.1302 elapsed=1355s best_recall10=0.1403@34
+epoch 37: hf=0.37 train_loss=-0.1785 val_loss=-0.1804 val_D_pos=1.3794 val_D_neg=1.3797 recall10=0.1329 elapsed=1391s best_recall10=0.1403@34
+epoch 38: hf=0.38 train_loss=-0.1788 val_loss=-0.1810 val_D_pos=1.3723 val_D_neg=1.3729 recall10=0.1312 elapsed=1427s best_recall10=0.1403@34
+epoch 39: hf=0.39 train_loss=-0.1791 val_loss=-0.1822 val_D_pos=1.3776 val_D_neg=1.3785 recall10=0.1252 elapsed=1463s best_recall10=0.1403@34
+epoch 40: hf=0.40 train_loss=-0.1793 val_loss=-0.1821 val_D_pos=1.3793 val_D_neg=1.3802 recall10=0.1265 elapsed=1499s best_recall10=0.1403@34
+epoch 41: hf=0.41 train_loss=-0.1800 val_loss=-0.1817 val_D_pos=1.3819 val_D_neg=1.3830 recall10=0.1211 elapsed=1535s best_recall10=0.1403@34
+epoch 42: hf=0.42 train_loss=-0.1802 val_loss=-0.1818 val_D_pos=1.3761 val_D_neg=1.3770 recall10=0.1292 elapsed=1572s best_recall10=0.1403@34
+epoch 43: hf=0.43 train_loss=-0.1805 val_loss=-0.1831 val_D_pos=1.3807 val_D_neg=1.3824 recall10=0.1264 elapsed=1609s best_recall10=0.1403@34
+epoch 44: hf=0.44 train_loss=-0.1810 val_loss=-0.1835 val_D_pos=1.3746 val_D_neg=1.3764 recall10=0.1262 elapsed=1645s best_recall10=0.1403@34
+epoch 45: hf=0.45 train_loss=-0.1808 val_loss=-0.1833 val_D_pos=1.3720 val_D_neg=1.3734 recall10=0.1313 elapsed=1681s best_recall10=0.1403@34
+epoch 46: hf=0.46 train_loss=-0.1810 val_loss=-0.1842 val_D_pos=1.3754 val_D_neg=1.3779 recall10=0.1240 elapsed=1718s best_recall10=0.1403@34
+epoch 47: hf=0.47 train_loss=-0.1808 val_loss=-0.1841 val_D_pos=1.3788 val_D_neg=1.3812 recall10=0.1183 elapsed=1754s best_recall10=0.1403@34
+epoch 48: hf=0.48 train_loss=-0.1813 val_loss=-0.1838 val_D_pos=1.3714 val_D_neg=1.3736 recall10=0.1236 elapsed=1792s best_recall10=0.1403@34
+epoch 49: hf=0.49 train_loss=-0.1815 val_loss=-0.1838 val_D_pos=1.3795 val_D_neg=1.3811 recall10=0.1204 elapsed=1855s best_recall10=0.1403@34
+epoch 50: hf=0.51 train_loss=-0.1820 val_loss=-0.1849 val_D_pos=1.3759 val_D_neg=1.3783 recall10=0.1284 elapsed=1903s best_recall10=0.1403@34
+epoch 51: hf=0.52 train_loss=-0.1823 val_loss=-0.1848 val_D_pos=1.3802 val_D_neg=1.3828 recall10=0.1150 elapsed=1941s best_recall10=0.1403@34
+epoch 52: hf=0.53 train_loss=-0.1826 val_loss=-0.1863 val_D_pos=1.3731 val_D_neg=1.3768 recall10=0.1260 elapsed=1992s best_recall10=0.1403@34
+epoch 53: hf=0.54 train_loss=-0.1827 val_loss=-0.1852 val_D_pos=1.3759 val_D_neg=1.3786 recall10=0.1310 elapsed=2045s best_recall10=0.1403@34
+epoch 54: hf=0.55 train_loss=-0.1827 val_loss=-0.1856 val_D_pos=1.3728 val_D_neg=1.3758 recall10=0.1283 elapsed=2106s best_recall10=0.1403@34
+epoch 55: hf=0.56 train_loss=-0.1826 val_loss=-0.1855 val_D_pos=1.3814 val_D_neg=1.3842 recall10=0.1215 elapsed=2141s best_recall10=0.1403@34
+epoch 56: hf=0.57 train_loss=-0.1827 val_loss=-0.1852 val_D_pos=1.3805 val_D_neg=1.3829 recall10=0.1227 elapsed=2175s best_recall10=0.1403@34
+epoch 57: hf=0.58 train_loss=-0.1831 val_loss=-0.1852 val_D_pos=1.3814 val_D_neg=1.3840 recall10=0.1218 elapsed=2208s best_recall10=0.1403@34
+epoch 58: hf=0.59 train_loss=-0.1832 val_loss=-0.1861 val_D_pos=1.3771 val_D_neg=1.3802 recall10=0.1217 elapsed=2240s best_recall10=0.1403@34
+epoch 59: hf=0.60 train_loss=-0.1835 val_loss=-0.1861 val_D_pos=1.3825 val_D_neg=1.3853 recall10=0.1202 elapsed=2273s best_recall10=0.1403@34
+early stop at epoch 59 (patience=25)
+
+Saved checkpoint to /Users/haseeb/Desktop/mitacs_project/week7/phase35_full_recipe_siglip/models/stage2_retrieval_finetune.pt
+Saved result to /Users/haseeb/Desktop/mitacs_project/week7/phase35_full_recipe_siglip/data/stage2_result.json
+s/epoch (mean): 37.9

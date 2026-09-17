@@ -1,0 +1,9 @@
+Step 1 winner: width=1024 (val Recall@10=0.1656)
+Launching 6 depth x lr configs in parallel on Modal...
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase25_scale/data/depth_sweep_results.json
+depth=2 width=1024 lr=0.0005: best_recall10=0.1515 @epoch1 (6 epochs run, 733s, 1968256 params)
+depth=2 width=1024 lr=0.001: best_recall10=0.1468 @epoch1 (6 epochs run, 736s, 1968256 params)
+depth=2 width=1024 lr=0.002: best_recall10=0.1379 @epoch1 (6 epochs run, 759s, 1968256 params)
+depth=3 width=1024 lr=0.0005: best_recall10=0.1274 @epoch1 (6 epochs run, 799s, 3017856 params)
+depth=3 width=1024 lr=0.001: best_recall10=0.1183 @epoch4 (9 epochs run, 1252s, 3017856 params)
+depth=3 width=1024 lr=0.002: best_recall10=0.1139 @epoch5 (10 epochs run, 1301s, 3017856 params)

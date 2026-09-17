@@ -1,0 +1,15 @@
+alpha=0.0: recall@10=0.1202 axis1=0.7142 axis2=0.1260 overlap_raw=0.1132 overlap_comp=1.0000
+alpha=0.1: recall@10=0.1199 axis1=0.7149 axis2=0.1260 overlap_raw=0.1160 overlap_comp=0.9016
+alpha=0.2: recall@10=0.1178 axis1=0.7171 axis2=0.1240 overlap_raw=0.1222 overlap_comp=0.7958
+alpha=0.3: recall@10=0.1130 axis1=0.7213 axis2=0.1200 overlap_raw=0.1324 overlap_comp=0.6742
+alpha=0.4: recall@10=0.1055 axis1=0.7267 axis2=0.1230 overlap_raw=0.1536 overlap_comp=0.5346
+alpha=0.5: recall@10=0.0937 axis1=0.7328 axis2=0.1160 overlap_raw=0.1844 overlap_comp=0.3992
+alpha=0.6: recall@10=0.0803 axis1=0.7385 axis2=0.0970 overlap_raw=0.2178 overlap_comp=0.2876
+alpha=0.7: recall@10=0.0690 axis1=0.7431 axis2=0.0840 overlap_raw=0.2594 overlap_comp=0.2148
+alpha=0.8: recall@10=0.0614 axis1=0.7462 axis2=0.0740 overlap_raw=0.3002 overlap_comp=0.1810
+alpha=0.9: recall@10=0.0577 axis1=0.7483 axis2=0.0700 overlap_raw=0.3236 overlap_comp=0.1616
+alpha=1.0: recall@10=0.0573 axis1=0.7492 axis2=0.0710 overlap_raw=0.3310 overlap_comp=0.1580
+
+Saved /Users/haseeb/Desktop/mitacs_project/week5/phase17_dedicated_capacity_generalization/data/alpha_sweep_results.json
+Saved /Users/haseeb/Desktop/mitacs_project/week5/phase17_dedicated_capacity_generalization/data/topk_cache.json
+Appended to /Users/haseeb/Desktop/mitacs_project/week5/phase17_dedicated_capacity_generalization/results_table.md

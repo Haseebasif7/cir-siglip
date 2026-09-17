@@ -1,0 +1,6 @@
+Smoke test: 5000 train edges (subset of 1373702), 3 epochs.
+Calibration (subset, 5 batches): initial_comp=4.9020, initial_sub=0.0718, weight_sub=68.2685
+  epoch 0: train_comp=4.7386 train_sub=0.0584 collapse_comp=0.7744 collapse_sub=0.8034
+  epoch 1: train_comp=4.4838 train_sub=0.0420 collapse_comp=0.6403 collapse_sub=0.7657
+  epoch 2: train_comp=4.2786 train_sub=0.0369 collapse_comp=0.6452 collapse_sub=0.7781
+Smoke test complete: no collapse detected, proceeding to full training.

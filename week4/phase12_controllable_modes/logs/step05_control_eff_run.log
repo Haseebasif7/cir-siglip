@@ -1,0 +1,26 @@
+# Phase 12, Step 4.2: Control-Effectiveness Diagnostic
+
+Sample: 1000 CIR benchmark queries (seed=42, target sample size 1000), top-10 results compared under substitute mode (alpha=1.0) and complement mode (alpha=0.0), same shared checkpoint, same queries.
+
+## Axis 1: visual similarity to the query (raw SigLIP cosine, averaged over top-10 results)
+
+Premise: substitute mode should look MORE like plain visual similarity, so its top-10 results should have higher average raw-SigLIP similarity to the query than complement mode's.
+
+- Substitute mode: 0.7193
+- Complement mode: 0.7120
+- **Direction CONFIRMED** (substitute > complement).
+
+## Axis 2: match rate against real outfit co-occurrence ground truth (hit@10 on the true held-out target)
+
+Premise: complement mode should better match real 'goes well with' outfit assembly, so its hit rate against the CIR benchmark's true target (a real Polyvore co-outfit partner, by construction) should be higher than substitute mode's.
+
+- Substitute mode: 0.1280 (128/1000)
+- Complement mode: 0.1280 (128/1000)
+- **Direction NOT CONFIRMED** (complement <= substitute).
+
+## Verdict
+
+**Only one direction confirmed.** The control knob moves behavior as intended on one axis but not the other -- see phase12_notes.md for interpretation of which axis failed and why that matters for the overall recommendation.
+
+
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase12_controllable_modes/control_effectiveness.md

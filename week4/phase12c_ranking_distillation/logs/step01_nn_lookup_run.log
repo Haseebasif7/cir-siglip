@@ -1,0 +1,13 @@
+Loaded 251008 raw SigLIP embeddings, dim=768. Device: mps
+  chunk 20/123 (40960/251008 items), elapsed=57.6s, rate=711 items/s, ETA=295.4s
+  chunk 40/123 (81920/251008 items), elapsed=111.1s, rate=738 items/s, ETA=229.2s
+  chunk 60/123 (122880/251008 items), elapsed=167.8s, rate=732 items/s, ETA=174.9s
+  chunk 80/123 (163840/251008 items), elapsed=222.4s, rate=737 items/s, ETA=118.3s
+  chunk 100/123 (204800/251008 items), elapsed=274.4s, rate=746 items/s, ETA=61.9s
+  chunk 120/123 (245760/251008 items), elapsed=325.8s, rate=754 items/s, ETA=7.0s
+  chunk 123/123 (251008/251008 items), elapsed=332.6s, rate=755 items/s, ETA=0.0s
+Done in 332.6s (5.5 min).
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase12c_ranking_distillation/data/nn_lookup.npz (104.4 MB)
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase12c_ranking_distillation/nearest_neighbor_lookup_summary.md
+Self-inclusion check: 0/2000 (expected 0)
+Sim range: min=0.3424 max=1.0000 mean=0.8122

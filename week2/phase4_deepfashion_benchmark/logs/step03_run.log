@@ -1,0 +1,15 @@
+Evaluating resnet50...
+  resnet50: 14218 query, 12612 gallery embeddings
+  {'recall@1': 0.2903361935574624, 'recall@5': 0.45920663947109297, 'recall@10': 0.5306653537769025, 'recall@20': 0.6020537347024898}
+Evaluating clip_vit_b32...
+  clip_vit_b32: 14218 query, 12612 gallery embeddings
+  {'recall@1': 0.4551273034182023, 'recall@5': 0.6725277816851878, 'recall@10': 0.7427204951469968, 'recall@20': 0.8072162048108033}
+Evaluating fashionclip...
+  fashionclip: 14218 query, 12612 gallery embeddings
+  {'recall@1': 0.6659867773245182, 'recall@5': 0.8505415670277113, 'recall@10': 0.8967505978337319, 'recall@20': 0.9296666197777466}
+Evaluating siglip_base...
+  siglip_base: 14218 query, 12612 gallery embeddings
+  {'recall@1': 0.7373048248698832, 'recall@5': 0.8942889295259531, 'recall@10': 0.928963285975524, 'recall@20': 0.9530173020115347}
+
+Saved /Users/haseeb/Desktop/mitacs_project/week2/phase4_deepfashion_benchmark/data/retrieval_results.json
+Saved /Users/haseeb/Desktop/mitacs_project/week2/phase4_deepfashion_benchmark/results_table.md

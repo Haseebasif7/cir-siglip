@@ -1,0 +1,23 @@
+N=10 alpha=0.0: coverage=0.002382 tail_coverage=0.001910 apri=16.58 rpi=0.5230
+N=20 alpha=0.0: coverage=0.003584 tail_coverage=0.002977 apri=16.23 rpi=0.5149
+N=10 alpha=0.1: coverage=0.002382 tail_coverage=0.001910 apri=16.60 rpi=0.5231
+N=20 alpha=0.1: coverage=0.003588 tail_coverage=0.002978 apri=16.31 rpi=0.5154
+N=10 alpha=0.2: coverage=0.002386 tail_coverage=0.001909 apri=16.65 rpi=0.5235
+N=20 alpha=0.2: coverage=0.003588 tail_coverage=0.002974 apri=16.43 rpi=0.5158
+N=10 alpha=0.3: coverage=0.002386 tail_coverage=0.001909 apri=16.73 rpi=0.5237
+N=20 alpha=0.3: coverage=0.003592 tail_coverage=0.002976 apri=16.47 rpi=0.5159
+N=10 alpha=0.4: coverage=0.002385 tail_coverage=0.001909 apri=16.74 rpi=0.5230
+N=20 alpha=0.4: coverage=0.003591 tail_coverage=0.002972 apri=16.53 rpi=0.5163
+N=10 alpha=0.5: coverage=0.002387 tail_coverage=0.001912 apri=16.80 rpi=0.5232
+N=20 alpha=0.5: coverage=0.003589 tail_coverage=0.002971 apri=16.62 rpi=0.5162
+N=10 alpha=0.6: coverage=0.002385 tail_coverage=0.001913 apri=16.82 rpi=0.5235
+N=20 alpha=0.6: coverage=0.003589 tail_coverage=0.002968 apri=16.66 rpi=0.5163
+N=10 alpha=0.7: coverage=0.002386 tail_coverage=0.001912 apri=16.92 rpi=0.5234
+N=20 alpha=0.7: coverage=0.003586 tail_coverage=0.002970 apri=16.71 rpi=0.5163
+N=10 alpha=0.8: coverage=0.002387 tail_coverage=0.001916 apri=16.97 rpi=0.5234
+N=20 alpha=0.8: coverage=0.003585 tail_coverage=0.002965 apri=16.72 rpi=0.5167
+N=10 alpha=0.9: coverage=0.002383 tail_coverage=0.001911 apri=17.13 rpi=0.5231
+N=20 alpha=0.9: coverage=0.003580 tail_coverage=0.002964 apri=16.80 rpi=0.5170
+N=10 alpha=1.0: coverage=0.002384 tail_coverage=0.001904 apri=17.21 rpi=0.5233
+N=20 alpha=1.0: coverage=0.003583 tail_coverage=0.002968 apri=16.92 rpi=0.5171
+Appended field-standard metrics + GUME comparison to /Users/haseeb/Desktop/mitacs_project/week5/phase16_relevance_tail_dial/results_table.md

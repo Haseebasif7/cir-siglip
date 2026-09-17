@@ -1,0 +1,5 @@
+Loaded 1872 eval products (untouched phase 1b/1c sample).
+Sanity check PASSED: recomputed raw SigLIP metrics match the existing reported baseline.
+Phase 10 color-invariant model: FULL {'n': 1872, 'hit_rate@5': 0.30074786324786323, 'hit_rate@10': 0.3803418803418803, 'precision@5': 0.092628205128205, 'precision@10': 0.07126068376068317} | CROSS-TYPE-ONLY {'n': 1732, 'hit_rate@5': 0.04734411085450346, 'hit_rate@10': 0.06697459584295612, 'precision@5': 0.012471131639722846, 'precision@10': 0.00969976905311777}
+
+Appended transfer-test results to /Users/haseeb/Desktop/mitacs_project/week3/phase10_color_invariant_compatibility/results_table.md

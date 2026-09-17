@@ -1,0 +1,6 @@
+Loaded 251008 embeddings, resolved 53506 set_id_index references.
+Raw SigLIP (reference): AUC=0.7172 (n=20000, 0 skipped) | FITB acc=0.4843 (n=10000, 0 skipped)
+Model A (random negs): AUC=0.9469 (n=20000, 0 skipped) | FITB acc=0.7031 (n=10000, 0 skipped)
+Model B (hard negs): AUC=0.9373 (n=20000, 0 skipped) | FITB acc=0.6840 (n=10000, 0 skipped)
+
+Saved /Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/results_table.md

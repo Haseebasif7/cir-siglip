@@ -1,0 +1,16 @@
+Inspecting outfit JSONs...
+{'train': {'n_outfits': 53306, 'n_item_slots': 284767, 'bad_index_outfits': 0}, 'valid': {'n_outfits': 5000, 'n_item_slots': 26781, 'bad_index_outfits': 0}, 'test': {'n_outfits': 10000, 'n_item_slots': 53506, 'bad_index_outfits': 0}}
+Inspecting item metadata...
+  251008 items, 11 distinct semantic categories
+Inspecting compatibility files...
+{'train': {'1': 53306, '0': 53306}, 'valid': {'1': 5000, '0': 5000}, 'test': {'1': 10000, '0': 10000}}
+Inspecting fill-in-the-blank files...
+{'train': 53306, 'valid': 5000, 'test': 10000}
+Decoding images from parquet (train/valid/test)...
+  train: 204679 rows processed, 204679 unique images written so far
+  valid: 25132 rows processed, 220455 unique images written so far
+  test: 47854 rows processed, 251008 unique images written so far
+Total unique images written: 251008, total size 2476.0 MB, mean 9.6 KB/image
+
+Saved /Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/dataset_structure_check.md
+Deleted source parquet files (images already extracted and verified).

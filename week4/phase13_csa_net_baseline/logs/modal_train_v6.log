@@ -1,0 +1,92 @@
+✓ Initialized. View run at 
+https://modal.com/apps/muhamasif/main/ap-06ZgacX2t8L6C7YCknShXo
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/haseeb/Desktop/mitacs_project/week4/phase13_csa_net_baseline/scripts/
+│   modal_train_csa_net.py
+├── 🔨 Created mount 
+│   /Users/haseeb/Desktop/mitacs_project/week4/phase13_csa_net_baseline/scripts
+└── 🔨 Created function train.
+Extracting polyvore_images.tar to local container disk...
+Extracted 251008 images.
+Training on device=cuda
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+
+[1A  0%|          | 0.00/44.7M [00:00<?, ?B/s]
+[1A 23%|██▎       | 10.2M/44.7M [00:00<00:00, 105MB/s]
+[1A 46%|████▋     | 20.8M/44.7M [00:00<00:00, 108MB/s]
+[1A 82%|████████▏ | 36.6M/44.7M [00:00<00:00, 134MB/s]
+[1A100%|██████████| 44.7M/44.7M [00:00<00:00, 131MB/s]
+Backbone frozen for the first 3 epoch(s).
+epoch 0 step 50: loss=-3.1559 D_pos=1.9695 D_neg=1.8084 lr=4.98e-05
+epoch 0 step 100: loss=-3.2699 D_pos=1.9788 D_neg=1.8295 lr=4.95e-05
+epoch 0 step 150: loss=-3.3051 D_pos=2.0014 D_neg=1.8371 lr=4.93e-05
+epoch 0 step 200: loss=-3.2765 D_pos=2.0072 D_neg=1.8120 lr=4.91e-05
+epoch 0 step 250: loss=-3.3275 D_pos=1.9546 D_neg=1.8090 lr=4.89e-05
+epoch 0 step 300: loss=-3.2657 D_pos=1.9830 D_neg=1.8437 lr=4.86e-05
+epoch 0 step 350: loss=-3.3268 D_pos=2.0053 D_neg=1.8175 lr=4.84e-05
+epoch 0 step 400: loss=-3.2961 D_pos=1.9664 D_neg=1.8219 lr=4.82e-05
+epoch 0 step 450: loss=-3.4032 D_pos=1.9563 D_neg=1.8064 lr=4.80e-05
+epoch 0 step 500: loss=-3.3133 D_pos=1.9840 D_neg=1.8307 lr=4.77e-05
+epoch 0 step 550: loss=-3.3404 D_pos=1.9984 D_neg=1.8439 lr=4.75e-05
+== epoch 0 done: train_loss=-3.2120 val_loss=-3.3277 val_D_pos=1.9739 val_D_neg=1.8120 ==
+  -> new best val_loss -3.3277, checkpoint saved
+epoch 1 step 600: loss=-3.3880 D_pos=1.9747 D_neg=1.8240 lr=4.73e-05
+epoch 1 step 650: loss=-3.3439 D_pos=1.9862 D_neg=1.8239 lr=4.71e-05
+epoch 1 step 700: loss=-3.3627 D_pos=1.9823 D_neg=1.8328 lr=4.68e-05
+epoch 1 step 750: loss=-3.3416 D_pos=1.9508 D_neg=1.8026 lr=4.66e-05
+epoch 1 step 800: loss=-3.3502 D_pos=1.9648 D_neg=1.8098 lr=4.64e-05
+epoch 1 step 850: loss=-3.3965 D_pos=1.9524 D_neg=1.8099 lr=4.62e-05
+epoch 1 step 900: loss=-3.3697 D_pos=1.9806 D_neg=1.8194 lr=4.59e-05
+epoch 1 step 950: loss=-3.3358 D_pos=1.9421 D_neg=1.8023 lr=4.57e-05
+epoch 1 step 1000: loss=-3.4061 D_pos=1.9681 D_neg=1.8076 lr=4.55e-05
+epoch 1 step 1050: loss=-3.2942 D_pos=1.9713 D_neg=1.8119 lr=4.53e-05
+epoch 1 step 1100: loss=-3.3080 D_pos=1.9856 D_neg=1.8105 lr=4.50e-05
+== epoch 1 done: train_loss=-3.3559 val_loss=-3.3653 val_D_pos=1.9707 val_D_neg=1.8140 ==
+  -> new best val_loss -3.3653, checkpoint saved
+epoch 2 step 1150: loss=-3.3895 D_pos=1.9619 D_neg=1.8209 lr=4.48e-05
+epoch 2 step 1200: loss=-3.3939 D_pos=1.9647 D_neg=1.7994 lr=4.46e-05
+epoch 2 step 1250: loss=-3.3734 D_pos=1.9828 D_neg=1.8173 lr=4.44e-05
+epoch 2 step 1300: loss=-3.3824 D_pos=1.9657 D_neg=1.8146 lr=4.41e-05
+epoch 2 step 1350: loss=-3.3717 D_pos=1.9800 D_neg=1.8261 lr=4.39e-05
+epoch 2 step 1400: loss=-3.3809 D_pos=1.9646 D_neg=1.8362 lr=4.37e-05
+epoch 2 step 1450: loss=-3.4171 D_pos=1.9631 D_neg=1.8098 lr=4.35e-05
+epoch 2 step 1500: loss=-3.4153 D_pos=1.9602 D_neg=1.8271 lr=4.32e-05
+epoch 2 step 1550: loss=-3.3788 D_pos=1.9516 D_neg=1.8239 lr=4.30e-05
+epoch 2 step 1600: loss=-3.3810 D_pos=1.9748 D_neg=1.8241 lr=4.28e-05
+epoch 2 step 1650: loss=-3.3944 D_pos=1.9698 D_neg=1.8114 lr=4.26e-05
+== epoch 2 done: train_loss=-3.3790 val_loss=-3.3739 val_D_pos=1.9666 val_D_neg=1.8130 ==
+  -> new best val_loss -3.3739, checkpoint saved
+Unfroze backbone at epoch 3.
+epoch 3 step 1700: loss=-3.5019 D_pos=1.9805 D_neg=1.8106 lr=4.23e-05
+epoch 3 step 1750: loss=-3.5131 D_pos=1.9523 D_neg=1.7913 lr=4.21e-05
+epoch 3 step 1800: loss=-3.5141 D_pos=1.9979 D_neg=1.8276 lr=4.19e-05
+epoch 3 step 1850: loss=-3.5393 D_pos=1.9704 D_neg=1.8318 lr=4.17e-05
+epoch 3 step 1900: loss=-3.6039 D_pos=1.9726 D_neg=1.8326 lr=4.14e-05
+epoch 3 step 1950: loss=-3.5833 D_pos=1.9790 D_neg=1.8446 lr=4.12e-05
+epoch 3 step 2000: loss=-3.5899 D_pos=1.9549 D_neg=1.8308 lr=4.10e-05
+epoch 3 step 2050: loss=-3.5562 D_pos=1.9662 D_neg=1.8507 lr=4.08e-05
+epoch 3 step 2100: loss=-3.6004 D_pos=1.9603 D_neg=1.8392 lr=4.05e-05
+epoch 3 step 2150: loss=-3.5329 D_pos=1.9787 D_neg=1.8351 lr=4.03e-05
+epoch 3 step 2200: loss=-3.5544 D_pos=1.9868 D_neg=1.8578 lr=4.01e-05
+== epoch 3 done: train_loss=-3.5440 val_loss=-3.3864 val_D_pos=1.9408 val_D_neg=1.8218 ==
+  -> new best val_loss -3.3864, checkpoint saved
+epoch 4 step 2250: loss=-3.6269 D_pos=1.9378 D_neg=1.8259 lr=3.99e-05
+epoch 4 step 2300: loss=-3.5593 D_pos=1.9732 D_neg=1.8510 lr=3.96e-05
+epoch 4 step 2350: loss=-3.5716 D_pos=1.9699 D_neg=1.8430 lr=3.94e-05
+epoch 4 step 2400: loss=-3.6171 D_pos=1.9818 D_neg=1.8466 lr=3.92e-05
+epoch 4 step 2450: loss=-3.5741 D_pos=1.9911 D_neg=1.8507 lr=3.90e-05
+epoch 4 step 2500: loss=-3.5966 D_pos=1.9630 D_neg=1.8392 lr=3.87e-05
+epoch 4 step 2550: loss=-3.5671 D_pos=1.9583 D_neg=1.8450 lr=3.85e-05
+epoch 4 step 2600: loss=-3.6699 D_pos=1.9590 D_neg=1.8586 lr=3.83e-05
+epoch 4 step 2650: loss=-3.6327 D_pos=1.9667 D_neg=1.8442 lr=3.81e-05
+epoch 4 step 2700: loss=-3.6125 D_pos=1.9768 D_neg=1.8637 lr=3.78e-05
+epoch 4 step 2750: loss=-3.6579 D_pos=1.9548 D_neg=1.8546 lr=3.76e-05
+== epoch 4 done: train_loss=-3.6103 val_loss=-3.3952 val_D_pos=1.9363 val_D_neg=1.8308 ==
+  -> new best val_loss -3.3952, checkpoint saved
+epoch 5 step 2800: loss=-3.6088 D_pos=1.9808 D_neg=1.8533 lr=3.74e-05
+epoch 5 step 2850: loss=-3.6080 D_pos=1.9518 D_neg=1.8371 lr=3.72e-05
+epoch 5 step 2900: loss=-3.6608 D_pos=1.9766 D_neg=1.8720 lr=3.69e-05
+epoch 5 step 2950: loss=-3.6462 D_pos=1.9511 D_neg=1.8400 lr=3.67e-05
+epoch 5 step 3000: loss=-3.6189 D_pos=1.9779 D_neg=1.8530 lr=3.65e-05
+epoch 5 step 3050: loss=-3.6665 D_pos=1.9602 D_neg=1.8641 lr=3.63e-05

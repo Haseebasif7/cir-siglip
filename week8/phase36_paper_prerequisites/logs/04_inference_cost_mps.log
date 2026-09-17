@@ -1,0 +1,17 @@
+device=mps force_cpu=False repeats=3
+[rep 1/3] ours_solo: precompute 1.20s  query+score 1.09s  total 2.30s
+[rep 1/3] ours_ens: precompute 10.11s  query+score 5.51s  total 15.62s
+[rep 1/3] ot_solo: precompute 1.51s  query+score 3.75s  total 5.26s
+[rep 1/3] ot_ens: precompute 4.31s  query+score 9.27s  total 13.58s
+[rep 1/3] csa_ens: precompute 0.03s  query+score 26.00s  total 26.03s
+[rep 2/3] ours_solo: precompute 1.68s  query+score 0.93s  total 2.61s
+[rep 2/3] ours_ens: precompute 10.92s  query+score 5.41s  total 16.33s
+[rep 2/3] ot_solo: precompute 1.51s  query+score 3.39s  total 4.90s
+[rep 2/3] ot_ens: precompute 4.51s  query+score 9.73s  total 14.24s
+[rep 2/3] csa_ens: precompute 0.03s  query+score 27.06s  total 27.09s
+[rep 3/3] ours_solo: precompute 1.18s  query+score 0.90s  total 2.08s
+[rep 3/3] ours_ens: precompute 10.64s  query+score 5.32s  total 15.95s
+[rep 3/3] ot_solo: precompute 1.50s  query+score 3.33s  total 4.83s
+[rep 3/3] ot_ens: precompute 4.57s  query+score 9.82s  total 14.39s
+[rep 3/3] csa_ens: precompute 0.03s  query+score 26.94s  total 26.97s
+saved inference_cost.json and inference_cost.md

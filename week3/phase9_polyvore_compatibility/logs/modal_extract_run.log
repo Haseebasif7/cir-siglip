@@ -1,0 +1,1170 @@
+✓ Initialized. View run at 
+https://modal.com/apps/muhamasif/main/ap-G4ECzfGz6VmUiSno8CCtaJ
+Building image im-FGz8SDQiN2LE7dtfqZfKiJ
+
+=> Step 0: FROM base
+
+=> Step 1: RUN python -m pip install numpy pillow torch torchvision tqdm transformers
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting numpy
+  Downloading http://pypi-mirror.modal.local:5555/simple/numpy/numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting pillow
+  Downloading http://pypi-mirror.modal.local:5555/simple/pillow/pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+Collecting torch
+  Downloading http://pypi-mirror.modal.local:5555/simple/torch/torch-2.13.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (38 kB)
+Collecting torchvision
+  Downloading http://pypi-mirror.modal.local:5555/simple/torchvision/torchvision-0.28.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (5.6 kB)
+Collecting tqdm
+  Downloading http://pypi-mirror.modal.local:5555/simple/tqdm/tqdm-4.70.0-py3-none-any.whl.metadata (57 kB)
+Collecting transformers
+  Downloading http://pypi-mirror.modal.local:5555/simple/transformers/transformers-5.14.1-py3-none-any.whl.metadata (32 kB)
+Collecting filelock (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/filelock/filelock-3.32.2-py3-none-any.whl.metadata (2.0 kB)
+Collecting typing-extensions>=4.10.0 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/typing-extensions/typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting setuptools>=77.0.3 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/setuptools/setuptools-83.0.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting sympy>=1.13.3 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/sympy/sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting networkx>=2.5.1 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/networkx/networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+Collecting jinja2 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/jinja2/jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec>=0.8.5 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/fsspec/fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)
+Collecting cuda-toolkit==13.0.3 (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/cuda-toolkit/cuda_toolkit-13.0.3.0-py2.py3-none-any.whl.metadata (17 kB)
+Collecting cuda-bindings<14,>=13.0.3 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/cuda-bindings/cuda_bindings-13.3.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (2.5 kB)
+Collecting nvidia-cudnn-cu13==9.20.0.48 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cudnn-cu13/nvidia_cudnn_cu13-9.20.0.48-py3-none-manylinux_2_27_x86_64.whl.metadata (1.9 kB)
+Collecting nvidia-cusparselt-cu13==0.8.1 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cusparselt-cu13/nvidia_cusparselt_cu13-0.8.1-py3-none-manylinux2014_x86_64.whl.metadata (12 kB)
+Collecting nvidia-nccl-cu13==2.29.7 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-nccl-cu13/nvidia_nccl_cu13-2.29.7-py3-none-manylinux_2_18_x86_64.whl.metadata (2.1 kB)
+Collecting nvidia-nvshmem-cu13==3.4.5 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-nvshmem-cu13/nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.1 kB)
+Collecting triton==3.7.1 (from torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/triton/triton-3.7.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cublas==13.1.1.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cublas/nvidia_cublas-13.1.1.3-py3-none-manylinux_2_27_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cuda-nvrtc==13.0.88.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cuda-nvrtc/nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cuda-runtime==13.0.96.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cuda-runtime/nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cufft==12.0.0.61.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cufft/nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvjitlink<14,>=13.0.88 (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-nvjitlink/nvidia_nvjitlink-13.3.33-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cufile==1.15.1.6.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cufile/nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cuda-cupti==13.0.85.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cuda-cupti/nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-curand==10.4.0.35.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-curand/nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cusolver==12.0.4.66.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cusolver/nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cusparse==12.6.3.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cusparse/nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvtx==13.0.85.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-nvtx/nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl.metadata (1.8 kB)
+Collecting cuda-pathfinder>=1.4.2 (from cuda-bindings<14,>=13.0.3->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/cuda-pathfinder/cuda_pathfinder-1.6.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting huggingface-hub<2.0,>=1.5.0 (from transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/huggingface-hub/huggingface_hub-1.26.0-py3-none-any.whl.metadata (16 kB)
+Collecting packaging>=20.0 (from transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/packaging/packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pyyaml>=5.1 (from transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/pyyaml/pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting regex>=2025.10.22 (from transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/regex/regex-2026.7.19-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/tokenizers/tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.3 kB)
+Collecting typer (from transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/typer/typer-0.27.1-py3-none-any.whl.metadata (16 kB)
+Collecting safetensors>=0.8.0 (from transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/safetensors/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface-hub<2.0,>=1.5.0->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/click/click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting hf-xet<2.0.0,>=1.5.1 (from huggingface-hub<2.0,>=1.5.0->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/hf-xet/hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Collecting httpx<1,>=0.23.0 (from huggingface-hub<2.0,>=1.5.0->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/httpx/httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting anyio (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/anyio/anyio-4.14.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting certifi (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/certifi/certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Collecting httpcore==1.* (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/httpcore/httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting idna (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/idna/idna-3.18-py3-none-any.whl.metadata (6.1 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/h11/h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/mpmath/mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch)
+  Downloading http://pypi-mirror.modal.local:5555/simple/markupsafe/markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting shellingham>=1.3.0 (from typer->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/shellingham/shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=13.8.0 (from typer->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/rich/rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting annotated-doc>=0.0.2 (from typer->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/annotated-doc/annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/markdown-it-py/markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/pygments/pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer->transformers)
+  Downloading http://pypi-mirror.modal.local:5555/simple/mdurl/mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/numpy/numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 649.7 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/pillow/pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 532.2 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/torch/torch-2.13.0-cp311-cp311-manylinux_2_28_x86_64.whl (526.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 526.6/526.6 MB 707.5 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/cuda-toolkit/cuda_toolkit-13.0.3.0-py2.py3-none-any.whl (2.5 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cudnn-cu13/nvidia_cudnn_cu13-9.20.0.48-py3-none-manylinux_2_27_x86_64.whl (366.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 366.2/366.2 MB 775.3 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cusparselt-cu13/nvidia_cusparselt_cu13-0.8.1-py3-none-manylinux2014_x86_64.whl (170.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 170.1/170.1 MB 694.2 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-nccl-cu13/nvidia_nccl_cu13-2.29.7-py3-none-manylinux_2_18_x86_64.whl (206.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 206.0/206.0 MB 730.1 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-nvshmem-cu13/nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (60.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.4/60.4 MB 754.7 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/triton/triton-3.7.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (197.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 197.7/197.7 MB 767.1 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/cuda-bindings/cuda_bindings-13.3.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (6.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.7/6.7 MB 835.2 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cublas/nvidia_cublas-13.1.1.3-py3-none-manylinux_2_27_x86_64.whl (423.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 MB 762.8 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cuda-cupti/nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl (10.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.7/10.7 MB 766.1 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cuda-nvrtc/nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (90.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.2/90.2 MB 780.3 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cuda-runtime/nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 983.0 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cufft/nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (214.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 214.1/214.1 MB 804.1 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cufile/nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 1.8 GB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-curand/nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl (59.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.5/59.5 MB 810.3 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cusolver/nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl (200.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.9/200.9 MB 818.0 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-cusparse/nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (145.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 145.9/145.9 MB 767.1 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-nvjitlink/nvidia_nvjitlink-13.3.33-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (40.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.7/40.7 MB 805.0 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/nvidia-nvtx/nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl (148 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/torchvision/torchvision-0.28.0-cp311-cp311-manylinux_2_28_x86_64.whl (7.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.7/7.7 MB 739.9 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/tqdm/tqdm-4.70.0-py3-none-any.whl (80 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/transformers/transformers-5.14.1-py3-none-any.whl (11.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 793.5 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/huggingface-hub/huggingface_hub-1.26.0-py3-none-any.whl (780 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 780.4/780.4 kB 1.9 GB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/click/click-8.4.2-py3-none-any.whl (119 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/hf-xet/hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 869.9 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/httpx/httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/httpcore/httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/tokenizers/tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 948.4 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/cuda-pathfinder/cuda_pathfinder-1.6.0-py3-none-any.whl (54 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/filelock/filelock-3.32.2-py3-none-any.whl (98 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/fsspec/fsspec-2026.7.0-py3-none-any.whl (206 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/h11/h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/networkx/networkx-3.6.1-py3-none-any.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 955.0 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/packaging/packaging-26.3-py3-none-any.whl (129 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/pyyaml/pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.6/806.6 kB 1.2 GB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/regex/regex-2026.7.19-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (801 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.4/801.4 kB 1.1 GB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/safetensors/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/setuptools/setuptools-83.0.0-py3-none-any.whl (1.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 1.1 GB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/sympy/sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 892.9 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/mpmath/mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 1.0 GB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/typing-extensions/typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/anyio/anyio-4.14.2-py3-none-any.whl (125 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/idna/idna-3.18-py3-none-any.whl (65 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/certifi/certifi-2026.7.22-py3-none-any.whl (136 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/jinja2/jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/markupsafe/markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/typer/typer-0.27.1-py3-none-any.whl (122 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/annotated-doc/annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/rich/rich-15.0.0-py3-none-any.whl (310 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/pygments/pygments-2.20.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 1.2 GB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/markdown-it-py/markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/mdurl/mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/shellingham/shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Installing collected packages: nvidia-cusparselt-cu13, mpmath, cuda-toolkit, typing-extensions, triton, tqdm, sympy, shellingham, setuptools, safetensors, regex, pyyaml, pygments, pillow, packaging, nvidia-nvtx, nvidia-nvshmem-cu13, nvidia-nvjitlink, nvidia-nccl-cu13, nvidia-curand, nvidia-cufile, nvidia-cuda-runtime, nvidia-cuda-nvrtc, nvidia-cuda-cupti, numpy, networkx, mdurl, MarkupSafe, idna, hf-xet, h11, fsspec, filelock, cuda-pathfinder, click, certifi, annotated-doc, nvidia-cusparse, nvidia-cufft, nvidia-cublas, markdown-it-py, jinja2, httpcore, cuda-bindings, anyio, rich, nvidia-cusolver, nvidia-cudnn-cu13, httpx, typer, huggingface-hub, torch, tokenizers, transformers, torchvision
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 65.5.1
+    Uninstalling setuptools-65.5.1:
+      Successfully uninstalled setuptools-65.5.1
+
+Successfully installed MarkupSafe-3.0.3 annotated-doc-0.0.5 anyio-4.14.2 certifi-2026.7.22 click-8.4.2 cuda-bindings-13.3.1 cuda-pathfinder-1.6.0 cuda-toolkit-13.0.3.0 filelock-3.32.2 fsspec-2026.7.0 h11-0.16.0 hf-xet-1.6.0 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-1.26.0 idna-3.18 jinja2-3.1.6 markdown-it-py-4.2.0 mdurl-0.1.2 mpmath-1.3.0 networkx-3.6.1 numpy-2.4.6 nvidia-cublas-13.1.1.3 nvidia-cuda-cupti-13.0.85 nvidia-cuda-nvrtc-13.0.88 nvidia-cuda-runtime-13.0.96 nvidia-cudnn-cu13-9.20.0.48 nvidia-cufft-12.0.0.61 nvidia-cufile-1.15.1.6 nvidia-curand-10.4.0.35 nvidia-cusolver-12.0.4.66 nvidia-cusparse-12.6.3.3 nvidia-cusparselt-cu13-0.8.1 nvidia-nccl-cu13-2.29.7 nvidia-nvjitlink-13.3.33 nvidia-nvshmem-cu13-3.4.5 nvidia-nvtx-13.0.85 packaging-26.3 pillow-12.3.0 pygments-2.20.0 pyyaml-6.0.3 regex-2026.7.19 rich-15.0.0 safetensors-0.8.0 setuptools-83.0.0 shellingham-1.5.4 sympy-1.14.0 tokenizers-0.22.2 torch-2.13.0 torchvision-0.28.0 tqdm-4.70.0 transformers-5.14.1 triton-3.7.1 typer-0.27.1 typing-extensions-4.16.0
+
+[notice] A new release of pip is available: 25.2 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+Saving image...
+Image saved, took 3.65s
+
+Built image im-FGz8SDQiN2LE7dtfqZfKiJ in 41.29s
+
+
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/scr
+│   ipts/modal_extract_embeddings.py
+└── 🔨 Created function SigLIPEmbedder.*.
+Extracting polyvore_images.tar into /data/images ...
+Runner failed with exception: Runner has been initializing for too long: 3600 seconds. Consider increasing the `startup_timeout` of your Function.
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  75%|███████▌  | 306/408 [00:00<00:00, 3050.88it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 3820.75it/s]
+Traceback (most recent call last):
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  61%|██████▏   | 250/408 [00:00<00:00, 2490.70it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 3305.41it/s]
+Traceback (most recent call last):
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  62%|██████▏   | 251/408 [00:00<00:00, 2507.35it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 3256.99it/s]
+Traceback (most recent call last):
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  33%|███▎      | 133/408 [00:00<00:00, 1320.75it/s]
+[1ALoading weights:  65%|██████▌   | 266/408 [00:00<00:00, 1246.33it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 1874.50it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  47%|████▋     | 191/408 [00:00<00:00, 1908.77it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 3019.97it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  92%|█████████▏| 377/408 [00:00<00:00, 3768.95it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 4026.98it/s]
+Traceback (most recent call last):
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  72%|███████▏  | 295/408 [00:00<00:00, 2946.88it/s]Loading weights: 100%|██████████| 408/408 [00:00<00:00, 3562.80it/s]
+Traceback (most recent call last):
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  36%|███▌      | 147/408 [00:00<00:00, 1463.28it/s]Loading weights: 100%|██████████| 408/408 [00:00<00:00, 2460.16it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  63%|██████▎   | 258/408 [00:00<00:00, 2572.89it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 3218.56it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  42%|████▏     | 171/408 [00:00<00:00, 1702.65it/s]Loading weights: 100%|██████████| 408/408 [00:00<00:00, 2481.55it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  63%|██████▎   | 257/408 [00:00<00:00, 2556.31it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 3245.34it/s]
+Traceback (most recent call last):
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  38%|███▊      | 157/408 [00:00<00:00, 1568.26it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 2174.84it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Function modal_extract_embeddings.SigLIPEmbedder.* is crash-looping: containers are repeatedly failing to start.
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  73%|███████▎  | 296/408 [00:00<00:00, 2956.96it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 3628.38it/s]
+Traceback (most recent call last):
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  62%|██████▏   | 254/408 [00:00<00:00, 2529.04it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 2951.19it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  68%|██████▊   | 276/408 [00:00<00:00, 2753.14it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 3500.74it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  45%|████▍     | 182/408 [00:00<00:00, 1816.11it/s]Loading weights: 100%|██████████| 408/408 [00:00<00:00, 2639.39it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  45%|████▍     | 183/408 [00:00<00:00, 1828.19it/s]Loading weights: 100%|██████████| 408/408 [00:00<00:00, 2654.41it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  46%|████▋     | 189/408 [00:00<00:00, 1885.37it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 2677.68it/s]
+Traceback (most recent call last):
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  48%|████▊     | 196/408 [00:00<00:00, 1953.26it/s]Loading weights: 100%|██████████| 408/408 [00:00<00:00, 2829.00it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  44%|████▍     | 179/408 [00:00<00:00, 1788.72it/s]Loading weights: 100%|██████████| 408/408 [00:00<00:00, 2738.81it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 445482 files.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  43%|████▎     | 177/408 [00:00<00:00, 1760.90it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 2523.91it/s]
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 906, in handle_user_exception
+    yield
+  File "/pkg/modal/_runtime/user_code_imports.py", line 63, in call_lifecycle_functions
+    res = func(*args)
+          ^^^^^^^^^^^
+  File "/root/modal_extract_embeddings.py", line 62, in setup
+    self.processor = AutoProcessor.from_pretrained(MODEL_NAME)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/processing_auto.py", line 328, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1722, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1847, in _get_arguments_from_pretrained
+    tokenizer = cls._load_tokenizer_from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/processing_utils.py", line 1783, in _load_tokenizer_from_pretrained
+    tokenizer = auto_processor_class.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 905, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2170, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 2156, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+Runner failed with exception: ImportError('\nSiglipTokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the\ninstallation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones\nthat match your environment. Please note that you may need to restart your runtime after installation.\n')
+Stopping app - user stopped from CLI.
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/scr │
+│ ipts/modal_extract_embeddings.py:103 in main                                 │
+│                                                                              │
+│   102 │   │   print(f"Saved {embeddings.shape} -> {out_path} (volume committ │
+│ ❱ 103 │   │   return len(item_ids), embeddings.shape                         │
+│   104                                                                        │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_obj │
+│ ect.py:46 in wrapped                                                         │
+│                                                                              │
+│    45 │   │   await self.hydrate()                                           │
+│ ❱  46 │   │   return await method(self, *args, **kwargs)                     │
+│    47                                                                        │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_fun │
+│ ctions.py:1699 in remote                                                     │
+│                                                                              │
+│   1698 │   │                                                                 │
+│ ❱ 1699 │   │   return await self._call_function(args, kwargs)                │
+│   1700                                                                       │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_fun │
+│ ctions.py:1643 in _call_function                                             │
+│                                                                              │
+│   1642 │   │                                                                 │
+│ ❱ 1643 │   │   return await invocation.run_function()                        │
+│   1644                                                                       │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_fun │
+│ ctions.py:475 in run_function                                                │
+│                                                                              │
+│    474 │   │   │   if await_response.output.result.status in TERMINAL_STATUS │
+│ ❱  475 │   │   │   │   return await _process_result(                         │
+│    476 │   │   │   │   │   await_response.output.result, await_response.outp │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_uti │
+│ ls/function_utils.py:529 in _process_result                                  │
+│                                                                              │
+│   528 │   │                                                                  │
+│ ❱ 529 │   │   raise RemoteError(result.exception)                            │
+│   530                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RemoteError

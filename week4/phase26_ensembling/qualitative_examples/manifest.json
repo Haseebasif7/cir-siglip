@@ -1,0 +1,526 @@
+{
+  "seeds_used": [
+    42,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "examples": [
+    {
+      "category": "scarves",
+      "rank": 4,
+      "pool_size": 844,
+      "is_hit": true,
+      "context": [
+        {
+          "id": "131041027",
+          "title": "proenza schouler ps courier backpack",
+          "image": "131041027.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/131041027.jpg"
+        },
+        {
+          "id": "113172937",
+          "title": "asos high tide leather heeled",
+          "image": "113172937.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/113172937.jpg"
+        },
+        {
+          "id": "92647824",
+          "title": "valerie nahmani designs druzy ring",
+          "image": "92647824.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/92647824.jpg"
+        },
+        {
+          "id": "146818100",
+          "title": "topshop clean silver bangle pack",
+          "image": "146818100.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/146818100.jpg"
+        },
+        {
+          "id": "159430392",
+          "title": "rvca label high neck tunic",
+          "image": "159430392.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/159430392.jpg"
+        },
+        {
+          "id": "165874301",
+          "title": "reflective jacket shorts set",
+          "image": "165874301.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/165874301.jpg"
+        }
+      ],
+      "target": {
+        "id": "13478914",
+        "title": "keys great kisser",
+        "image": "13478914.jpg",
+        "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/13478914.jpg"
+      },
+      "top5": [
+        {
+          "id": "89008154",
+          "title": "pa design hookeychain key ring",
+          "image": "89008154.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/89008154.jpg",
+          "score": 0.7171,
+          "is_hit": false
+        },
+        {
+          "id": "163601221",
+          "title": "givenchy keyring",
+          "image": "163601221.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/163601221.jpg",
+          "score": 0.7124,
+          "is_hit": false
+        },
+        {
+          "id": "106420560",
+          "title": "sterling silver double key charm",
+          "image": "106420560.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/106420560.jpg",
+          "score": 0.7055,
+          "is_hit": false
+        },
+        {
+          "id": "13478914",
+          "title": "keys great kisser",
+          "image": "13478914.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/13478914.jpg",
+          "score": 0.703,
+          "is_hit": true
+        },
+        {
+          "id": "172105189",
+          "title": "when should older drivers give",
+          "image": "172105189.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/172105189.jpg",
+          "score": 0.6949,
+          "is_hit": false
+        }
+      ]
+    },
+    {
+      "category": "all-body",
+      "rank": 1,
+      "pool_size": 3000,
+      "is_hit": true,
+      "context": [
+        {
+          "id": "212682215",
+          "title": "pu leather stitching crossbody bag",
+          "image": "212682215.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/212682215.jpg"
+        },
+        {
+          "id": "212682446",
+          "title": "stiletto heel tie up transparent",
+          "image": "212682446.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/212682446.jpg"
+        },
+        {
+          "id": "212372251",
+          "title": "petals string design hook earrings",
+          "image": "212372251.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/212372251.jpg"
+        }
+      ],
+      "target": {
+        "id": "212798459",
+        "title": "geometric print mini bodycon dress",
+        "image": "212798459.jpg",
+        "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/212798459.jpg"
+      },
+      "top5": [
+        {
+          "id": "212798459",
+          "title": "geometric print mini bodycon dress",
+          "image": "212798459.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/212798459.jpg",
+          "score": 0.7223,
+          "is_hit": true
+        },
+        {
+          "id": "177267021",
+          "title": "floral high waisted short prom",
+          "image": "177267021.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/177267021.jpg",
+          "score": 0.7162,
+          "is_hit": false
+        },
+        {
+          "id": "213483179",
+          "title": "vintage mesh panel floral dress",
+          "image": "213483179.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/213483179.jpg",
+          "score": 0.7147,
+          "is_hit": false
+        },
+        {
+          "id": "200023240",
+          "title": "short sleeve lace panel bodycon",
+          "image": "200023240.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/200023240.jpg",
+          "score": 0.6983,
+          "is_hit": false
+        },
+        {
+          "id": "175095273",
+          "title": "yoins fresh floral print lace-up",
+          "image": "175095273.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/175095273.jpg",
+          "score": 0.6931,
+          "is_hit": false
+        }
+      ]
+    },
+    {
+      "category": "accessories",
+      "rank": 1,
+      "pool_size": 1254,
+      "is_hit": true,
+      "context": [
+        {
+          "id": "206853057",
+          "title": "bling jewelry 925 sterling silver",
+          "image": "206853057.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/206853057.jpg"
+        },
+        {
+          "id": "126293822",
+          "title": "bling jewelry sweet granny charms",
+          "image": "126293822.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/126293822.jpg"
+        },
+        {
+          "id": "197703838",
+          "title": "sylvestris blouse",
+          "image": "197703838.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/197703838.jpg"
+        },
+        {
+          "id": "192658352",
+          "title": "light wash whiskered slim-leg mid-rise",
+          "image": "192658352.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/192658352.jpg"
+        }
+      ],
+      "target": {
+        "id": "202583028",
+        "title": "womens floral feet socks",
+        "image": "202583028.jpg",
+        "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/202583028.jpg"
+      },
+      "top5": [
+        {
+          "id": "202583028",
+          "title": "womens floral feet socks",
+          "image": "202583028.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/202583028.jpg",
+          "score": 0.5905,
+          "is_hit": true
+        },
+        {
+          "id": "172327131",
+          "title": "martha medeiros silk belt",
+          "image": "172327131.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/172327131.jpg",
+          "score": 0.5807,
+          "is_hit": false
+        },
+        {
+          "id": "205620687",
+          "title": "amazon.com justincostume arm mitts evening",
+          "image": "205620687.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/205620687.jpg",
+          "score": 0.573,
+          "is_hit": false
+        },
+        {
+          "id": "185040769",
+          "title": "accessorize blue peony hair corsage",
+          "image": "185040769.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/185040769.jpg",
+          "score": 0.5614,
+          "is_hit": false
+        },
+        {
+          "id": "205441838",
+          "title": "aeropostale solid knot headband",
+          "image": "205441838.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/205441838.jpg",
+          "score": 0.5536,
+          "is_hit": false
+        }
+      ]
+    },
+    {
+      "category": "sunglasses",
+      "rank": 1,
+      "pool_size": 2202,
+      "is_hit": true,
+      "context": [
+        {
+          "id": "167786380",
+          "title": "cappelli large straw market tote",
+          "image": "167786380.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/167786380.jpg"
+        },
+        {
+          "id": "171813672",
+          "title": "ugg ruby wedged flip flop",
+          "image": "171813672.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/171813672.jpg"
+        },
+        {
+          "id": "78098517",
+          "title": "kate spade new york small",
+          "image": "78098517.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/78098517.jpg"
+        },
+        {
+          "id": "173057422",
+          "title": "heart shaped umbrella",
+          "image": "173057422.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/173057422.jpg"
+        },
+        {
+          "id": "156533143",
+          "title": "pink lemonade neoprene push up",
+          "image": "156533143.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/156533143.jpg"
+        }
+      ],
+      "target": {
+        "id": "167696704",
+        "title": "italia independent colour block sunglasses",
+        "image": "167696704.jpg",
+        "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/167696704.jpg"
+      },
+      "top5": [
+        {
+          "id": "167696704",
+          "title": "italia independent colour block sunglasses",
+          "image": "167696704.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/167696704.jpg",
+          "score": 0.794,
+          "is_hit": true
+        },
+        {
+          "id": "171157628",
+          "title": "le specs halfmoon magic fandango",
+          "image": "171157628.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/171157628.jpg",
+          "score": 0.7855,
+          "is_hit": false
+        },
+        {
+          "id": "132271525",
+          "title": "metal aviator sunglasses kurt geiger",
+          "image": "132271525.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/132271525.jpg",
+          "score": 0.7809,
+          "is_hit": false
+        },
+        {
+          "id": "166452110",
+          "title": "betsey johnson womens extreme cat",
+          "image": "166452110.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/166452110.jpg",
+          "score": 0.7654,
+          "is_hit": false
+        },
+        {
+          "id": "190632146",
+          "title": "shein sheinside pink clear one",
+          "image": "190632146.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/190632146.jpg",
+          "score": 0.7383,
+          "is_hit": false
+        }
+      ]
+    },
+    {
+      "category": "hats",
+      "rank": 2,
+      "pool_size": 1194,
+      "is_hit": true,
+      "context": [
+        {
+          "id": "90350246",
+          "title": "aeropostale studded moto bootie",
+          "image": "90350246.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/90350246.jpg"
+        },
+        {
+          "id": "98116640",
+          "title": "chanel cc chain clip on",
+          "image": "98116640.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/98116640.jpg"
+        },
+        {
+          "id": "96757365",
+          "title": "ring",
+          "image": "96757365.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/96757365.jpg"
+        },
+        {
+          "id": "124835516",
+          "title": "aurlie bidermann gold wheat cuff",
+          "image": "124835516.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/124835516.jpg"
+        },
+        {
+          "id": "95994782",
+          "title": "vero moda stripe blouse",
+          "image": "95994782.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/95994782.jpg"
+        },
+        {
+          "id": "92341043",
+          "title": "juicy couture leopard skinny jeans",
+          "image": "92341043.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/92341043.jpg"
+        }
+      ],
+      "target": {
+        "id": "95752145",
+        "title": "vans idylwild snapback baseball cap",
+        "image": "95752145.jpg",
+        "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/95752145.jpg"
+      },
+      "top5": [
+        {
+          "id": "169022550",
+          "title": "brown winter knit turban beanie",
+          "image": "169022550.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/169022550.jpg",
+          "score": 0.6189,
+          "is_hit": false
+        },
+        {
+          "id": "95752145",
+          "title": "vans idylwild snapback baseball cap",
+          "image": "95752145.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/95752145.jpg",
+          "score": 0.5945,
+          "is_hit": true
+        },
+        {
+          "id": "160916277",
+          "title": "pantropic branson",
+          "image": "160916277.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/160916277.jpg",
+          "score": 0.5809,
+          "is_hit": false
+        },
+        {
+          "id": "60302223",
+          "title": "hat",
+          "image": "60302223.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/60302223.jpg",
+          "score": 0.5742,
+          "is_hit": false
+        },
+        {
+          "id": "68602996",
+          "title": "bcbgmaxazria felt fedora",
+          "image": "68602996.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/68602996.jpg",
+          "score": 0.5691,
+          "is_hit": false
+        }
+      ]
+    },
+    {
+      "category": "shoes",
+      "rank": 1289,
+      "pool_size": 3000,
+      "is_hit": false,
+      "context": [
+        {
+          "id": "214409371",
+          "title": "owl cut out scalloped crossbody",
+          "image": "214409371.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/214409371.jpg"
+        },
+        {
+          "id": "211242608",
+          "title": "golden triangle circle bar multiayer",
+          "image": "211242608.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/211242608.jpg"
+        },
+        {
+          "id": "99594720",
+          "title": "fine-knit jumper",
+          "image": "99594720.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/99594720.jpg"
+        },
+        {
+          "id": "207912597",
+          "title": "dorothy perkins white plain skinny",
+          "image": "207912597.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/207912597.jpg"
+        },
+        {
+          "id": "209429126",
+          "title": "brand womens sachi frayed black",
+          "image": "209429126.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/209429126.jpg"
+        }
+      ],
+      "target": {
+        "id": "190211148",
+        "title": "monsoon nyla suede chelsea boot",
+        "image": "190211148.jpg",
+        "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/190211148.jpg"
+      },
+      "top5": [
+        {
+          "id": "205473159",
+          "title": "sandals with ankle tie 49.99",
+          "image": "205473159.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/205473159.jpg",
+          "score": 0.6382,
+          "is_hit": false
+        },
+        {
+          "id": "165422773",
+          "title": "raye dahlia espadrille wedge",
+          "image": "165422773.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/165422773.jpg",
+          "score": 0.6327,
+          "is_hit": false
+        },
+        {
+          "id": "212284030",
+          "title": "maiden lane womens embroidered eyelet",
+          "image": "212284030.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/212284030.jpg",
+          "score": 0.627,
+          "is_hit": false
+        },
+        {
+          "id": "209121117",
+          "title": "superga platform lace-up sneakers",
+          "image": "209121117.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/209121117.jpg",
+          "score": 0.6074,
+          "is_hit": false
+        },
+        {
+          "id": "202869055",
+          "title": "soludos lace-up leather wedge espadrilles",
+          "image": "202869055.jpg",
+          "image_path": "/Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/data/images/202869055.jpg",
+          "score": 0.5967,
+          "is_hit": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Loaded 24719 embeddings, 68664 train edges, 7629 val edges. Device: mps
+Smoke calibration: initial_rel=4.7794 initial_tail=4.6394 weight_tail=1.0302
+  smoke epoch 0: train_rel=3.4929 train_tail=3.1706 val_rel=2.4561 val_tail=1.9874 collapse_rel=0.4117 collapse_tail=0.4001
+  smoke epoch 1: train_rel=2.4227 train_tail=1.6873 val_rel=2.2777 val_tail=1.8128 collapse_rel=0.2818 collapse_tail=0.2302
+  smoke epoch 2: train_rel=2.0277 train_tail=1.1692 val_rel=2.1754 val_tail=1.7691 collapse_rel=0.1748 collapse_tail=0.0838
+
+Final mean pairwise cosine -- relevance: 0.1748, tail: 0.0838
+Collapse detected: False (threshold: 0.9)
+Uniformity regularizer recommendation: leave OFF for full run
+Report written: /Users/haseeb/Desktop/mitacs_project/week5/phase16_relevance_tail_dial/logs/smoke_test_report.md

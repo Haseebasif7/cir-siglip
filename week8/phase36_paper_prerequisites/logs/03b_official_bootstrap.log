@@ -1,0 +1,11 @@
+n_compat=20000 n_fitb=10000; post-hoc delta: AUC +/-0.0193, FITB +/-0.0151
+ours_ens: AUC 0.9655 [0.9630970254222532, 0.9679099544173709]  FITB 0.7548 [0.7465, 0.7629]
+ours_solo: AUC 0.9567 [0.9540377645176383, 0.9593984329081432]  FITB 0.7295 [0.7208, 0.7382]
+ot_ens: AUC 0.9349 [0.9316837656947133, 0.9379718074991072]  FITB 0.7464 [0.7379, 0.7546]
+ot_solo: AUC 0.9313 [0.9278792268266745, 0.9344557814478327]  FITB 0.7316 [0.7229, 0.7401025]
+csa_ens: AUC 0.9349 [0.9315318388243029, 0.938321840611692]  FITB 0.7051 [0.6963, 0.7137]
+ours_ens - ot_ens: AUC diff +0.0307 CI95 [+0.0281,+0.0332] sig=True postHocEq=False | FITB diff +0.0084 CI95 [+0.0013,+0.0158] McNemar 736/652 p=0.0259 postHocEq=True
+ours_ens - csa_ens: AUC diff +0.0307 CI95 [+0.0278,+0.0335] sig=True postHocEq=False | FITB diff +0.0497 CI95 [+0.0412,+0.0584] McNemar 1243/746 p=5.11e-29 postHocEq=False
+ot_ens - csa_ens: AUC diff +0.0000 CI95 [-0.0024,+0.0023] sig=False postHocEq=True | FITB diff +0.0413 CI95 [+0.0339,+0.0487] McNemar 964/551 p=1.72e-26 postHocEq=False
+ours_solo - ot_solo: AUC diff +0.0255 CI95 [+0.0227,+0.0282] sig=True postHocEq=False | FITB diff -0.0021 CI95 [-0.0103,+0.0061] McNemar 865/886 p=0.633 postHocEq=True
+saved official_bootstrap.md and data/official_bootstrap.json

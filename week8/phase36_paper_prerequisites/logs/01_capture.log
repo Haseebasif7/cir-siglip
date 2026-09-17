@@ -1,0 +1,25 @@
+device=mps
+catalog 251008 items, base_repr (251008, 1536) on mps:0; 29681 test queries
+
+=== ours_solo (1 member(s)) ===
+  R@10/30/50 = 0.1656/0.2947/0.3733  recorded 0.1656/0.2947/0.3733  match4=True exact=None  n_total=29681 n_skipped=0
+  timing: precompute 0.8s, query+score 1.1s; n_params/member=1705088
+
+=== ours_ens (10 member(s)) ===
+  R@10/30/50 = 0.1904/0.3267/0.4079  recorded 0.1904/0.3267/0.4079  match4=True exact=None  n_total=29681 n_skipped=0
+  timing: precompute 9.8s, query+score 5.5s; n_params/member=1705088
+
+=== ot_solo (1 member(s)) ===
+  R@10/30/50 = 0.1799/0.3111/0.3844  recorded 0.1799/0.3111/0.3844  match4=True exact=True  n_total=29681 n_skipped=0
+  timing: precompute 1.5s, query+score 3.8s; n_params/member=998144
+
+=== ot_ens (3 member(s)) ===
+  R@10/30/50 = 0.1897/0.3246/0.4019  recorded 0.1897/0.3246/0.4019  match4=True exact=True  n_total=29681 n_skipped=0
+  timing: precompute 4.3s, query+score 9.0s; n_params/member=998144
+
+=== csa_ens (3 member(s)) ===
+  R@10/30/50 = 0.1674/0.2860/0.3586  recorded 0.1674/0.286/0.3586  match4=True exact=True  n_total=29681 n_skipped=0
+  timing: precompute 0.0s, query+score 26.8s; n_params/member=100485
+
+all_reproduced=True  wall=68s
+saved /Users/haseeb/Desktop/mitacs_project/week8/phase36_paper_prerequisites/data/reproduction_check.json

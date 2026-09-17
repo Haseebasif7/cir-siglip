@@ -1,0 +1,176 @@
+{
+  "device": "mps",
+  "n_queries": 29681,
+  "systems": {
+    "ours_solo": {
+      "kind": "ours",
+      "n_members": 1,
+      "n_params_per_member": 1705088,
+      "recall": {
+        "10": 0.16556045955324955,
+        "30": 0.29470031333176105,
+        "50": 0.37326909470705166
+      },
+      "recorded_4dp": {
+        "10": 0.1656,
+        "30": 0.2947,
+        "50": 0.3733
+      },
+      "match_4dp": {
+        "10": true,
+        "30": true,
+        "50": true
+      },
+      "match_exact": null,
+      "n_total": 29681,
+      "n_skipped": 0,
+      "reproduced": true,
+      "timing_s": {
+        "precompute": 0.7954442080008448,
+        "query_and_score": 1.0585579170001438,
+        "total": 1.8540021250009886
+      },
+      "peak_rss_mb_so_far": 2387.03125,
+      "mps_allocated_mb_after": 1470.75
+    },
+    "ours_ens": {
+      "kind": "ours",
+      "n_members": 10,
+      "n_params_per_member": 1705088,
+      "recall": {
+        "10": 0.1903911593275159,
+        "30": 0.32674101276911155,
+        "50": 0.40787035477241335
+      },
+      "recorded_4dp": {
+        "10": 0.1904,
+        "30": 0.3267,
+        "50": 0.4079
+      },
+      "match_4dp": {
+        "10": true,
+        "30": true,
+        "50": true
+      },
+      "match_exact": null,
+      "n_total": 29681,
+      "n_skipped": 0,
+      "reproduced": true,
+      "timing_s": {
+        "precompute": 9.792372749998322,
+        "query_and_score": 5.480046625001705,
+        "total": 15.272419375000027
+      },
+      "peak_rss_mb_so_far": 2522.234375,
+      "mps_allocated_mb_after": 1470.75
+    },
+    "ot_solo": {
+      "kind": "ot",
+      "n_members": 1,
+      "n_params_per_member": 998144,
+      "recall": {
+        "10": 0.17987938411778578,
+        "30": 0.3110744247161484,
+        "50": 0.3843873184865739
+      },
+      "recorded_4dp": {
+        "10": 0.1799,
+        "30": 0.3111,
+        "50": 0.3844
+      },
+      "match_4dp": {
+        "10": true,
+        "30": true,
+        "50": true
+      },
+      "match_exact": {
+        "10": true,
+        "30": true,
+        "50": true
+      },
+      "n_total": 29681,
+      "n_skipped": 0,
+      "reproduced": true,
+      "timing_s": {
+        "precompute": 1.4948853339992638,
+        "query_and_score": 3.8275152089991025,
+        "total": 5.322400542998366
+      },
+      "peak_rss_mb_so_far": 2824.171875,
+      "mps_allocated_mb_after": 1474.5576171875
+    },
+    "ot_ens": {
+      "kind": "ot",
+      "n_members": 3,
+      "n_params_per_member": 998144,
+      "recall": {
+        "10": 0.18971732758330245,
+        "30": 0.3245847511876285,
+        "50": 0.40187325224891346
+      },
+      "recorded_4dp": {
+        "10": 0.1897,
+        "30": 0.3246,
+        "50": 0.4019
+      },
+      "match_4dp": {
+        "10": true,
+        "30": true,
+        "50": true
+      },
+      "match_exact": {
+        "10": true,
+        "30": true,
+        "50": true
+      },
+      "n_total": 29681,
+      "n_skipped": 0,
+      "reproduced": true,
+      "timing_s": {
+        "precompute": 4.283800291999796,
+        "query_and_score": 9.041653834003228,
+        "total": 13.325454126003024
+      },
+      "peak_rss_mb_so_far": 2824.171875,
+      "mps_allocated_mb_after": 1483.546875
+    },
+    "csa_ens": {
+      "kind": "csa",
+      "n_members": 3,
+      "n_params_per_member": 100485,
+      "recall": {
+        "10": 0.1673798052626259,
+        "30": 0.2860078838314073,
+        "50": 0.358579562683198
+      },
+      "recorded_4dp": {
+        "10": 0.1674,
+        "30": 0.286,
+        "50": 0.3586
+      },
+      "match_4dp": {
+        "10": true,
+        "30": true,
+        "50": true
+      },
+      "match_exact": {
+        "10": true,
+        "30": true,
+        "50": true
+      },
+      "n_total": 29681,
+      "n_skipped": 0,
+      "reproduced": true,
+      "timing_s": {
+        "precompute": 0.029442167000524933,
+        "query_and_score": 26.764496040999802,
+        "total": 26.793938208000327,
+        "csa_pool_candidate_precompute_within_loop": 1.1949205429991707
+      },
+      "peak_rss_mb_so_far": 2824.171875,
+      "mps_allocated_mb_after": 1471.900634765625
+    }
+  },
+  "all_reproduced": true,
+  "wall_time_s": 68.47900320800181
+}

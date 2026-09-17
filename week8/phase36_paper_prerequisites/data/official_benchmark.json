@@ -1,0 +1,143 @@
+{
+  "device": "mps",
+  "n_compat": 20000,
+  "n_compat_pos": 10000,
+  "n_fitb": 10000,
+  "skipped": {
+    "compat": 0,
+    "fitb": 0
+  },
+  "guards": {
+    "raw_siglip_image_only": {
+      "auc": 0.71718723,
+      "fitb": 0.4843,
+      "fitb_ties": 9,
+      "expected": [
+        0.7172,
+        0.4843
+      ],
+      "ok": true
+    },
+    "phase9_model_a": {
+      "auc": 0.94686848,
+      "fitb": 0.7031,
+      "fitb_ties": 11,
+      "expected": [
+        0.9469,
+        0.7031
+      ],
+      "ok": true
+    }
+  },
+  "secondary": {
+    "raw_siglip_image_only": {
+      "auc": 0.71718723,
+      "fitb": 0.4843,
+      "fitb_ties": 9
+    },
+    "raw_siglip_image_text": {
+      "auc": 0.65468537,
+      "fitb": 0.4324,
+      "fitb_ties": 8
+    },
+    "phase9_model_a": {
+      "auc": 0.94686848,
+      "fitb": 0.7031,
+      "fitb_ties": 11
+    },
+    "ours_solo": {
+      "auc": 0.955807795,
+      "fitb": 0.7295,
+      "fitb_ties": 8
+    },
+    "ours_ens": {
+      "auc": 0.96472493,
+      "fitb": 0.7552,
+      "fitb_ties": 9
+    },
+    "ot_solo": {
+      "auc": 0.93272894,
+      "fitb": 0.7165,
+      "fitb_ties": 7
+    },
+    "ot_ens": {
+      "auc": 0.9406434,
+      "fitb": 0.7224,
+      "fitb_ties": 9
+    },
+    "csa_ens": null
+  },
+  "primary": {
+    "raw_siglip_image_only": {
+      "auc": 0.68702642,
+      "fitb": 0.4843,
+      "fitb_ties": 9,
+      "seconds": 4.531473374998313
+    },
+    "raw_siglip_image_text": {
+      "auc": 0.64200766,
+      "fitb": 0.4324,
+      "fitb_ties": 8,
+      "seconds": 6.763795874998323
+    },
+    "phase9_model_a": {
+      "auc": 0.93516332,
+      "fitb": 0.7031,
+      "fitb_ties": 11,
+      "seconds": 0.6740427500008082
+    },
+    "ours_solo": {
+      "auc": 0.95673954,
+      "fitb": 0.7295,
+      "fitb_ties": 8,
+      "seconds": 0.562741540998104
+    },
+    "ours_ens": {
+      "auc": 0.96554699,
+      "fitb": 0.7548,
+      "fitb_ties": 9,
+      "seconds": 4.4892262920002395
+    },
+    "ot_solo": {
+      "auc": 0.9312556,
+      "fitb": 0.7316,
+      "fitb_ties": 7,
+      "seconds": 10.348615124999924
+    },
+    "ot_ens": {
+      "auc": 0.93489156,
+      "fitb": 0.7464,
+      "fitb_ties": 7,
+      "seconds": 29.336547709001024
+    },
+    "csa_ens": {
+      "auc": 0.934882145,
+      "fitb": 0.7051,
+      "fitb_ties": 7,
+      "seconds": 11.159664500002691
+    }
+  },
+  "published_nondisjoint": [
+    {
+      "label": "Vasileva et al. 2018, type-aware embeddings (ResNet-18 fine-tuned)",
+      "auc": 0.88,
+      "fitb": 0.576,
+      "source": "ECCV'18; nondisjoint; already cited in week3/phase9 results_table.md"
+    },
+    {
+      "label": "CSA-Net, Lin et al. 2020 (ResNet-18 fine-tuned end-to-end, no text)",
+      "auc": 0.91,
+      "fitb": 0.6373,
+      "source": "arXiv 1912.08967, Table 1, Polyvore Outfits (nondisjoint)"
+    },
+    {
+      "label": "OutfitTransformer, Sarkar et al. 2023 (ResNet-18 fine-tuned + SentenceBERT fc, text)",
+      "auc": 0.93,
+      "fitb": 0.671,
+      "source": "arXiv 2204.04812, Tables 1-2, nondisjoint; AUC 0.92 without text"
+    }
+  ],
+  "n_loo_tasks": 107012,
+  "fitb_questions_with_all_same_category_answers": 9987,
+  "wall_time_s": 111.3132368330007
+}

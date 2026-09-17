@@ -1,0 +1,30 @@
+✓ Initialized. View run at 
+https://modal.com/apps/muhamasif/main/ap-FNZGxXHHkwKVoKF5SEJ27x
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/haseeb/Desktop/mitacs_project/week4/phase13_csa_net_baseline/scripts/
+│   modal_train_csa_net.py
+├── 🔨 Created mount 
+│   /Users/haseeb/Desktop/mitacs_project/week4/phase13_csa_net_baseline/scripts
+└── 🔨 Created function train.
+Extracting polyvore_images.tar to local container disk...
+Extracted 251008 images.
+Training on device=cuda
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+
+[1A  0%|          | 0.00/44.7M [00:00<?, ?B/s]
+[1A 44%|████▍     | 19.8M/44.7M [00:00<00:00, 207MB/s]
+[1A 89%|████████▉ | 39.8M/44.7M [00:00<00:00, 208MB/s]
+[1A100%|██████████| 44.7M/44.7M [00:00<00:00, 207MB/s]
+epoch 0 step 50: loss=0.3317 D_pos=0.2046 D_neg=0.1729 lr=4.98e-05
+epoch 0 step 100: loss=0.3111 D_pos=0.0737 D_neg=0.0626 lr=4.95e-05
+epoch 0 step 150: loss=0.3047 D_pos=0.0304 D_neg=0.0257 lr=4.93e-05
+epoch 0 step 200: loss=0.3025 D_pos=0.0152 D_neg=0.0127 lr=4.91e-05
+epoch 0 step 250: loss=0.3013 D_pos=0.0090 D_neg=0.0078 lr=4.89e-05
+epoch 0 step 300: loss=0.3011 D_pos=0.0068 D_neg=0.0057 lr=4.86e-05
+epoch 0 step 350: loss=0.3009 D_pos=0.0052 D_neg=0.0043 lr=4.84e-05
+epoch 0 step 400: loss=0.3006 D_pos=0.0040 D_neg=0.0034 lr=4.82e-05
+epoch 0 step 450: loss=0.3005 D_pos=0.0033 D_neg=0.0028 lr=4.80e-05
+epoch 0 step 500: loss=0.3005 D_pos=0.0027 D_neg=0.0022 lr=4.77e-05
+epoch 0 step 550: loss=0.3004 D_pos=0.0024 D_neg=0.0020 lr=4.75e-05
+Stopping app - user stopped from CLI.

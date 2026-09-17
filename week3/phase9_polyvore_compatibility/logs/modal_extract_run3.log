@@ -1,0 +1,100 @@
+✓ Initialized. View run at 
+https://modal.com/apps/muhamasif/main/ap-659IVypJVWZ4NyzJgYeoNM
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/scr
+│   ipts/modal_extract_embeddings.py
+└── 🔨 Created function SigLIPEmbedder.*.
+Volume mounted at /data is using 89.1% of available inodes (445486 out of 500000). If you reach the limit, creating new files will fail.
+Images already extracted: 222741 real images.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+
+[1ALoading weights:   0%|          | 0/408 [00:00<?, ?it/s]
+[1ALoading weights:  69%|██████▉   | 281/408 [00:00<00:00, 2809.42it/s]
+[1ALoading weights: 100%|██████████| 408/408 [00:00<00:00, 3460.04it/s]
+Extracting embeddings for 222741 images, batch_size=256...
+
+[1A  0%|          | 0/871 [00:00<?, ?it/s]
+[1A  0%|          | 1/871 [02:00<29:13:18, 120.92s/it]
+[1A  0%|          | 2/871 [03:56<28:26:38, 117.83s/it]
+[1A  0%|          | 3/871 [05:52<28:09:52, 116.81s/it]
+[1A  0%|          | 4/871 [07:45<27:49:42, 115.55s/it]
+[1A  1%|          | 5/871 [09:39<27:37:23, 114.83s/it]
+[1A  1%|          | 6/871 [11:36<27:49:05, 115.77s/it]
+[1A  1%|          | 7/871 [13:31<27:42:27, 115.45s/it]
+[1A  1%|          | 8/871 [15:29<27:50:02, 116.11s/it]
+[1A  1%|          | 9/871 [17:24<27:43:49, 115.81s/it]
+[1A  1%|          | 10/871 [19:17<27:30:32, 115.02s/it]
+[1A  1%|▏         | 11/871 [21:17<27:49:41, 116.49s/it]
+[1A  1%|▏         | 12/871 [23:12<27:42:17, 116.11s/it]
+[1A  1%|▏         | 13/871 [25:06<27:31:10, 115.47s/it]
+[1A  2%|▏         | 14/871 [27:01<27:26:35, 115.28s/it]
+[1A  2%|▏         | 15/871 [28:58<27:29:46, 115.64s/it]
+[1A  2%|▏         | 16/871 [30:53<27:27:28, 115.61s/it]
+[1A  2%|▏         | 17/871 [32:51<27:36:17, 116.37s/it]
+[1A  2%|▏         | 18/871 [34:48<27:34:58, 116.41s/it]
+[1A  2%|▏         | 19/871 [36:45<27:38:48, 116.82s/it]
+[1A  2%|▏         | 20/871 [38:37<27:15:46, 115.33s/it]
+[1A  2%|▏         | 21/871 [40:37<27:33:03, 116.69s/it]
+[1A  3%|▎         | 22/871 [42:32<27:21:03, 115.98s/it]
+[1A  3%|▎         | 23/871 [44:29<27:26:57, 116.53s/it]
+[1A  3%|▎         | 24/871 [46:24<27:18:23, 116.06s/it]
+[1A  3%|▎         | 25/871 [48:18<27:05:49, 115.31s/it]
+[1A  3%|▎         | 26/871 [50:17<27:21:46, 116.58s/it]
+[1A  3%|▎         | 27/871 [52:12<27:11:20, 115.97s/it]
+[1A  3%|▎         | 28/871 [54:03<26:49:52, 114.58s/it]
+[1A  3%|▎         | 29/871 [55:58<26:47:35, 114.56s/it]
+[1A  3%|▎         | 30/871 [57:53<26:47:18, 114.67s/it]
+Task's current input(s) ["in-01KZ75JA6P64VM4QB63BGKCV7C:1785873377494-0"] cancelled because: Task's current input in-01KZ75JA6P64VM4QB63BGKCV7C:1785873377494-0 hit its timeout of 3600s
+Stopping app - uncaught exception raised locally: FunctionTimeoutError("Task's current input in-01KZ75JA6P64VM4QB63BGKCV7C:1785873377494-0 hit its timeout of 3600s").
+[1A  4%|▎         | 31/871 [59:48<26:46:09, 114.73s/it][modal-client] 2026-08-04T20:57:03+0000 Received a cancellation signal while processing input ('in-01KZ75JA6P64VM4QB63BGKCV7C:1785873377494-0',)
+
+[1A  4%|▎         | 31/871 [59:57<27:04:33, 116.04s/it]
+[modal-client] 2026-08-04T20:57:03+0000 Successfully canceled input ('in-01KZ75JA6P64VM4QB63BGKCV7C:1785873377494-0',)
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/haseeb/Desktop/mitacs_project/week3/phase9_polyvore_compatibility/scr │
+│ ipts/modal_extract_embeddings.py:106 in main                                 │
+│                                                                              │
+│   105 def main():                                                            │
+│ ❱ 106 │   n, shape = SigLIPEmbedder().extract_all.remote()                   │
+│   107 │   print(f"Done: {n} embeddings, shape {shape}. Run `modal volume get │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_obj │
+│ ect.py:46 in wrapped                                                         │
+│                                                                              │
+│    45 │   │   await self.hydrate()                                           │
+│ ❱  46 │   │   return await method(self, *args, **kwargs)                     │
+│    47                                                                        │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_fun │
+│ ctions.py:1699 in remote                                                     │
+│                                                                              │
+│   1698 │   │                                                                 │
+│ ❱ 1699 │   │   return await self._call_function(args, kwargs)                │
+│   1700                                                                       │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_fun │
+│ ctions.py:1643 in _call_function                                             │
+│                                                                              │
+│   1642 │   │                                                                 │
+│ ❱ 1643 │   │   return await invocation.run_function()                        │
+│   1644                                                                       │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_fun │
+│ ctions.py:494 in run_function                                                │
+│                                                                              │
+│    493 │   │   │   # No more retries left.                                   │
+│ ❱  494 │   │   │   return await _process_result(                             │
+│    495 │   │   │   │   await_response.output.result, await_response.output.d │
+│                                                                              │
+│ /Users/haseeb/.pyenv/versions/3.11.6/lib/python3.11/site-packages/modal/_uti │
+│ ls/function_utils.py:489 in _process_result                                  │
+│                                                                              │
+│   488 │   if result.status == api_pb2.GenericResult.GENERIC_STATUS_TIMEOUT:  │
+│ ❱ 489 │   │   raise FunctionTimeoutError(result.exception)                   │
+│   490 │   elif result.status == api_pb2.GenericResult.GENERIC_STATUS_INTERNA │
+╰──────────────────────────────────────────────────────────────────────────────╯
+FunctionTimeoutError: Task's current input 
+in-01KZ75JA6P64VM4QB63BGKCV7C:1785873377494-0 hit its timeout of 3600s

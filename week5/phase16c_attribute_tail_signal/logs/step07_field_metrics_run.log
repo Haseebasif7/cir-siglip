@@ -1,0 +1,23 @@
+N=10 alpha=0.0: coverage=0.002488 tail_coverage=0.002021 apri=17.39 rpi=0.5072
+N=20 alpha=0.0: coverage=0.003720 tail_coverage=0.003113 apri=17.19 rpi=0.5015
+N=10 alpha=0.1: coverage=0.002487 tail_coverage=0.002022 apri=17.40 rpi=0.5072
+N=20 alpha=0.1: coverage=0.003712 tail_coverage=0.003115 apri=17.25 rpi=0.5015
+N=10 alpha=0.2: coverage=0.002481 tail_coverage=0.002017 apri=17.45 rpi=0.5061
+N=20 alpha=0.2: coverage=0.003708 tail_coverage=0.003115 apri=17.33 rpi=0.5008
+N=10 alpha=0.3: coverage=0.002475 tail_coverage=0.002016 apri=17.43 rpi=0.5048
+N=20 alpha=0.3: coverage=0.003703 tail_coverage=0.003115 apri=17.31 rpi=0.5002
+N=10 alpha=0.4: coverage=0.002471 tail_coverage=0.002012 apri=17.45 rpi=0.5035
+N=20 alpha=0.4: coverage=0.003699 tail_coverage=0.003117 apri=17.31 rpi=0.4987
+N=10 alpha=0.5: coverage=0.002467 tail_coverage=0.002015 apri=17.51 rpi=0.5019
+N=20 alpha=0.5: coverage=0.003693 tail_coverage=0.003119 apri=17.34 rpi=0.4978
+N=10 alpha=0.6: coverage=0.002467 tail_coverage=0.002019 apri=17.46 rpi=0.5006
+N=20 alpha=0.6: coverage=0.003689 tail_coverage=0.003130 apri=17.39 rpi=0.4965
+N=10 alpha=0.7: coverage=0.002462 tail_coverage=0.002015 apri=17.46 rpi=0.4998
+N=20 alpha=0.7: coverage=0.003683 tail_coverage=0.003128 apri=17.35 rpi=0.4955
+N=10 alpha=0.8: coverage=0.002454 tail_coverage=0.002010 apri=17.42 rpi=0.4981
+N=20 alpha=0.8: coverage=0.003679 tail_coverage=0.003128 apri=17.34 rpi=0.4946
+N=10 alpha=0.9: coverage=0.002451 tail_coverage=0.002018 apri=17.39 rpi=0.4973
+N=20 alpha=0.9: coverage=0.003671 tail_coverage=0.003130 apri=17.40 rpi=0.4932
+N=10 alpha=1.0: coverage=0.002443 tail_coverage=0.002012 apri=17.27 rpi=0.4972
+N=20 alpha=1.0: coverage=0.003670 tail_coverage=0.003135 apri=17.39 rpi=0.4920
+Appended field-standard metrics to /Users/haseeb/Desktop/mitacs_project/week5/phase16c_attribute_tail_signal/results_table.md

@@ -1,0 +1,40 @@
+Loaded 251008 embeddings, 1373702 train edges, 129850 val edges. Device: mps
+    ...batch 2000/10732, running loss 4.3877
+    ...batch 4000/10732, running loss 4.3420
+    ...batch 6000/10732, running loss 4.3162
+    ...batch 8000/10732, running loss 4.2982
+    ...batch 10000/10732, running loss 4.2848
+  epoch 0: train_loss=4.2800 val_loss=5.2566 mean_pairwise_cosine=0.6584
+    ...batch 2000/10732, running loss 4.1935
+    ...batch 4000/10732, running loss 4.1904
+    ...batch 6000/10732, running loss 4.1880
+    ...batch 8000/10732, running loss 4.1839
+    ...batch 10000/10732, running loss 4.1814
+  epoch 1: train_loss=4.1800 val_loss=5.4315 mean_pairwise_cosine=0.6419
+    ...batch 2000/10732, running loss 4.1330
+    ...batch 4000/10732, running loss 4.1351
+    ...batch 6000/10732, running loss 4.1363
+    ...batch 8000/10732, running loss 4.1350
+    ...batch 10000/10732, running loss 4.1333
+  epoch 2: train_loss=4.1329 val_loss=5.6256 mean_pairwise_cosine=0.6211
+    ...batch 2000/10732, running loss 4.0992
+    ...batch 4000/10732, running loss 4.1013
+    ...batch 6000/10732, running loss 4.1012
+    ...batch 8000/10732, running loss 4.1020
+    ...batch 10000/10732, running loss 4.1012
+  epoch 3: train_loss=4.1008 val_loss=5.7007 mean_pairwise_cosine=0.6128
+    ...batch 2000/10732, running loss 4.0754
+    ...batch 4000/10732, running loss 4.0781
+    ...batch 6000/10732, running loss 4.0788
+    ...batch 8000/10732, running loss 4.0777
+    ...batch 10000/10732, running loss 4.0775
+  epoch 4: train_loss=4.0769 val_loss=5.7672 mean_pairwise_cosine=0.6103
+    ...batch 2000/10732, running loss 4.0526
+    ...batch 4000/10732, running loss 4.0568
+    ...batch 6000/10732, running loss 4.0578
+    ...batch 8000/10732, running loss 4.0572
+    ...batch 10000/10732, running loss 4.0572
+  epoch 5: train_loss=4.0574 val_loss=5.9112 mean_pairwise_cosine=0.5948
+  early stopping at epoch 5 (best_val_loss=5.2566)
+Saved best checkpoint to /Users/haseeb/Desktop/mitacs_project/week4/phase21_zero_shared_dial/models/complement_head.pt (best_val_loss=5.2566)
+Saved training curves.

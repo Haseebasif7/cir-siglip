@@ -1,0 +1,33 @@
+# Meeting Notes, Week 2
+
+Attendees: Haseeb, Prof. Mahreen Nasir
+
+## What was presented going in
+
+- Phase 1, 1b, and 2 results summarized at a high level: which embedding technique performed best (SigLIP, then FashionCLIP, then CLIP, then ResNet50, consistent across all sample variations tested)
+- Observation that some categories (Women, Girls) were harder for every technique than others (Men, Novelty)
+- Question raised about whether also_buy/also_viewed is a reliable ground truth for visual similarity, and whether DeepFashion should be brought back in as a cleaner comparison
+
+## Professor's feedback and direction
+
+### On pure visual similarity being insufficient
+
+A system that only optimizes for visual similarity leads to overspecialization. Example given: for a black, half sleeve Nike shirt, a purely visual system just returns more black shirts or more Nike shirts, technically accurate, but not useful, the customer already has that shirt in mind and gains nothing from near duplicates.
+
+### On popularity bias and the long tail
+
+The system should not just surface highly rated or frequently interacted with products at the top of a category while ignoring tail products. Doing so pushes tail items further into obscurity and doesn't serve the actual goal (increasing sales, helping discovery).
+
+### The actual goal: a hybrid recommender
+
+Rather than only recommending visually similar items, the system should also recommend complementary products, items that go well with the queried product but do not necessarily look like it (e.g. a shirt paired with pants that go with it). The combination of a visual similarity component and a complementary product component, with attention to diversity rather than repetition, is what should be aimed for.
+
+## Direct instructions given
+
+1. **Bring DeepFashion back in.** Findings are now needed on both DeepFashion and Amazon, not Amazon alone. Compare which encoder performs best across both datasets.
+2. **Do EDA on product popularity.** Look at top (head) products versus tail products in the dataset, and use this to analyze whether current retrieval results favor popular products over diverse ones.
+3. **Prepare a consolidated report** covering findings from both datasets (DeepFashion and Amazon) for the professor.
+
+## Parked for later
+
+- The category difficulty finding (Women, Girls harder than Men, Novelty across every technique) will be addressed in a future phase, professor acknowledged it but did not want it prioritized yet.

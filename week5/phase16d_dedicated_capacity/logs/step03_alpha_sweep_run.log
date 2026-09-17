@@ -1,0 +1,15 @@
+Gallery: 26591 items (reused from phase 16). Queries: 1872. Self-matches to exclude: 1872
+alpha=0.0: hit_rate@5=0.2366, mean_ref_count@5=15.8569, hit_rate@10=0.3029, mean_ref_count@10=15.4416
+alpha=0.1: hit_rate@5=0.2393, mean_ref_count@5=15.8688, hit_rate@10=0.3040, mean_ref_count@10=15.6293
+alpha=0.2: hit_rate@5=0.2532, mean_ref_count@5=16.4505, hit_rate@10=0.3210, mean_ref_count@10=16.0216
+alpha=0.3: hit_rate@5=0.2762, mean_ref_count@5=16.8330, hit_rate@10=0.3429, mean_ref_count@10=16.3453
+alpha=0.4: hit_rate@5=0.2991, mean_ref_count@5=17.8713, hit_rate@10=0.3675, mean_ref_count@10=17.3327
+alpha=0.5: hit_rate@5=0.3130, mean_ref_count@5=18.4326, hit_rate@10=0.3894, mean_ref_count@10=17.9956
+alpha=0.6: hit_rate@5=0.3221, mean_ref_count@5=17.9732, hit_rate@10=0.4033, mean_ref_count@10=17.7715
+alpha=0.7: hit_rate@5=0.3226, mean_ref_count@5=18.2679, hit_rate@10=0.4017, mean_ref_count@10=17.7549
+alpha=0.8: hit_rate@5=0.3226, mean_ref_count@5=18.1007, hit_rate@10=0.3974, mean_ref_count@10=18.1756
+alpha=0.9: hit_rate@5=0.3221, mean_ref_count@5=18.2226, hit_rate@10=0.3937, mean_ref_count@10=18.2277
+alpha=1.0: hit_rate@5=0.3194, mean_ref_count@5=18.0432, hit_rate@10=0.3948, mean_ref_count@10=18.5129
+Cached retrievals: /Users/haseeb/Desktop/mitacs_project/week5/phase16d_dedicated_capacity/data/alpha_sweep_retrievals.npz
+Results written: /Users/haseeb/Desktop/mitacs_project/week5/phase16d_dedicated_capacity/results_table.md
+Axis 1: PASS (clear: True), Axis 2: PASS

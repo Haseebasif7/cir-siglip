@@ -1,0 +1,8 @@
+Step 3 winner: lr=0.001 bs=256 (val Recall@10=0.1535)
+Launching 5 temperature configs in parallel on Modal...
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase23_hyperparameter_tuning/data/temperature_sweep_results.json
+tau=0.15: best_recall10=0.1564 @epoch4 (9 epochs run, 892s)
+tau=0.1: best_recall10=0.1549 @epoch4 (9 epochs run, 942s)
+tau=0.07: best_recall10=0.1535 @epoch4 (9 epochs run, 932s)
+tau=0.05: best_recall10=0.1492 @epoch3 (8 epochs run, 805s)
+tau=0.03: best_recall10=0.1452 @epoch1 (6 epochs run, 620s)

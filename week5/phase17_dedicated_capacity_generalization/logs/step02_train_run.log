@@ -1,0 +1,43 @@
+Loaded 251008 embeddings, 1373702 train edges, 129850 val edges, NN lookup K=50 (reused from phase 12c). Device: mps
+Calibration (20 batches): initial_comp=4.8983, initial_sub=0.0760, weight_sub=64.4754
+Grad norm into shared layer -- complement: 0.462671, substitute (unweighted): 0.048225 (ratio 9.6x), substitute (weighted x64.48): 3.198758 (ratio 0.1x)
+Saved /Users/haseeb/Desktop/mitacs_project/week5/phase17_dedicated_capacity_generalization/loss_balancing_check.md
+    ...batch 2000/10732, complement=4.4538 substitute=0.0341
+    ...batch 4000/10732, complement=4.4203 substitute=0.0316
+    ...batch 6000/10732, complement=4.4027 substitute=0.0303
+    ...batch 8000/10732, complement=4.3911 substitute=0.0295
+    ...batch 10000/10732, complement=4.3824 substitute=0.0289
+  epoch 0: train_comp=4.3794 train_sub=0.0287 val_comp=5.4707 val_sub=0.0150 collapse_comp=0.6489 collapse_sub=0.7132
+    ...batch 2000/10732, complement=4.3281 substitute=0.0256
+    ...batch 4000/10732, complement=4.3269 substitute=0.0255
+    ...batch 6000/10732, complement=4.3259 substitute=0.0253
+    ...batch 8000/10732, complement=4.3246 substitute=0.0252
+    ...batch 10000/10732, complement=4.3240 substitute=0.0250
+  epoch 1: train_comp=4.3231 train_sub=0.0249 val_comp=5.5499 val_sub=0.0144 collapse_comp=0.6479 collapse_sub=0.7200
+    ...batch 2000/10732, complement=4.3023 substitute=0.0240
+    ...batch 4000/10732, complement=4.3037 substitute=0.0238
+    ...batch 6000/10732, complement=4.3053 substitute=0.0237
+    ...batch 8000/10732, complement=4.3047 substitute=0.0236
+    ...batch 10000/10732, complement=4.3038 substitute=0.0235
+  epoch 2: train_comp=4.3036 train_sub=0.0234 val_comp=5.6980 val_sub=0.0128 collapse_comp=0.6311 collapse_sub=0.7046
+    ...batch 2000/10732, complement=4.2902 substitute=0.0228
+    ...batch 4000/10732, complement=4.2910 substitute=0.0227
+    ...batch 6000/10732, complement=4.2922 substitute=0.0226
+    ...batch 8000/10732, complement=4.2927 substitute=0.0226
+    ...batch 10000/10732, complement=4.2926 substitute=0.0225
+  epoch 3: train_comp=4.2924 train_sub=0.0224 val_comp=5.6052 val_sub=0.0122 collapse_comp=0.6454 collapse_sub=0.7050
+    ...batch 2000/10732, complement=4.2816 substitute=0.0219
+    ...batch 4000/10732, complement=4.2839 substitute=0.0219
+    ...batch 6000/10732, complement=4.2850 substitute=0.0219
+    ...batch 8000/10732, complement=4.2841 substitute=0.0218
+    ...batch 10000/10732, complement=4.2843 substitute=0.0218
+  epoch 4: train_comp=4.2839 train_sub=0.0218 val_comp=5.7500 val_sub=0.0117 collapse_comp=0.6298 collapse_sub=0.6965
+    ...batch 2000/10732, complement=4.2731 substitute=0.0215
+    ...batch 4000/10732, complement=4.2771 substitute=0.0214
+    ...batch 6000/10732, complement=4.2782 substitute=0.0214
+    ...batch 8000/10732, complement=4.2771 substitute=0.0214
+    ...batch 10000/10732, complement=4.2769 substitute=0.0213
+  epoch 5: train_comp=4.2770 train_sub=0.0213 val_comp=5.7816 val_sub=0.0115 collapse_comp=0.6236 collapse_sub=0.6969
+  early stopping at epoch 5 (best_val_comp=5.4707)
+Saved best checkpoint to /Users/haseeb/Desktop/mitacs_project/week5/phase17_dedicated_capacity_generalization/models/dedicated_capacity_substitute_complement.pt (best_val_comp=5.4707)
+Saved /Users/haseeb/Desktop/mitacs_project/week5/phase17_dedicated_capacity_generalization/models/training_curves.json

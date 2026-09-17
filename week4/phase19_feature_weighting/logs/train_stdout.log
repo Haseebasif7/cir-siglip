@@ -1,0 +1,58 @@
+Loaded 251008 embeddings, 1373702 train edges, 129850 val edges. Device: mps
+    ...batch 2000/10732, loss=4.8151
+    ...batch 4000/10732, loss=4.7738
+    ...batch 6000/10732, loss=4.7583
+    ...batch 8000/10732, loss=4.7497
+    ...batch 10000/10732, loss=4.7449
+  epoch 0: train_loss=4.7433 val_loss=5.4520 collapse=0.7255 weight_mean=0.3005 weight_std=0.5056
+    ...batch 2000/10732, loss=4.7237
+    ...batch 4000/10732, loss=4.7237
+    ...batch 6000/10732, loss=4.7240
+    ...batch 8000/10732, loss=4.7239
+    ...batch 10000/10732, loss=4.7244
+  epoch 1: train_loss=4.7240 val_loss=5.4502 collapse=0.7230 weight_mean=0.2678 weight_std=0.5087
+    ...batch 2000/10732, loss=4.7216
+    ...batch 4000/10732, loss=4.7224
+    ...batch 6000/10732, loss=4.7239
+    ...batch 8000/10732, loss=4.7240
+    ...batch 10000/10732, loss=4.7242
+  epoch 2: train_loss=4.7240 val_loss=5.4464 collapse=0.7292 weight_mean=0.2579 weight_std=0.5015
+    ...batch 2000/10732, loss=4.7232
+    ...batch 4000/10732, loss=4.7227
+    ...batch 6000/10732, loss=4.7232
+    ...batch 8000/10732, loss=4.7238
+    ...batch 10000/10732, loss=4.7239
+  epoch 3: train_loss=4.7240 val_loss=5.4406 collapse=0.7322 weight_mean=0.2504 weight_std=0.4916
+    ...batch 2000/10732, loss=4.7229
+    ...batch 4000/10732, loss=4.7249
+    ...batch 6000/10732, loss=4.7242
+    ...batch 8000/10732, loss=4.7237
+    ...batch 10000/10732, loss=4.7239
+  epoch 4: train_loss=4.7239 val_loss=5.4533 collapse=0.7259 weight_mean=0.2449 weight_std=0.4835
+    ...batch 2000/10732, loss=4.7240
+    ...batch 4000/10732, loss=4.7248
+    ...batch 6000/10732, loss=4.7246
+    ...batch 8000/10732, loss=4.7240
+    ...batch 10000/10732, loss=4.7239
+  epoch 5: train_loss=4.7240 val_loss=5.4472 collapse=0.7278 weight_mean=0.2402 weight_std=0.4747
+    ...batch 2000/10732, loss=4.7241
+    ...batch 4000/10732, loss=4.7235
+    ...batch 6000/10732, loss=4.7240
+    ...batch 8000/10732, loss=4.7245
+    ...batch 10000/10732, loss=4.7242
+  epoch 6: train_loss=4.7240 val_loss=5.4712 collapse=0.7231 weight_mean=0.2358 weight_std=0.4658
+    ...batch 2000/10732, loss=4.7204
+    ...batch 4000/10732, loss=4.7234
+    ...batch 6000/10732, loss=4.7243
+    ...batch 8000/10732, loss=4.7241
+    ...batch 10000/10732, loss=4.7243
+  epoch 7: train_loss=4.7239 val_loss=5.4720 collapse=0.7252 weight_mean=0.2313 weight_std=0.4575
+    ...batch 2000/10732, loss=4.7211
+    ...batch 4000/10732, loss=4.7234
+    ...batch 6000/10732, loss=4.7241
+    ...batch 8000/10732, loss=4.7245
+    ...batch 10000/10732, loss=4.7244
+  epoch 8: train_loss=4.7239 val_loss=5.4870 collapse=0.7219 weight_mean=0.2280 weight_std=0.4500
+  early stopping at epoch 8 (best_val_loss=5.4406)
+Saved best checkpoint to /Users/haseeb/Desktop/mitacs_project/week4/phase19_feature_weighting/models/feature_weighting.pt (best_val_loss=5.4406)
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase19_feature_weighting/models/training_curves.json

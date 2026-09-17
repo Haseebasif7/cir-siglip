@@ -1,0 +1,17 @@
+Loaded bundle: 1872 products, raw/phase8/phase9 embeddings.
+Eval products with known type at index 3: 1732/1872
+Cross-type-only ground truth: 1691 edges across 1732 queries (140 excluded, unknown own type) -- identical to phase 8/9/10's view.
+Raw SigLIP (alone): full HR@5=0.502 cross HR@5=0.076 div@5=0.330 ARP@5=42.8 cov@5=0.918
+Phase 8 alone (Amazon-trained): full HR@5=0.441 cross HR@5=0.078 div@5=0.415 ARP@5=41.4 cov@5=0.947
+Phase 9 alone (Polyvore-trained): full HR@5=0.315 cross HR@5=0.046 div@5=0.579 ARP@5=39.5 cov@5=0.950
+Blend: alpha=0.3 raw + Phase 8 (0.3 raw / 0.7 compat): full HR@5=0.477 cross HR@5=0.081 div@5=0.382 ARP@5=42.1 cov@5=0.935
+Blend: alpha=0.5 raw + Phase 8 (0.5 raw / 0.5 compat): full HR@5=0.503 cross HR@5=0.086 div@5=0.362 ARP@5=42.1 cov@5=0.935
+Blend: alpha=0.7 raw + Phase 8 (0.7 raw / 0.3 compat): full HR@5=0.510 cross HR@5=0.085 div@5=0.338 ARP@5=43.0 cov@5=0.924
+Blend: alpha=0.3 raw + Phase 9 (0.3 raw / 0.7 compat): full HR@5=0.446 cross HR@5=0.069 div@5=0.403 ARP@5=39.4 cov@5=0.931
+Blend: alpha=0.5 raw + Phase 9 (0.5 raw / 0.5 compat): full HR@5=0.478 cross HR@5=0.077 div@5=0.361 ARP@5=41.0 cov@5=0.926
+Blend: alpha=0.7 raw + Phase 9 (0.7 raw / 0.3 compat): full HR@5=0.499 cross HR@5=0.080 div@5=0.335 ARP@5=42.2 cov@5=0.924
+Diversity-forcing construction stats: {'ok': 1732, 'unknown_own_type': 140, 'no_cross_type_candidate': 0}
+Diversity-forcing: full HR@5=0.488 cross HR@5=0.087 div@5=0.454 ARP@5=41.5 cov@5=0.920
+
+Saved /Users/haseeb/Desktop/mitacs_project/week3/phase11_blended_retrieval/results_table.md
+Saved /Users/haseeb/Desktop/mitacs_project/week3/phase11_blended_retrieval/data/diversity_forcing_stats.json

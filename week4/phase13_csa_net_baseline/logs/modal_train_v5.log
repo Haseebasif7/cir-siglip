@@ -1,0 +1,33 @@
+✓ Initialized. View run at 
+https://modal.com/apps/muhamasif/main/ap-9pzWOWmbLqcdicDYpf3YTm
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/haseeb/Desktop/mitacs_project/week4/phase13_csa_net_baseline/scripts/
+│   modal_train_csa_net.py
+├── 🔨 Created mount 
+│   /Users/haseeb/Desktop/mitacs_project/week4/phase13_csa_net_baseline/scripts
+└── 🔨 Created function train.
+Extracting polyvore_images.tar to local container disk...
+Extracted 251008 images.
+Training on device=cuda
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+
+[1A  0%|          | 0.00/44.7M [00:00<?, ?B/s]
+[1A 38%|███▊      | 17.1M/44.7M [00:00<00:00, 179MB/s]
+[1A 77%|███████▋  | 34.2M/44.7M [00:00<00:00, 168MB/s]100%|██████████| 44.7M/44.7M [00:00<00:00, 175MB/s]
+Backbone frozen for the first 3 epoch(s).
+epoch 0 step 50: loss=0.3427 D_pos=0.3085 D_neg=0.2658 lr=4.98e-05
+epoch 0 step 100: loss=0.3266 D_pos=0.1879 D_neg=0.1613 lr=4.95e-05
+epoch 0 step 150: loss=0.3188 D_pos=0.1315 D_neg=0.1127 lr=4.93e-05
+epoch 0 step 200: loss=0.3171 D_pos=0.1069 D_neg=0.0898 lr=4.91e-05
+epoch 0 step 250: loss=0.3139 D_pos=0.0872 D_neg=0.0733 lr=4.89e-05
+epoch 0 step 300: loss=0.3107 D_pos=0.0766 D_neg=0.0660 lr=4.86e-05
+epoch 0 step 350: loss=0.3110 D_pos=0.0668 D_neg=0.0557 lr=4.84e-05
+epoch 0 step 400: loss=0.3079 D_pos=0.0579 D_neg=0.0501 lr=4.82e-05
+epoch 0 step 450: loss=0.3070 D_pos=0.0520 D_neg=0.0451 lr=4.80e-05
+epoch 0 step 500: loss=0.3071 D_pos=0.0491 D_neg=0.0421 lr=4.77e-05
+epoch 0 step 550: loss=0.3062 D_pos=0.0436 D_neg=0.0374 lr=4.75e-05
+== epoch 0 done: train_loss=0.3193 val_loss=0.3067 val_D_pos=0.0434 val_D_neg=0.0367 ==
+  -> new best val_loss 0.3067, checkpoint saved
+epoch 1 step 600: loss=0.3056 D_pos=0.0403 D_neg=0.0346 lr=4.73e-05
+Stopping app - user stopped from CLI.

@@ -1,0 +1,9 @@
+Winning architecture so far: hidden_dims=[1024] (from step1 (width), val Recall@10=0.1656)
+Launching 6 out_dim x lr configs in parallel on Modal...
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase25_scale/data/embedding_dim_sweep_results.json
+out_dim=512 lr=0.0005: best_recall10=0.1646 @epoch1 (6 epochs run, 759s, 1312256 params)
+out_dim=512 lr=0.001: best_recall10=0.1637 @epoch1 (6 epochs run, 759s, 1312256 params)
+out_dim=256 lr=0.0005: best_recall10=0.1627 @epoch1 (6 epochs run, 695s, 1049856 params)
+out_dim=256 lr=0.002: best_recall10=0.1611 @epoch1 (6 epochs run, 701s, 1049856 params)
+out_dim=256 lr=0.001: best_recall10=0.1607 @epoch1 (6 epochs run, 704s, 1049856 params)
+out_dim=512 lr=0.002: best_recall10=0.1601 @epoch1 (6 epochs run, 740s, 1312256 params)

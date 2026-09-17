@@ -1,0 +1,62 @@
+[
+  {
+    "epoch": 0,
+    "train_complement_loss": 4.492891352163116,
+    "train_substitute_loss": 0.10640958497861464,
+    "val_complement_loss": 6.169790868336344,
+    "val_substitute_loss": 0.05832632250826934,
+    "weight_sub": 4.888596821435175,
+    "mean_pairwise_cosine_complement": 0.6164504885673523,
+    "mean_pairwise_cosine_substitute": 0.0014109467156231403
+  },
+  {
+    "epoch": 1,
+    "train_complement_loss": 4.452880226154091,
+    "train_substitute_loss": 0.0964227209146554,
+    "val_complement_loss": 6.260178579602923,
+    "val_substitute_loss": 0.05522548714148,
+    "weight_sub": 4.888596821435175,
+    "mean_pairwise_cosine_complement": 0.6119197607040405,
+    "mean_pairwise_cosine_substitute": 0.0010692825308069587
+  },
+  {
+    "epoch": 2,
+    "train_complement_loss": 4.439242539774124,
+    "train_substitute_loss": 0.0939377743268706,
+    "val_complement_loss": 6.256510964285564,
+    "val_substitute_loss": 0.05490563481018461,
+    "weight_sub": 4.888596821435175,
+    "mean_pairwise_cosine_complement": 0.6130842566490173,
+    "mean_pairwise_cosine_substitute": -0.00032720519811846316
+  },
+  {
+    "epoch": 3,
+    "train_complement_loss": 4.431044005196992,
+    "train_substitute_loss": 0.09284788054699313,
+    "val_complement_loss": 6.277280360254748,
+    "val_substitute_loss": 0.053659738787436136,
+    "weight_sub": 4.888596821435175,
+    "mean_pairwise_cosine_complement": 0.6100570559501648,
+    "mean_pairwise_cosine_substitute": 0.0005667177028954029
+  },
+  {
+    "epoch": 4,
+    "train_complement_loss": 4.426008356469414,
+    "train_substitute_loss": 0.09209283241313335,
+    "val_complement_loss": 6.338426535939935,
+    "val_substitute_loss": 0.0547334761932272,
+    "weight_sub": 4.888596821435175,
+    "mean_pairwise_cosine_complement": 0.60819411277771,
+    "mean_pairwise_cosine_substitute": 0.0007602429832331836
+  },
+  {
+    "epoch": 5,
+    "train_complement_loss": 4.422001719907958,
+    "train_substitute_loss": 0.09124363489850952,
+    "val_complement_loss": 6.305983659903991,
+    "val_substitute_loss": 0.05379141371311812,
+    "weight_sub": 4.888596821435175,
+    "mean_pairwise_cosine_complement": 0.6048455238342285,
+    "mean_pairwise_cosine_substitute": 0.000887062051333487
+  }
+]

@@ -1,0 +1,6 @@
+Tail-tier edges: 125 total (117 train / 8 val)
+Unique anchors: 125, unique targets: 37
+Sufficient: False
+Saved: /Users/haseeb/Desktop/mitacs_project/week5/phase16b_tail_restricted/data/tail_tier_edges.json
+Report: /Users/haseeb/Desktop/mitacs_project/week5/phase16b_tail_restricted/edge_filtering_summary.md
+STOPPING: tail-tier edge count is below the meaningful-training threshold.

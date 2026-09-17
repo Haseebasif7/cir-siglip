@@ -1,0 +1,86 @@
+[
+  {
+    "epoch": 0,
+    "train_loss": 0.03591273929690942,
+    "val_loss": 0.019001307641983333,
+    "mean_pairwise_cosine": 0.7249063849449158
+  },
+  {
+    "epoch": 1,
+    "train_loss": 0.030757922469638287,
+    "val_loss": 0.01972650182504339,
+    "mean_pairwise_cosine": 0.7514488697052002
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.029721478713909164,
+    "val_loss": 0.016656400536560468,
+    "mean_pairwise_cosine": 0.7159748673439026
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.02903880319558084,
+    "val_loss": 0.01794735575803948,
+    "mean_pairwise_cosine": 0.7450630068778992
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.028507587113417686,
+    "val_loss": 0.0187160046818444,
+    "mean_pairwise_cosine": 0.7525132298469543
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.028044903854606673,
+    "val_loss": 0.017017689755725377,
+    "mean_pairwise_cosine": 0.7341952323913574
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.02764666826580651,
+    "val_loss": 0.01584454907132738,
+    "mean_pairwise_cosine": 0.7185213565826416
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.027282020645216107,
+    "val_loss": 0.01799489266054733,
+    "mean_pairwise_cosine": 0.7502083778381348
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.02697795846150257,
+    "val_loss": 0.014731585260877755,
+    "mean_pairwise_cosine": 0.70641028881073
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.02674906561267562,
+    "val_loss": 0.015350167422087361,
+    "mean_pairwise_cosine": 0.7216223478317261
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.026544851453509183,
+    "val_loss": 0.015212883388027927,
+    "mean_pairwise_cosine": 0.7245137691497803
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.026388972154818474,
+    "val_loss": 0.015405230186312333,
+    "mean_pairwise_cosine": 0.7259058356285095
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.026264342188369483,
+    "val_loss": 0.015196946345572242,
+    "mean_pairwise_cosine": 0.7265883684158325
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.02609660062007606,
+    "val_loss": 0.015803497918139255,
+    "mean_pairwise_cosine": 0.7282764911651611
+  }
+]

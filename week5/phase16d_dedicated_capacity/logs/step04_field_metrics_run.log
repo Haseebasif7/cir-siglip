@@ -1,0 +1,23 @@
+N=10 alpha=0.0: coverage=0.002533 tail_coverage=0.002086 apri=15.44 rpi=0.4874
+N=20 alpha=0.0: coverage=0.003829 tail_coverage=0.003250 apri=15.18 rpi=0.4753
+N=10 alpha=0.1: coverage=0.002529 tail_coverage=0.002085 apri=15.63 rpi=0.4870
+N=20 alpha=0.1: coverage=0.003833 tail_coverage=0.003245 apri=15.15 rpi=0.4761
+N=10 alpha=0.2: coverage=0.002507 tail_coverage=0.002072 apri=16.02 rpi=0.4923
+N=20 alpha=0.2: coverage=0.003799 tail_coverage=0.003204 apri=15.23 rpi=0.4790
+N=10 alpha=0.3: coverage=0.002461 tail_coverage=0.002027 apri=16.35 rpi=0.4958
+N=20 alpha=0.3: coverage=0.003722 tail_coverage=0.003143 apri=15.47 rpi=0.4855
+N=10 alpha=0.4: coverage=0.002404 tail_coverage=0.001971 apri=17.33 rpi=0.5080
+N=20 alpha=0.4: coverage=0.003624 tail_coverage=0.003045 apri=16.34 rpi=0.4928
+N=10 alpha=0.5: coverage=0.002369 tail_coverage=0.001917 apri=18.00 rpi=0.5142
+N=20 alpha=0.5: coverage=0.003567 tail_coverage=0.002975 apri=16.79 rpi=0.5018
+N=10 alpha=0.6: coverage=0.002359 tail_coverage=0.001903 apri=17.77 rpi=0.5165
+N=20 alpha=0.6: coverage=0.003536 tail_coverage=0.002935 apri=17.44 rpi=0.5097
+N=10 alpha=0.7: coverage=0.002366 tail_coverage=0.001913 apri=17.75 rpi=0.5155
+N=20 alpha=0.7: coverage=0.003554 tail_coverage=0.002952 apri=18.03 rpi=0.5115
+N=10 alpha=0.8: coverage=0.002375 tail_coverage=0.001923 apri=18.18 rpi=0.5160
+N=20 alpha=0.8: coverage=0.003582 tail_coverage=0.002972 apri=18.41 rpi=0.5120
+N=10 alpha=0.9: coverage=0.002382 tail_coverage=0.001928 apri=18.23 rpi=0.5173
+N=20 alpha=0.9: coverage=0.003590 tail_coverage=0.002985 apri=18.56 rpi=0.5115
+N=10 alpha=1.0: coverage=0.002385 tail_coverage=0.001931 apri=18.51 rpi=0.5188
+N=20 alpha=1.0: coverage=0.003589 tail_coverage=0.002998 apri=18.56 rpi=0.5097
+Appended field-standard metrics to /Users/haseeb/Desktop/mitacs_project/week5/phase16d_dedicated_capacity/results_table.md

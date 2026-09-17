@@ -1,0 +1,5 @@
+Substitute mode: {10: 0.06674303426434419, 30: 0.13065597520299183, 50: 0.17344429096054714} (n=29681, 0 skipped)
+Complement mode: {10: 0.09709915434116101, 30: 0.187493682827398, 50: 0.24712779219029007} (n=29681, 0 skipped)
+Blend (0.5): {10: 0.08928270610828476, 30: 0.16953606684410902, 50: 0.2255314847882484} (n=29681, 0 skipped)
+
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase12c_ranking_distillation/results_table.md

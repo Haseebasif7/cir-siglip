@@ -1,0 +1,5 @@
+Substitute mode: {10: 0.057343081432566285, 30: 0.11566321889424211, 50: 0.15717125433779186} (n=29681, 0 skipped)
+Complement mode: {10: 0.12021158316768303, 30: 0.22826050335231293, 50: 0.30002358411104746} (n=29681, 0 skipped)
+Blend (0.5): {10: 0.093696304032883, 30: 0.18334961760048515, 50: 0.24692564266702605} (n=29681, 0 skipped)
+
+Saved /Users/haseeb/Desktop/mitacs_project/week5/phase17_dedicated_capacity_generalization/results_table.md

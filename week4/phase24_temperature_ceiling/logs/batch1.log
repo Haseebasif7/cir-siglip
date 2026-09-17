@@ -1,0 +1,5 @@
+Launching 3 tau configs in parallel on Modal: [0.2, 0.25, 0.3]
+Saved /Users/haseeb/Desktop/mitacs_project/week4/phase24_temperature_ceiling/data/tau_extension_results.json (3 total configs so far)
+tau=0.2: best_recall10=0.1564 @epoch2 (7 epochs run, 701s)
+tau=0.25: best_recall10=0.1478 @epoch1 (6 epochs run, 579s)
+tau=0.3: best_recall10=0.1405 @epoch1 (6 epochs run, 602s)

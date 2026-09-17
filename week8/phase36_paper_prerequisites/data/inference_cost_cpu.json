@@ -1,0 +1,322 @@
+{
+  "device": "cpu",
+  "force_cpu": true,
+  "repeats": 3,
+  "n_queries": 29681,
+  "n_catalog": 251008,
+  "systems": {
+    "ours_solo": {
+      "kind": "ours",
+      "n_members": 1,
+      "n_params_per_member": 1705088,
+      "n_params_total": 1705088,
+      "median": {
+        "precompute_s": 1.2581581250015006,
+        "query_and_score_s": 0.8991943750006612,
+        "total_s": 2.157352500002162
+      },
+      "all_runs": [
+        {
+          "precompute_s": 2.9251012919994537,
+          "query_and_score_s": 0.9855932080026832,
+          "total_s": 3.910694500002137,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        },
+        {
+          "precompute_s": 1.2581581250015006,
+          "query_and_score_s": 0.8991943750006612,
+          "total_s": 2.157352500002162,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        },
+        {
+          "precompute_s": 1.2570175419969019,
+          "query_and_score_s": 0.8928914169991913,
+          "total_s": 2.149908958996093,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        }
+      ],
+      "per_query_ms_median": 0.030295285704681825,
+      "total_per_member_s_median": 2.157352500002162,
+      "peak_rss_mb_max": 6790.296875,
+      "mps_allocated_mb_max": 0.0
+    },
+    "ours_ens": {
+      "kind": "ours",
+      "n_members": 10,
+      "n_params_per_member": 1705088,
+      "n_params_total": 17050880,
+      "median": {
+        "precompute_s": 11.641548540999793,
+        "query_and_score_s": 5.249503499999264,
+        "total_s": 16.907048001001385
+      },
+      "all_runs": [
+        {
+          "precompute_s": 12.046962209002231,
+          "query_and_score_s": 5.1773205419995065,
+          "total_s": 17.224282751001738,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        },
+        {
+          "precompute_s": 11.641548540999793,
+          "query_and_score_s": 5.249503499999264,
+          "total_s": 16.891052040999057,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        },
+        {
+          "precompute_s": 11.627162167002098,
+          "query_and_score_s": 5.279885833999288,
+          "total_s": 16.907048001001385,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        }
+      ],
+      "per_query_ms_median": 0.17686410498296096,
+      "total_per_member_s_median": 1.6907048001001386,
+      "peak_rss_mb_max": 6790.296875,
+      "mps_allocated_mb_max": 0.0
+    },
+    "ot_solo": {
+      "kind": "ot",
+      "n_members": 1,
+      "n_params_per_member": 998144,
+      "n_params_total": 998144,
+      "median": {
+        "precompute_s": 3.6064526670015766,
+        "query_and_score_s": 7.159441708998202,
+        "total_s": 10.746917166998173
+      },
+      "all_runs": [
+        {
+          "precompute_s": 3.636235124999075,
+          "query_and_score_s": 7.644290917000035,
+          "total_s": 11.28052604199911,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        },
+        {
+          "precompute_s": 3.5874754579999717,
+          "query_and_score_s": 7.159441708998202,
+          "total_s": 10.746917166998173,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        },
+        {
+          "precompute_s": 3.6064526670015766,
+          "query_and_score_s": 7.136283749998256,
+          "total_s": 10.742736416999833,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        }
+      ],
+      "per_query_ms_median": 0.2412129547184462,
+      "total_per_member_s_median": 10.746917166998173,
+      "peak_rss_mb_max": 6790.296875,
+      "mps_allocated_mb_max": 0.0
+    },
+    "ot_ens": {
+      "kind": "ot",
+      "n_members": 3,
+      "n_params_per_member": 998144,
+      "n_params_total": 2994432,
+      "median": {
+        "precompute_s": 10.972493666999071,
+        "query_and_score_s": 21.736342416999832,
+        "total_s": 32.95832199999859
+      },
+      "all_runs": [
+        {
+          "precompute_s": 11.221979582998756,
+          "query_and_score_s": 21.736342416999832,
+          "total_s": 32.95832199999859,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        },
+        {
+          "precompute_s": 10.972493666999071,
+          "query_and_score_s": 21.116634666999744,
+          "total_s": 32.089128333998815,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        },
+        {
+          "precompute_s": 10.847224500001175,
+          "query_and_score_s": 24.178205332998914,
+          "total_s": 35.02542983300009,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0
+        }
+      ],
+      "per_query_ms_median": 0.7323318761834113,
+      "total_per_member_s_median": 10.986107333332862,
+      "peak_rss_mb_max": 6790.296875,
+      "mps_allocated_mb_max": 0.0
+    },
+    "csa_ens": {
+      "kind": "csa",
+      "n_members": 3,
+      "n_params_per_member": 100485,
+      "n_params_total": 301455,
+      "median": {
+        "precompute_s": 0.0050219169970660005,
+        "query_and_score_s": 38.470750459000556,
+        "total_s": 38.47577237599762,
+        "csa_pool_candidate_precompute_within_loop_s": 0.3918515849945834
+      },
+      "all_runs": [
+        {
+          "precompute_s": 0.009128624998993473,
+          "query_and_score_s": 38.937168291999114,
+          "total_s": 38.94629691699811,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0,
+          "csa_pool_candidate_precompute_within_loop_s": 0.39205791600761586
+        },
+        {
+          "precompute_s": 0.004990624998754356,
+          "query_and_score_s": 38.42823124999995,
+          "total_s": 38.43322187499871,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0,
+          "csa_pool_candidate_precompute_within_loop_s": 0.3918515849945834
+        },
+        {
+          "precompute_s": 0.0050219169970660005,
+          "query_and_score_s": 38.470750459000556,
+          "total_s": 38.47577237599762,
+          "peak_rss_mb": 6790.296875,
+          "mps_allocated_mb": 0.0,
+          "csa_pool_candidate_precompute_within_loop_s": 0.3905984589946456
+        }
+      ],
+      "per_query_ms_median": 1.2961406441494745,
+      "total_per_member_s_median": 12.825257458665874,
+      "peak_rss_mb_max": 6790.296875,
+      "mps_allocated_mb_max": 0.0
+    }
+  },
+  "device_split": {
+    "ours": "candidate projection: torch/cpu; query pooling + cosine + ranking: NumPy/CPU (as the phase 28 evaluator)",
+    "ot": "candidate embed_item_alone + query set-encoder forward: torch/cpu; cosine + ranking: NumPy/CPU (as phase 32)",
+    "csa": "everything (pool candidate tensors, conditioned context embeddings, distances, ranking): torch/cpu (as phase 34)"
+  },
+  "recorded_training_cost": [
+    {
+      "system": "ours",
+      "seed": 42,
+      "wall_time_sec": 625.519407749176,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ours",
+      "seed": 1,
+      "wall_time_sec": 623.2841188907623,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ours",
+      "seed": 2,
+      "wall_time_sec": 625.4808855056763,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ours",
+      "seed": 3,
+      "wall_time_sec": 620.6541187763214,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ours",
+      "seed": 4,
+      "wall_time_sec": 624.0881624221802,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ours",
+      "seed": 5,
+      "wall_time_sec": 642.3062462806702,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ours",
+      "seed": 6,
+      "wall_time_sec": 644.9849421977997,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ours",
+      "seed": 7,
+      "wall_time_sec": 630.6870913505554,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ours",
+      "seed": 8,
+      "wall_time_sec": 612.1292855739594,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ours",
+      "seed": 9,
+      "wall_time_sec": 616.3657507896423,
+      "device": "cuda",
+      "note": "Modal GPU (phase 28)"
+    },
+    {
+      "system": "ot",
+      "seed": 1,
+      "wall_time_sec": 2399.5544488430023,
+      "device": "cuda",
+      "note": "Modal GPU (phase 32)"
+    },
+    {
+      "system": "ot",
+      "seed": 2,
+      "wall_time_sec": 2399.2469778060913,
+      "device": "cuda",
+      "note": "Modal GPU (phase 32)"
+    },
+    {
+      "system": "ot",
+      "seed": 42,
+      "wall_time_sec": 2417.6506626605988,
+      "device": "cuda",
+      "note": "Modal GPU (phase 31, reused as seed 42)"
+    },
+    {
+      "system": "csa",
+      "seed": 1,
+      "wall_time_sec": 3560.072858810425,
+      "device": "mps",
+      "note": "local M4 MPS (phase 34)"
+    },
+    {
+      "system": "csa",
+      "seed": 2,
+      "wall_time_sec": 2516.5765328407288,
+      "device": "mps",
+      "note": "local M4 MPS (phase 34)"
+    },
+    {
+      "system": "csa",
+      "seed": 42,
+      "wall_time_sec": 2231.213390111923,
+      "device": "mps",
+      "note": "local M4 MPS (phase 34 gate run)"
+    }
+  ]
+}

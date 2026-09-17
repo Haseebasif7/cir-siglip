@@ -1,0 +1,56 @@
+[
+  {
+    "epoch": 0,
+    "train_complement_loss": 4.277041018936604,
+    "train_substitute_loss": 0.012412572597244336,
+    "val_complement_loss": 5.338699366423884,
+    "val_substitute_loss": 0.01496967401061886,
+    "mean_pairwise_cosine_complement": 0.6483010053634644,
+    "mean_pairwise_cosine_substitute": 0.5571227669715881
+  },
+  {
+    "epoch": 1,
+    "train_complement_loss": 4.176144189051787,
+    "train_substitute_loss": 0.011063662420798273,
+    "val_complement_loss": 5.552311156653419,
+    "val_substitute_loss": 0.013743017812080571,
+    "mean_pairwise_cosine_complement": 0.6284722685813904,
+    "mean_pairwise_cosine_substitute": 0.5521842241287231
+  },
+  {
+    "epoch": 2,
+    "train_complement_loss": 4.129468267454657,
+    "train_substitute_loss": 0.010798578488286545,
+    "val_complement_loss": 5.723218060009585,
+    "val_substitute_loss": 0.014097233176268086,
+    "mean_pairwise_cosine_complement": 0.61100172996521,
+    "mean_pairwise_cosine_substitute": 0.5607002973556519
+  },
+  {
+    "epoch": 3,
+    "train_complement_loss": 4.097367197761084,
+    "train_substitute_loss": 0.010717897230878487,
+    "val_complement_loss": 5.789109191518699,
+    "val_substitute_loss": 0.01339130912875307,
+    "mean_pairwise_cosine_complement": 0.6095615029335022,
+    "mean_pairwise_cosine_substitute": 0.5622721314430237
+  },
+  {
+    "epoch": 4,
+    "train_complement_loss": 4.073575028199847,
+    "train_substitute_loss": 0.010706721352781036,
+    "val_complement_loss": 5.898799151152812,
+    "val_substitute_loss": 0.012910997885476633,
+    "mean_pairwise_cosine_complement": 0.6011413335800171,
+    "mean_pairwise_cosine_substitute": 0.5502170920372009
+  },
+  {
+    "epoch": 5,
+    "train_complement_loss": 4.053716947456381,
+    "train_substitute_loss": 0.010751378493606358,
+    "val_complement_loss": 5.996847787866452,
+    "val_substitute_loss": 0.01341342174223271,
+    "mean_pairwise_cosine_complement": 0.5873711109161377,
+    "mean_pairwise_cosine_substitute": 0.5599883198738098
+  }
+]

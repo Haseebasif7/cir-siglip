@@ -1,0 +1,4 @@
+Groups used: 214, total directed edges: 37922 (34130 train / 3792 val)
+Target tier composition: head=12748 mid=5871 tail=19303 (50.9% tail)
+Saved: /Users/haseeb/Desktop/mitacs_project/week5/phase16c_attribute_tail_signal/data/attribute_pairs.json
+Report: /Users/haseeb/Desktop/mitacs_project/week5/phase16c_attribute_tail_signal/attribute_pairs_summary.md

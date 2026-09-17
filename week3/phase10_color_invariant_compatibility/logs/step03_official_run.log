@@ -1,0 +1,4 @@
+Loaded 251008 embeddings, resolved 53506 set_id_index references.
+Phase 10 color-invariant model: AUC=0.9420 (n=20000, 0 skipped) | FITB acc=0.6907 (n=10000, 0 skipped)
+
+Saved /Users/haseeb/Desktop/mitacs_project/week3/phase10_color_invariant_compatibility/results_table.md
